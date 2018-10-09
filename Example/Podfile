@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'PowerUpSwift_Example' do
+  pod 'PowerUpSwift', :path => '../'
+
+  target 'PowerUpSwift_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

@@ -9,7 +9,32 @@ import UIKit
 
 @IBDesignable
 public class PowerUpTextField: UITextField {
-    @IBInspectable var leftPadding: CGFloat {
+    // MARK: - Length
+    private var __maxLengths = [UITextField: Int]()
+    
+    // Swift does not provide a built-in max length property on text fields
+    // This lets you set the max length in the Interface Builder under the Attributes inspector
+    // Make sure you set the class of the textfield to CustomTextField
+    @IBInspectable public var maxLength: Int {
+        get {
+            guard let l = __maxLengths[self] else {
+                return Int.max // (150 for global default-limit or use Int.max)
+            }
+            return l
+        }
+        set {
+            __maxLengths[self] = newValue
+            addTarget(self, action: #selector(self.limit), for: .editingChanged)
+        }
+    }
+    
+    @objc func limit(textField: UITextField) {
+        let t = textField.text
+        textField.text = t?.limitLength(maxLength)
+    }
+    
+    // MARK: - Inset
+    @IBInspectable public var leftPadding: CGFloat {
         get {
             return self.leftView!.frame.size.width
         }
@@ -20,7 +45,7 @@ public class PowerUpTextField: UITextField {
         }
     }
     
-    @IBInspectable var rightPadding: CGFloat {
+    @IBInspectable public var rightPadding: CGFloat {
         get {
             return self.rightView!.frame.size.width
         }
@@ -31,6 +56,7 @@ public class PowerUpTextField: UITextField {
         }
     }
     
+    // MARK: - UIView
     @IBInspectable public var cornerRadius: CGFloat {
         get {
             return layer.cornerRadius

@@ -1,16 +1,23 @@
 # PowerUpSwift
 
 <!--[![CI Status](https://img.shields.io/travis/cefjoeii/PowerUpSwift.svg?style=flat)](https://travis-ci.org/cefjoeii/PowerUpSwift)-->
-[![Version](https://img.shields.io/cocoapods/v/PowerUpSwift.svg?style=flat)](https://cocoapods.org/pods/PowerUpSwift)
-[![License](https://img.shields.io/cocoapods/l/PowerUpSwift.svg?style=flat)](https://cocoapods.org/pods/PowerUpSwift)
-[![Platform](https://img.shields.io/cocoapods/p/PowerUpSwift.svg?style=flat)](https://cocoapods.org/pods/PowerUpSwift)
-![Language: American English](https://img.shields.io/badge/language-american%20english-red.svg)
 
-## Example
+<p align="center">
+  <img src="PowerUpSwift.png" alt="Unwrap logo" width="auto" height="auto" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/cocoapods/v/PowerUpSwift.svg?style=flat" />
+  <img src="https://img.shields.io/cocoapods/l/PowerUpSwift.svg?style=flat" />
+  <img src="https://img.shields.io/cocoapods/p/PowerUpSwift.svg?style=flat" />
+  <img src="https://img.shields.io/badge/language-american%20english-red.svg" />
+</p>
+
+<!--## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
+## Requirements-->
 
 ## Installation
 

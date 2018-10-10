@@ -9,6 +9,28 @@ import UIKit
 
 @IBDesignable
 public class PowerUpTextField: UITextField {
+    @IBInspectable var leftPadding: CGFloat {
+        get {
+            return self.leftView!.frame.size.width
+        }
+        set {
+            let paddingView = UIView(frame: CGRect(x: 0, y: 0, width: newValue, height: frame.size.height))
+            self.leftView = paddingView
+            self.leftViewMode = .always
+        }
+    }
+    
+    @IBInspectable var rightPadding: CGFloat {
+        get {
+            return self.rightView!.frame.size.width
+        }
+        set {
+            let paddingView = UIView(frame: CGRect(x: 0, y: 0, width: newValue, height: frame.size.height))
+            self.rightView = paddingView
+            self.rightViewMode = .always
+        }
+    }
+    
     @IBInspectable public var cornerRadius: CGFloat {
         get {
             return layer.cornerRadius

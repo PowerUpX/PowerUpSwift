@@ -1,9 +1,7 @@
-# PowerUpSwift
-
 <!--[![CI Status](https://img.shields.io/travis/cefjoeii/PowerUpSwift.svg?style=flat)](https://travis-ci.org/cefjoeii/PowerUpSwift)-->
 
 <p align="center">
-  <img src="PowerUpSwift.png" alt="Unwrap logo" width="auto" height="auto" />
+  <img src="PowerUpSwift.png" alt="PowerUpSwift" width="auto" height="auto" />
 </p>
 
 <p align="center">

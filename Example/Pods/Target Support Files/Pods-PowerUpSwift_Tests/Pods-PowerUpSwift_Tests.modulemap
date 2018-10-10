@@ -1,0 +1,6 @@
+framework module Pods_PowerUpSwift_Tests {
+  umbrella header "Pods-PowerUpSwift_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

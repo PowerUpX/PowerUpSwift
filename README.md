@@ -1,9 +1,10 @@
 # PowerUpSwift
 
-[![CI Status](https://img.shields.io/travis/cefjoeii/PowerUpSwift.svg?style=flat)](https://travis-ci.org/cefjoeii/PowerUpSwift)
+<!--[![CI Status](https://img.shields.io/travis/cefjoeii/PowerUpSwift.svg?style=flat)](https://travis-ci.org/cefjoeii/PowerUpSwift)-->
 [![Version](https://img.shields.io/cocoapods/v/PowerUpSwift.svg?style=flat)](https://cocoapods.org/pods/PowerUpSwift)
 [![License](https://img.shields.io/cocoapods/l/PowerUpSwift.svg?style=flat)](https://cocoapods.org/pods/PowerUpSwift)
 [![Platform](https://img.shields.io/cocoapods/p/PowerUpSwift.svg?style=flat)](https://cocoapods.org/pods/PowerUpSwift)
+![Language: American English](https://img.shields.io/badge/language-american%20english-red.svg)
 
 ## Example
 
@@ -22,7 +23,7 @@ pod 'PowerUpSwift'
 
 ## Author
 
-cefjoeii, cefjoeii@gmail.com
+Ceferino Jose II, cefjoeii@gmail.com
 
 ## License
 

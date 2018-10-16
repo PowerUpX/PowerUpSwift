@@ -17,6 +17,14 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements-->
 
+## Why
+Apple doesn\'t provide some useful utilities to make our lives easier. This might be for a (good) reason.
+My experience in iOS Development is brutally painful. It's usually difficult to implement a
+simple basic feature that you can easily do in Android built-in. 
+I created this library to save time, to be more productive, and to be **DRY** (*Don't Repeat Yourself*).
+
+#### Start using PowerUpSwift now at work or on your personal projects!
+
 ## Installation
 
 PowerUpSwift is available through [CocoaPods](https://cocoapods.org). To install

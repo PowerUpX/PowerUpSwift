@@ -8,8 +8,8 @@
 import UIKit
 
 @IBDesignable
-public class PowerUpView: UIView {
-    @IBInspectable public var cornerRadius: CGFloat {
+open class PowerUpView: UIView {
+    @IBInspectable open var cornerRadius: CGFloat {
         get {
             return layer.cornerRadius
         }
@@ -18,7 +18,7 @@ public class PowerUpView: UIView {
         }
     }
     
-    @IBInspectable public var borderWidth: CGFloat {
+    @IBInspectable open var borderWidth: CGFloat {
         get {
             return layer.borderWidth
         }
@@ -27,7 +27,7 @@ public class PowerUpView: UIView {
         }
     }
     
-    @IBInspectable public var borderColor: UIColor? {
+    @IBInspectable open var borderColor: UIColor? {
         get {
             if let color = layer.borderColor {
                 return UIColor(cgColor: color)
@@ -43,7 +43,7 @@ public class PowerUpView: UIView {
         }
     }
     
-    @IBInspectable public var shadowRadius: CGFloat {
+    @IBInspectable open var shadowRadius: CGFloat {
         get {
             return layer.shadowRadius
         }
@@ -52,7 +52,7 @@ public class PowerUpView: UIView {
         }
     }
     
-    @IBInspectable public var shadowOpacity: Float {
+    @IBInspectable open var shadowOpacity: Float {
         get {
             return layer.shadowOpacity
         }
@@ -61,7 +61,7 @@ public class PowerUpView: UIView {
         }
     }
     
-    @IBInspectable public var shadowOffset: CGSize {
+    @IBInspectable open var shadowOffset: CGSize {
         get {
             return layer.shadowOffset
         }
@@ -70,7 +70,7 @@ public class PowerUpView: UIView {
         }
     }
     
-    @IBInspectable public var shadowColor: UIColor? {
+    @IBInspectable open var shadowColor: UIColor? {
         get {
             if let color = layer.shadowColor {
                 return UIColor(cgColor: color)

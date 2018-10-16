@@ -9,16 +9,16 @@ import UIKit
 
 extension UIViewController {
     public func hideKeyboardWhenTappedOutside() {
-        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(UIViewController.dismissKeyboard))
+        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(UIViewController.hideKeyboard))
         self.view.addGestureRecognizer(tap)
     }
     
-    @objc public func dismissKeyboard() {
+    @objc public func hideKeyboard() {
         self.view.endEditing(true)
     }
     
     /// Present a view controller full screen no matter what.
-    /* public func showInFullScreen(completion: (() -> Void)? = nil) {
+    public func showInFullScreen(completion: (() -> Void)? = nil) {
         DispatchQueue.main.async {
             let window = UIWindow(frame: UIScreen.main.bounds)
             
@@ -40,5 +40,5 @@ extension UIViewController {
             window.makeKeyAndVisible()
             viewController.present(self, animated: true, completion: completion)
         }
-    } */
+    }
 }

@@ -100,3 +100,13 @@ extension UITextField: UITextFieldXIBLocalizable {
         }
     }
 }
+
+// MARK: Ceferino
+extension PowerUpTextView {
+    @IBInspectable public var xibPlaceholderLocKey: String? {
+        get { return nil }
+        set(key) {
+            placeholder = key?.localized ?? ""
+        }
+    }
+}

@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PowerUpSwift'
-  s.version          = '0.1.0'
-  s.summary          = 'Make iOS development faster and be more productive.'
+  s.version          = '0.1.1'
+  s.summary          = 'Utilities to make iOS development faster and be more productive.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = 'Apple doesn\'t provide useful utilities to make our lives easier. This might be for a good reason. Use this library to save time and be more productive!'
+  s.description      = 'iOS Development is brutally painful. Apple doesn\'t provide useful utilities to make our lives easier. This might be for a good reason. This library was created to save you time and let you be more productive at work, or even at your personal projects!'
 
   s.homepage         = 'https://github.com/PowerUpX/PowerUpSwift'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'PowerUpSwift/Classes/**/*'
-  s.swift_version = '4.1'
+  s.swift_version = '4.2'
   
   # s.resource_bundles = {
   #   'PowerUpSwift' => ['PowerUpSwift/Assets/*.png']

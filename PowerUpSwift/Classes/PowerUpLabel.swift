@@ -8,8 +8,36 @@
 import UIKit
 
 @IBDesignable
-public class PowerUpLabel: UILabel {
-    @IBInspectable public var cornerRadius: CGFloat {
+open class PowerUpLabel: UILabel {
+    @IBInspectable public var topInset: CGFloat = 0.0
+    @IBInspectable public var leftInset: CGFloat = 0.0
+    @IBInspectable public var bottomInset: CGFloat = 0.0
+    @IBInspectable public var rightInset: CGFloat = 0.0
+    
+    open var insets: UIEdgeInsets {
+        get {
+            return UIEdgeInsets(top: self.topInset, left: self.leftInset, bottom: self.bottomInset, right: self.rightInset)
+        }
+        set {
+            self.topInset = newValue.top
+            self.leftInset = newValue.left
+            self.bottomInset = newValue.bottom
+            self.rightInset = newValue.right
+        }
+    }
+    
+    override open func drawText(in rect: CGRect) {
+        super.drawText(in: rect.inset(by: self.insets))
+    }
+    
+    override open var intrinsicContentSize: CGSize {
+        let size = super.intrinsicContentSize
+        return CGSize(width: size.width + leftInset + rightInset,
+                      height: size.height + topInset + bottomInset)
+    }
+    
+    // MARK: - View
+    @IBInspectable open var cornerRadius: CGFloat {
         get {
             return layer.cornerRadius
         }
@@ -18,7 +46,7 @@ public class PowerUpLabel: UILabel {
         }
     }
     
-    @IBInspectable public var borderWidth: CGFloat {
+    @IBInspectable open var borderWidth: CGFloat {
         get {
             return layer.borderWidth
         }
@@ -27,7 +55,7 @@ public class PowerUpLabel: UILabel {
         }
     }
     
-    @IBInspectable public var borderColor: UIColor? {
+    @IBInspectable open var borderColor: UIColor? {
         get {
             if let color = layer.borderColor {
                 return UIColor(cgColor: color)
@@ -43,7 +71,7 @@ public class PowerUpLabel: UILabel {
         }
     }
     
-    @IBInspectable public var shadowRadius: CGFloat {
+    @IBInspectable open var shadowRadius: CGFloat {
         get {
             return layer.shadowRadius
         }
@@ -52,7 +80,7 @@ public class PowerUpLabel: UILabel {
         }
     }
     
-    @IBInspectable public var shadowOpacity: Float {
+    @IBInspectable open var shadowOpacity: Float {
         get {
             return layer.shadowOpacity
         }

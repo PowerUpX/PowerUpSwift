@@ -8,14 +8,14 @@
 import UIKit
 
 @IBDesignable
-public class PowerUpTextField: UITextField {
+open class PowerUpTextField: UITextField {
     // MARK: - Length
     private var __maxLengths = [UITextField: Int]()
     
     // Swift does not provide a built-in max length property on text fields
     // This lets you set the max length in the Interface Builder under the Attributes inspector
     // Make sure you set the class of the textfield to CustomTextField
-    @IBInspectable public var maxLength: Int {
+    @IBInspectable open var maxLength: Int {
         get {
             guard let l = __maxLengths[self] else {
                 return Int.max // (150 for global default-limit or use Int.max)
@@ -34,7 +34,7 @@ public class PowerUpTextField: UITextField {
     }
     
     // MARK: - Inset
-    @IBInspectable public var leftPadding: CGFloat {
+    @IBInspectable open var leftPadding: CGFloat {
         get {
             return self.leftView!.frame.size.width
         }
@@ -45,7 +45,7 @@ public class PowerUpTextField: UITextField {
         }
     }
     
-    @IBInspectable public var rightPadding: CGFloat {
+    @IBInspectable open var rightPadding: CGFloat {
         get {
             return self.rightView!.frame.size.width
         }
@@ -57,7 +57,7 @@ public class PowerUpTextField: UITextField {
     }
     
     // MARK: - UIView
-    @IBInspectable public var cornerRadius: CGFloat {
+    @IBInspectable open var cornerRadius: CGFloat {
         get {
             return layer.cornerRadius
         }
@@ -66,7 +66,7 @@ public class PowerUpTextField: UITextField {
         }
     }
     
-    @IBInspectable public var borderWidth: CGFloat {
+    @IBInspectable open var borderWidth: CGFloat {
         get {
             return layer.borderWidth
         }
@@ -75,7 +75,7 @@ public class PowerUpTextField: UITextField {
         }
     }
     
-    @IBInspectable public var borderColor: UIColor? {
+    @IBInspectable open var borderColor: UIColor? {
         get {
             if let color = layer.borderColor {
                 return UIColor(cgColor: color)
@@ -91,7 +91,7 @@ public class PowerUpTextField: UITextField {
         }
     }
     
-    @IBInspectable public var shadowRadius: CGFloat {
+    @IBInspectable open var shadowRadius: CGFloat {
         get {
             return layer.shadowRadius
         }
@@ -100,7 +100,7 @@ public class PowerUpTextField: UITextField {
         }
     }
     
-    @IBInspectable public var shadowOpacity: Float {
+    @IBInspectable open var shadowOpacity: Float {
         get {
             return layer.shadowOpacity
         }
@@ -109,7 +109,7 @@ public class PowerUpTextField: UITextField {
         }
     }
     
-    @IBInspectable public var shadowOffset: CGSize {
+    @IBInspectable open var shadowOffset: CGSize {
         get {
             return layer.shadowOffset
         }
@@ -118,7 +118,7 @@ public class PowerUpTextField: UITextField {
         }
     }
     
-    @IBInspectable public var shadowColor: UIColor? {
+    @IBInspectable open var shadowColor: UIColor? {
         get {
             if let color = layer.shadowColor {
                 return UIColor(cgColor: color)

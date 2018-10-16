@@ -36,7 +36,7 @@ pod 'PowerUpSwift'
 
 ## Author
 
-Ceferino Jose II, cefjoeii.com
+Ceferino Jose II, [cefjoeii.com](https://cefjoeii.com)
 
 ## License
 

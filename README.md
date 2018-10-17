@@ -19,20 +19,26 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Why?
 Apple doesn't provide some useful utilities to make our lives easier. This might be for a (good) reason.
-My experience in iOS Development is brutally painful. It's usually difficult to implement a
-simple basic feature that you can easily do in Android built-in. 
+My experience in iOS Development was brutally painful. It's usually difficult to implement a
+simple basic feature that you can easily do in Android built-in, so you end up doing a couple more hacks. 
 I created this library to save time, to be more productive, and to be **DRY** (*Don't Repeat Yourself*).
 
-<h3>Start using PowerUpSwift now at work or on your personal projects!</h3>
+**Start using PowerUpSwift today either at work or on your personal projects!**
+
+<br>
 
 ## Installation
 
-PowerUpSwift is available through [CocoaPods](https://cocoapods.org). To install
+PowerUpSwift is available through [CocoaPods](https://cocoapods.org/pods/PowerUpSwift). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
 pod 'PowerUpSwift'
 ```
+
+## How To Use
+
+The documentation can be found [here](https://github.com/PowerUpX/PowerUpSwift/wiki) in the Wiki page.
 
 ## Author
 

@@ -122,8 +122,10 @@ open class PowerUpTextView: UITextView {
      to the **height** constraint.
      # Example #
      ````
+     @IBOutlet powerUpTextViewHeightConstraint: NSLayoutConstraint!
+     
      func textViewDidChange(_ textView: UITextView) {
-        self.textViewHeightConstraint.constant = self.powerUpTextView.newExpandableHeight
+        self..powerUpTextViewHeightConstraint.constant = self.powerUpTextView.newExpandableHeight
      }
      ````
     */

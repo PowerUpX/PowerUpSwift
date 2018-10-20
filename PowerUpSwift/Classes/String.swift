@@ -8,12 +8,15 @@
 import Foundation
 
 extension String {
-    /// Replaces two or more spaces with a single space and removes all the spaces around the string.
-    mutating public func sanitized() {
-        self = self.components(separatedBy: .whitespacesAndNewlines)
-            .filter { !$0.isEmpty }
-            .joined(separator: " ")
-            .trimmingCharacters(in: .whitespacesAndNewlines)
+    /// Changes the current value (*mutating*) of the String by:
+    /// - removing all the white spaces and white new lines around
+    /// - replacing two or more spaces inside with a single space
+    /// - replacing three or more new lines inside with two new lines
+    /// # It should just work! Trust PowerUpSwift. 😂😂😂 #
+    mutating public func sanitize() {
+        self = self.trimmingCharacters(in: .whitespacesAndNewlines)
+            .replacingOccurrences(of: "\\ \\ +", with: " ", options: .regularExpression)
+            .replacingOccurrences(of: "\n\n\n+", with: "\n\n", options: .regularExpression)
     }
     
     /// Checks if the String is a valid email and returns a Bool.
@@ -28,6 +31,11 @@ extension String {
         return !self.isValidEmail
     }
     
+    /// Reverses the built-in **isEmpty** so it feels more natural to write than using an exclamation point.
+    public var isNotEmpty: Bool {
+        return !self.isEmpty
+    }
+    
     /// That String is used as the key to find the value from your Localizable resources and return the result.
     public var localized: String {
         return NSLocalizedString(self, comment: "")
@@ -39,4 +47,14 @@ extension String {
         }
         return String(Array(self).prefix(upTo: n))
     }
+}
+
+// MARK: - Deprecated
+extension String {
+    // This is how we are going to deprecate things.
+    // @available(*, deprecated, renamed: "sanitize", message: "This is effective starting in version x.x.x.")
+    // @available(*, unavailable, renamed: "sanitize", message: "This will no longer work starting in version x.x.x.")
+    // public func oldFunction() {
+    //     self.newFunction()
+    // }
 }

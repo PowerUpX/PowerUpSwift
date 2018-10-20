@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PowerUpSwift'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'Utilities to make iOS development faster and be more productive.'
 
 # This description is used to generate tags and improve search results.
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = 'iOS Development is brutally painful. Apple doesn\'t provide useful utilities to make our lives easier. This might be for a good reason. This library was created to save you time and let you be more productive at work, or even at your personal projects!'
+  s.description      = "Apple doesn't provide some useful utilities to make our lives easier. This might be for a (good) reason. My experience in iOS Development was brutally painful. It's usually difficult to implement a simple basic feature that you can easily do in Android built-in, so you end up doing a couple more hacks. I created this library to save time, to be more productive, and to be DRY (Don't Repeat Yourself)."
 
   s.homepage         = 'https://github.com/PowerUpX/PowerUpSwift'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'

@@ -15,6 +15,9 @@
 		6E452C64216EFAC2002562E7 /* PowerUpTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E452C63216EFAC2002562E7 /* PowerUpTextView.swift */; };
 		6E452C65216EFAC2002562E7 /* PowerUpTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E452C63216EFAC2002562E7 /* PowerUpTextView.swift */; };
 		6E452C66216EFAC2002562E7 /* PowerUpTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E452C63216EFAC2002562E7 /* PowerUpTextView.swift */; };
+		6E67F43C217815AE00853663 /* NSLayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E67F43B217815AE00853663 /* NSLayoutConstraint.swift */; };
+		6E67F43D21781B8800853663 /* NSLayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E67F43B217815AE00853663 /* NSLayoutConstraint.swift */; };
+		6E67F43E21781B8800853663 /* NSLayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E67F43B217815AE00853663 /* NSLayoutConstraint.swift */; };
 		6E8B6B7D2174768A007E313D /* UITextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8B6B7C2174768A007E313D /* UITextView.swift */; };
 		6E8B6B7E2174768A007E313D /* UITextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8B6B7C2174768A007E313D /* UITextView.swift */; };
 		6E8B6B7F2174768A007E313D /* UITextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8B6B7C2174768A007E313D /* UITextView.swift */; };
@@ -103,6 +106,7 @@
 		5DDBAE0DFADE7A9151D58DE7E47431CE /* PowerUpSwift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = PowerUpSwift.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6A2E7DC880CD02AFE7A415B1CCCF5777 /* Pods-PowerUpSwift_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PowerUpSwift_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6E452C63216EFAC2002562E7 /* PowerUpTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerUpTextView.swift; sourceTree = "<group>"; };
+		6E67F43B217815AE00853663 /* NSLayoutConstraint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSLayoutConstraint.swift; sourceTree = "<group>"; };
 		6E8B6B7C2174768A007E313D /* UITextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextView.swift; sourceTree = "<group>"; };
 		6EC2D666216D8CC7006CC781 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		6EC2D66C216D8D7C006CC781 /* Bool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bool.swift; sourceTree = "<group>"; };
@@ -213,6 +217,7 @@
 				6EC2D694216D8F81006CC781 /* URL.swift */,
 				6EC2D698216D8FA6006CC781 /* URLRequest.swift */,
 				6EC2D69C216D8FBD006CC781 /* URLResponse.swift */,
+				6E67F43B217815AE00853663 /* NSLayoutConstraint.swift */,
 			);
 			name = General;
 			sourceTree = "<group>";
@@ -494,6 +499,7 @@
 				6EC2D696216D8F81006CC781 /* URL.swift in Sources */,
 				6EC2D67E216D8E4C006CC781 /* PowerUpButton.swift in Sources */,
 				6EC2D69E216D8FBD006CC781 /* URLResponse.swift in Sources */,
+				6E67F43D21781B8800853663 /* NSLayoutConstraint.swift in Sources */,
 				1FF5CCA8AC532A0273DD498949CB220D /* Pods-PowerUpSwift_Tests-dummy.m in Sources */,
 				6EC2D686216D8EBD006CC781 /* PowerUpTextField.swift in Sources */,
 				B8309A582174BF290069F085 /* UIView.swift in Sources */,
@@ -520,6 +526,7 @@
 				6EC2D695216D8F81006CC781 /* URL.swift in Sources */,
 				6EC2D67D216D8E4C006CC781 /* PowerUpButton.swift in Sources */,
 				6EC2D69D216D8FBD006CC781 /* URLResponse.swift in Sources */,
+				6E67F43C217815AE00853663 /* NSLayoutConstraint.swift in Sources */,
 				6DA5D81B4CC18DBC3C921FDC9612ED0A /* Pods-PowerUpSwift_Example-dummy.m in Sources */,
 				6EC2D685216D8EBD006CC781 /* PowerUpTextField.swift in Sources */,
 				B8309A572174BF290069F085 /* UIView.swift in Sources */,
@@ -546,6 +553,7 @@
 				6EC2D697216D8F81006CC781 /* URL.swift in Sources */,
 				6EC2D67F216D8E4C006CC781 /* PowerUpButton.swift in Sources */,
 				6EC2D69F216D8FBD006CC781 /* URLResponse.swift in Sources */,
+				6E67F43E21781B8800853663 /* NSLayoutConstraint.swift in Sources */,
 				7F33B0875D0684EFBD1A918BEE8B62F0 /* PowerUpSwift-dummy.m in Sources */,
 				6EC2D687216D8EBD006CC781 /* PowerUpTextField.swift in Sources */,
 				B8309A592174BF290069F085 /* UIView.swift in Sources */,

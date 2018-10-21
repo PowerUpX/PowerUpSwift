@@ -9,11 +9,18 @@ import UIKit
 
 @IBDesignable
 open class PowerUpLabel: UILabel {
-    @IBInspectable public var topInset: CGFloat = 0.0
-    @IBInspectable public var leftInset: CGFloat = 0.0
-    @IBInspectable public var bottomInset: CGFloat = 0.0
-    @IBInspectable public var rightInset: CGFloat = 0.0
+    @IBInspectable open var topInset: CGFloat = 0.0
+    @IBInspectable open var leftInset: CGFloat = 0.0
+    @IBInspectable open var bottomInset: CGFloat = 0.0
+    @IBInspectable open var rightInset: CGFloat = 0.0
     
+    /**
+     PowerUpLabel's UIEdgeInsets value can be set programmatically.
+     ### Example
+     ```
+     self.powerUpLabel.insets = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0)
+     ```
+     */
     open var insets: UIEdgeInsets {
         get {
             return UIEdgeInsets(top: self.topInset, left: self.leftInset, bottom: self.bottomInset, right: self.rightInset)

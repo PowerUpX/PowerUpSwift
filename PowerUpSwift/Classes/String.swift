@@ -12,7 +12,8 @@ extension String {
     /// - removing all the white spaces and white new lines around
     /// - replacing two or more spaces inside with a single space
     /// - replacing three or more new lines inside with two new lines
-    /// # It should just work! Trust PowerUpSwift. 😂😂😂 #
+    ///
+    /// **It should just work! Trust PowerUpSwift. 😂😂😂**
     mutating public func sanitize() {
         self = self.trimmingCharacters(in: .whitespacesAndNewlines)
             .replacingOccurrences(of: "\\ \\ +", with: " ", options: .regularExpression)
@@ -26,17 +27,17 @@ extension String {
         return predicate.evaluate(with: self)
     }
     
-    /// Checks if the String is an invalid email and returns a Bool.
+    /// Reverses the value of `isValidEmail` so it feels more natural to write than using an exclamation point.
     public var isNotValidEmail: Bool {
         return !self.isValidEmail
     }
     
-    /// Reverses the built-in **isEmpty** so it feels more natural to write than using an exclamation point.
+    /// Reverses the built-in `isEmpty` so it feels more natural to write than using an exclamation point.
     public var isNotEmpty: Bool {
         return !self.isEmpty
     }
     
-    /// That String is used as the key to find the value from your Localizable resources and return the result.
+    /// Uses the very `String` as the **key** to find the value from the Localizable resources and return the localized **value**.
     public var localized: String {
         return NSLocalizedString(self, comment: "")
     }

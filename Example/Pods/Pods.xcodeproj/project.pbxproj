@@ -228,9 +228,9 @@
 				6EC2D66B216D8D57006CC781 /* Subclasses */,
 				6EC2D68C216D8EF7006CC781 /* UIButton.swift */,
 				6EC2D6A0216D9031006CC781 /* UIColor.swift */,
-				6EC2D690216D8F6A006CC781 /* UIViewController.swift */,
 				6E8B6B7C2174768A007E313D /* UITextView.swift */,
 				B8309A562174BF290069F085 /* UIView.swift */,
+				6EC2D690216D8F6A006CC781 /* UIViewController.swift */,
 			);
 			name = UIKit;
 			sourceTree = "<group>";
@@ -241,8 +241,8 @@
 				6EC2D67C216D8E4C006CC781 /* PowerUpButton.swift */,
 				6EC2D680216D8E63006CC781 /* PowerUpLabel.swift */,
 				6EC2D684216D8EBD006CC781 /* PowerUpTextField.swift */,
-				6EC2D688216D8ED5006CC781 /* PowerUpView.swift */,
 				6E452C63216EFAC2002562E7 /* PowerUpTextView.swift */,
+				6EC2D688216D8ED5006CC781 /* PowerUpView.swift */,
 			);
 			name = Subclasses;
 			sourceTree = "<group>";

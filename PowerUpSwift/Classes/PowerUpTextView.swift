@@ -118,16 +118,17 @@ open class PowerUpTextView: UITextView {
 
     /**
      Calculates the new height of the text view based on the size of the content
-     and the user-defined maxExpandableHeight. You should reference an **@IBOutlet**
-     to the **height** constraint.
-     # Example #
-     ````
+     and the user-defined `maxExpandableHeight`.
+     You should reference an `@IBOutlet` to the height constraint.
+     Make sure the PowerUpTextView's delegate is also set through the Storyboard or via code.
+     ### Example
+     ```
      @IBOutlet powerUpTextViewHeightConstraint: NSLayoutConstraint!
      
      func textViewDidChange(_ textView: UITextView) {
-        self..powerUpTextViewHeightConstraint.constant = self.powerUpTextView.newExpandableHeight
+        self.powerUpTextViewHeightConstraint.constant = self.powerUpTextView.newExpandableHeight
      }
-     ````
+     ```
     */
     open var newExpandableHeight: CGFloat {
         // Make the textview's height dynamic while typing (Hacky iOS sucks)
@@ -150,13 +151,13 @@ open class PowerUpTextView: UITextView {
     }
     
     /**
-     Toggles the visibility of text view's placeholder.
-     # Example #
-     ````
+     Toggles the visibility of the text view's placeholder.
+     ### Example
+     ```
      func textViewDidChange(_ textView: UITextView) {
         self.powerUpTextView.refreshPlaceholder()
      }
-     ````
+     ```
      */
     open func refreshPlaceholder() {
         self.placeholderLabel.isHidden = !self.text!.isEmpty

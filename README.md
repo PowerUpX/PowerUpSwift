@@ -25,7 +25,7 @@ I created this library to save time, to be more productive, and to be **DRY** (*
 
 <br>
 
-**Start using PowerUpSwift today either at work or on your personal projects!**
+**Start using PowerUpSwift today!**
 
 <br>
 
@@ -48,6 +48,10 @@ The documentation can be found [here](https://github.com/PowerUpX/PowerUpSwift/w
 ## Author
 
 Ceferino Jose II, [cefjoeii.com](https://cefjoeii.com)
+
+## Contribute
+
+Feel free to help out as I may have other work/life commitments. See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## License
 

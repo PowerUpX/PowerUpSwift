@@ -1,5 +1,5 @@
 PODS:
-  - PowerUpSwift (0.1.0)
+  - PowerUpSwift (0.1.4)
 
 DEPENDENCIES:
   - PowerUpSwift (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  PowerUpSwift: ed8b3681e054bceed4e9102ad89d6642aac37494
+  PowerUpSwift: 940a9884ae94497ed891ef5965e873a037b14cc2
 
-PODFILE CHECKSUM: d84a82a6db24f48bd418ba5269369c506f481134
+PODFILE CHECKSUM: be14c8a60dab82b10f07e83f2f0a044e82a59e75
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.6.0.beta.1

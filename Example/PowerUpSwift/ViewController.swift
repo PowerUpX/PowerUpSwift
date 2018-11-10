@@ -7,18 +7,26 @@
 //
 
 import UIKit
+import PowerUpSwift
 
 class ViewController: UIViewController {
+    @IBOutlet weak var powerUpTextField: PowerUpUnderlineTextField!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        self.hideKeyboardWhenTappedOutside()
+        
+        self.powerUpTextField.addTarget(self, action: #selector(self.textFieldDidChange(_:)), for: .editingChanged)
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+ 
+    @objc func textFieldDidChange(_ textField: UITextField) {
+        if textField == self.powerUpTextField {
+            if let email = self.powerUpTextField.text, email.isNotValidEmail && email.isNotEmpty {
+                self.powerUpTextField.showErrorColor()
+            } else {
+                self.powerUpTextField.hideErrorColor()
+            }
+        }
     }
-
 }
-

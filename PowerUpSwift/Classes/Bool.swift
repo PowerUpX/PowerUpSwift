@@ -7,11 +7,7 @@
 
 extension Bool {
     public init(_ intValue: Int) {
-        if intValue == 0 {
-            self.init(false)
-        } else {
-            self.init(true)
-        }
+        self.init(intValue != 0)
     }
 }
 

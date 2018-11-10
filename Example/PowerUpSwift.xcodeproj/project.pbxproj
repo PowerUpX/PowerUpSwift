@@ -15,6 +15,7 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		6EDD476E216D87E4001A1A0A /* StringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EDD476D216D87E4001A1A0A /* StringTests.swift */; };
 		78119FF0D06E65B60C394EC6 /* Pods_PowerUpSwift_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44A4533003462F3552AD54E8 /* Pods_PowerUpSwift_Tests.framework */; };
+		B81FBAD8219736CD00ACECD3 /* BoolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81FBAD7219736CD00ACECD3 /* BoolTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		8AF1D40FB5D61E9C6AB88C43 /* Pods-PowerUpSwift_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PowerUpSwift_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PowerUpSwift_Tests/Pods-PowerUpSwift_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B3E9206C5BFD448BCC765954 /* Pods-PowerUpSwift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PowerUpSwift_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-PowerUpSwift_Example/Pods-PowerUpSwift_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B69970876ADAAA54935B397B /* Pods_PowerUpSwift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PowerUpSwift_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B81FBAD7219736CD00ACECD3 /* BoolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoolTests.swift; sourceTree = "<group>"; };
 		E2047EBCA40ED83D0BF1FFFA /* Pods-PowerUpSwift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PowerUpSwift_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PowerUpSwift_Example/Pods-PowerUpSwift_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F621A387AC185E1BF0338DCF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -126,6 +128,7 @@
 		607FACE81AFB9204008FA782 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				B81FBAD7219736CD00ACECD3 /* BoolTests.swift */,
 				6EDD476D216D87E4001A1A0A /* StringTests.swift */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
 			);
@@ -305,7 +308,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-PowerUpSwift_Example/Pods-PowerUpSwift_Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-PowerUpSwift_Example/Pods-PowerUpSwift_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/PowerUpSwift/PowerUpSwift.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -314,7 +317,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PowerUpSwift_Example/Pods-PowerUpSwift_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PowerUpSwift_Example/Pods-PowerUpSwift_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -334,6 +337,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6EDD476E216D87E4001A1A0A /* StringTests.swift in Sources */,
+				B81FBAD8219736CD00ACECD3 /* BoolTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -11,12 +11,12 @@ import PowerUpSwift
 
 class StringTests: XCTestCase {
     func testIsEmailValid() {
-        XCTAssert("cefjoeii@gmail.com".isValidEmail, "cefjoeii@gmail.com should be recongnized as a VALID email.")
-        XCTAssert("asdfghjkl".isValidEmail == false, "asdfghjkl should be recongnized as an INVALID email.")
+        XCTAssert("cefjoeii@gmail.com".isValidEmail, "cefjoeii@gmail.com should be recognized as a VALID email.")
+        XCTAssert("asdfghjkl".isValidEmail == false, "asdfghjkl should be recognized as an INVALID email.")
     }
     
     func testIsNotEmailValid() {
-        XCTAssert("cefjoeii@gmail.com".isNotValidEmail == false, "cefjoeii@gmail.com should be recongnized as a VALID email.")
-        XCTAssert("asdfghjkl".isNotValidEmail, "asdfghjkl should be recongnized as an INVALID email.")
+        XCTAssert("cefjoeii@gmail.com".isNotValidEmail == false, "cefjoeii@gmail.com should be recognized as a VALID email.")
+        XCTAssert("asdfghjkl".isNotValidEmail, "asdfghjkl should be recognized as an INVALID email.")
     }
 }

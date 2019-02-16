@@ -43,9 +43,11 @@ open class PowerUpUnderlineTextField: PowerUpBaseTextField {
     private func commonInit() {
         self.borderStyle = .none
 
-        self.underline.frame = CGRect(x: 0, y: self.frame.height - self.underlineHeight, width: self.frame.width, height: self.underlineHeight)
-        self.underline.backgroundColor = self.underlineColor.cgColor
+        self.underline.frame = CGRect(x: 0, y: self.frame.height - self.underlineHeight, width: self.frame.width, height: self.frame.height)
+        self.underline.borderColor = self.underlineColor.cgColor
+		self.underline.borderWidth = self.underlineHeight
 
+		self.layer.masksToBounds = true
         self.layer.addSublayer(self.underline)
     }
     
@@ -54,7 +56,7 @@ open class PowerUpUnderlineTextField: PowerUpBaseTextField {
         super.becomeFirstResponder()
         
         if self.isHighlightOn && !self.isShowingError {
-            self.underline.backgroundColor = self.highlightColor.cgColor
+            self.underline.borderColor = self.highlightColor.cgColor
         }
         
         return true
@@ -63,7 +65,7 @@ open class PowerUpUnderlineTextField: PowerUpBaseTextField {
     override open func resignFirstResponder() -> Bool {
         super.resignFirstResponder()
         
-        self.underline.backgroundColor = (self.isShowingError) ? self.errorColor.cgColor : self.underlineColor.cgColor
+        self.underline.borderColor = (self.isShowingError) ? self.errorColor.cgColor : self.underlineColor.cgColor
         
         return true
     }
@@ -71,7 +73,7 @@ open class PowerUpUnderlineTextField: PowerUpBaseTextField {
     // MARK: - Custom Functions
     /// Sets the color of the underline to the specified error color and sets the property `isShowingError` to `true`.
     open func showErrorColor() {
-        self.underline.backgroundColor = self.errorColor.cgColor
+        self.underline.borderColor = self.errorColor.cgColor
         self.isShowingError = true
     }
     
@@ -80,9 +82,9 @@ open class PowerUpUnderlineTextField: PowerUpBaseTextField {
     /// Otherwise, the underline gets set back to its original color.
     open func hideErrorColor() {
         if self.isFirstResponder && self.isHighlightOn {
-            self.underline.backgroundColor = self.highlightColor.cgColor
+            self.underline.borderColor = self.highlightColor.cgColor
         } else {
-            self.underline.backgroundColor = self.underlineColor.cgColor
+            self.underline.borderColor = self.underlineColor.cgColor
         }
         
         self.isShowingError = false

@@ -35,3 +35,4 @@ git commit -m "Fixed bugs and updated colours"
 ```
 
 ## Push to your Fork and make a pull request.
+Please direct it to the `pull-request` branch instead of the `master` branch.

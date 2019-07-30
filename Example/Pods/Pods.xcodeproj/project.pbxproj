@@ -25,6 +25,7 @@
 		939D6FBDE6B77C29F909E7B03CFEA4C1 /* PowerUpTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B670CD71B155E7C9B6A6170A0F7E089 /* PowerUpTextView.swift */; };
 		9DD0D266D3C942AFAE9B54EB70D5CBCC /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA50CD1CB97DAA0B74238AD6F0DD6A8B /* UIButton.swift */; };
 		AC5F933ED5E44F57953CA59A5565F03B /* Pods-PowerUpSwift_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BA38A0A0A2010D28344033DF3A57D4 /* Pods-PowerUpSwift_Tests-dummy.m */; };
+		B401A65222EEB1F300A5F0DB /* PowerUpImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B401A65122EEB1F300A5F0DB /* PowerUpImageView.swift */; };
 		B7227F257B44967A5F5632259EB3683C /* Pods-PowerUpSwift_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E52A4FF7285D98858E51E2A64529DEE /* Pods-PowerUpSwift_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B8AE024D21977E6A00D78935 /* PowerUpBaseTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8AE024A21977E6A00D78935 /* PowerUpBaseTextField.swift */; };
 		B8AE02542197817100D78935 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BA63354F00D18CACC81E306999AD8B /* String.swift */; };
@@ -92,6 +93,7 @@
 		A345A49F0BD95E2BBEF290888AE77C7B /* Bool.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Bool.swift; path = PowerUpSwift/Classes/Bool.swift; sourceTree = "<group>"; };
 		A3B96712239130084070090C6A02D342 /* Pods_PowerUpSwift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PowerUpSwift_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA50CD1CB97DAA0B74238AD6F0DD6A8B /* UIButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIButton.swift; path = PowerUpSwift/Classes/UIButton.swift; sourceTree = "<group>"; };
+		B401A65122EEB1F300A5F0DB /* PowerUpImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PowerUpImageView.swift; path = PowerUpSwift/Classes/PowerUpImageView.swift; sourceTree = "<group>"; };
 		B8AE024A21977E6A00D78935 /* PowerUpBaseTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PowerUpBaseTextField.swift; path = PowerUpSwift/Classes/PowerUpBaseTextField.swift; sourceTree = "<group>"; };
 		B9C69C842F6E357B5CE6CCC22CF08E5E /* PowerUpButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PowerUpButton.swift; path = PowerUpSwift/Classes/PowerUpButton.swift; sourceTree = "<group>"; };
 		BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -273,6 +275,7 @@
 				0B670CD71B155E7C9B6A6170A0F7E089 /* PowerUpTextView.swift */,
 				7848003B152AB7A6CF5D487188597ADF /* PowerUpUnderlineTextField.swift */,
 				491D8D7FDBBD91BF666AE93006AA3E6C /* PowerUpView.swift */,
+				B401A65122EEB1F300A5F0DB /* PowerUpImageView.swift */,
 			);
 			name = Subclasses;
 			sourceTree = "<group>";
@@ -481,6 +484,7 @@
 				E935FF7255B9413CB496AEDFC986DCCA /* Optional.swift in Sources */,
 				50C71420D378F1B4F6CC778F6288CD5C /* PowerUpButton.swift in Sources */,
 				FEC1382ACB146AFB1D07F2D9CBAFA395 /* PowerUpLabel.swift in Sources */,
+				B401A65222EEB1F300A5F0DB /* PowerUpImageView.swift in Sources */,
 				D4CEDAAD03E515BEBCE7B01340F4A406 /* PowerUpSwift-dummy.m in Sources */,
 				206EA3A7E30E8C7344B011CDCE77B797 /* PowerUpTextField.swift in Sources */,
 				B8AE024D21977E6A00D78935 /* PowerUpBaseTextField.swift in Sources */,

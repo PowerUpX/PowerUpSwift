@@ -43,7 +43,7 @@ open class PowerUpUnderlineTextField: PowerUpBaseTextField {
     private func commonInit() {
         self.borderStyle = .none
 
-        self.underline.frame = CGRect(x: 0, y: self.frame.height - self.underlineHeight, width: self.frame.width, height: self.frame.height)
+        self.underline.frame = CGRect(x: 0, y: self.frame.height - self.underlineHeight, width: UIScreen.main.bounds.width, height: self.frame.height)
         self.underline.borderColor = self.underlineColor.cgColor
 		self.underline.borderWidth = self.underlineHeight
 

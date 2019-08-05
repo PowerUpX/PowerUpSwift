@@ -40,6 +40,12 @@ open class PowerUpUnderlineTextField: PowerUpBaseTextField {
         self.commonInit()
     }
     
+    open override func layoutSubviews() {
+        super.layoutSubviews()
+        
+        self.commonInit()
+    }
+    
     private func commonInit() {
         self.borderStyle = .none
 

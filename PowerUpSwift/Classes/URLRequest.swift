@@ -20,4 +20,12 @@ extension URLRequest {
         self.httpBody = json.data
         self.setValue("application/json", forHTTPHeaderField: "Content-Type")
     }
+    
+    mutating public func setHeaders(_ headers: [String: String]) {
+        self.allHTTPHeaderFields = headers
+    }
+    
+    mutating public func addHeader(_ key: String, _ value: String) {
+        self.addValue(value, forHTTPHeaderField: key)
+    }
 }

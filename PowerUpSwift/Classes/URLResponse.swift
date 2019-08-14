@@ -7,13 +7,18 @@
 
 import Foundation
 
-extension Optional where Wrapped == URLResponse? {
+extension Optional where Wrapped == URLResponse {
     public var isSuccess: Bool {
-        if let response = self as? URLResponse, response.code >= 200 && response.code < 300 {
-            return true
+        if self == nil {
+            return false
         }
         
-        return false
+        switch self!.code {
+        case 200...299:
+            return true
+        default:
+            return false
+        }
     }
 }
 
@@ -22,4 +27,3 @@ extension URLResponse {
         return (self as! HTTPURLResponse).statusCode
     }
 }
-

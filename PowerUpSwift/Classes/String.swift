@@ -8,14 +8,19 @@
 import Foundation
 
 extension String {
-    /// Changes the current value (*mutating*) of the String by:
+    /// Changes the current value (*mutating*) of the String by calling PowerUpSwift's `sanitize()`
+    public mutating func sanitized() {
+        self = self.sanitize()
+    }
+    
+    /// Returns the trimmed valueof the String by:
     /// - removing all the white spaces and white new lines around
     /// - replacing two or more spaces inside with a single space
     /// - replacing three or more new lines inside with two new lines
     ///
     /// **It should just work! Trust PowerUpSwift. 😂😂😂**
-    mutating public func sanitize() {
-        self = self.trimmingCharacters(in: .whitespacesAndNewlines)
+    public func sanitize() -> String {
+        return self.trimmingCharacters(in: .whitespacesAndNewlines)
             .replacingOccurrences(of: "\\ \\ +", with: " ", options: .regularExpression)
             .replacingOccurrences(of: "\n\n\n+", with: "\n\n", options: .regularExpression)
     }

@@ -17,8 +17,8 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements-->
 
-## Why
-Apple doesn't provide some useful utilities to make our development easier. This might be for a (good) reason, such as keeping the standard library lightweight. My experience in iOS Development was a little painful. It's usually difficult to implement a simple basic feature that you can easily do in Android built-in, so you end up doing a couple more hacks. I created this library to save time, to be more productive, and to be **DRY** (*Don't Repeat Yourself*).
+## About
+Apple doesn't provide some useful utilities to make our lives a little easier. This might be for a (good) reason, such as keeping the standard library lightweight. My experience in iOS Development was a little painful. It's usually difficult to implement a simple basic feature that you can easily do in Android built-in, so you end up doing a couple more hacks. I created this library to save time, to be more productive, and to be **DRY** (*Don't Repeat Yourself*).
 
 ## Show Some :heart: :wave:
 [![GitHub Stars](https://img.shields.io/github/stars/PowerUpX/PowerUpSwift.svg?style=social&label=Star)](https://github.com/PowerUpX/PowerUpSwift)

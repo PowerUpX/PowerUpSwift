@@ -42,6 +42,30 @@ extension String {
         return NSLocalizedString(self, comment: "")
     }
     
+    /// Checks if the String is a valid ip address and returns a Bool.
+    public var isValidIP: Bool {
+        let regEx = "^[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}$"
+        let predicate = NSPredicate(format:"SELF MATCHES %@", regEx)
+        return predicate.evaluate(with: self)
+    }
+    
+    /// Reverses the value of `isNotValidIP` so it feels more natural to write than using an exclamation point.
+    public var isNotValidIP: Bool {
+        return !self.isValidIP
+    }
+    
+    /// Checks if the String is a valid mac address and returns a Bool.
+    public var isValidMAC: Bool {
+        let regEx = "^([0-9A-Fa-f]{2}[:]){5}([0-9A-Fa-f]{2})$"
+        let predicate = NSPredicate(format:"SELF MATCHES %@", regEx)
+        return predicate.evaluate(with: self)
+    }
+    
+    /// Reverses the value of `isNotValidMAC` so it feels more natural to write than using an exclamation point.
+    public var isNotValidMAC: Bool {
+        return !self.isValidMAC
+    }
+    
     func limitLength(_ n: Int) -> String {
         if self.count <= n {
             return self

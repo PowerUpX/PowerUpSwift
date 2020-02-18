@@ -49,7 +49,7 @@ extension String {
         return predicate.evaluate(with: self)
     }
     
-    /// Reverses the value of `isNotValidIP` so it feels more natural to write than using an exclamation point.
+    /// Reverses the value of `isValidIP` so it feels more natural to write than using an exclamation point.
     public var isNotValidIP: Bool {
         return !self.isValidIP
     }
@@ -61,7 +61,7 @@ extension String {
         return predicate.evaluate(with: self)
     }
     
-    /// Reverses the value of `isNotValidMAC` so it feels more natural to write than using an exclamation point.
+    /// Reverses the value of `isValidMAC` so it feels more natural to write than using an exclamation point.
     public var isNotValidMAC: Bool {
         return !self.isValidMAC
     }

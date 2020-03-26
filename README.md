@@ -18,18 +18,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 ## Requirements-->
 
 ## About
-Apple doesn't provide some useful utilities to make our lives a little easier. This might be for a (good) reason, such as keeping the standard library lightweight. My experience in iOS Development was a little painful. It's usually difficult to implement a simple basic feature that you can easily do in Android built-in, so you end up doing a couple more hacks. I created this library to save time, to be more productive, and to be **DRY** (*Don't Repeat Yourself*).
-
-## Show Some :heart: :wave:
-[![GitHub Stars](https://img.shields.io/github/stars/PowerUpX/PowerUpSwift.svg?style=social&label=Star)](https://github.com/PowerUpX/PowerUpSwift)
-[![GitHub Forks](https://img.shields.io/github/forks/PowerUpX/PowerUpSwift.svg?style=social&label=Fork)](https://github.com/PowerUpX/PowerUpSwift/fork)
-[![GitHub Watchers](https://img.shields.io/github/watchers/PowerUpX/PowerUpSwift.svg?style=social&label=Watch)](https://github.com/PowerUpX/PowerUpSwift)
-
-[![Follow on GitHub](https://img.shields.io/github/followers/cefjoeii.svg?style=social&label=Follow)](https://github.com/cefjoeii)
-[![Follow on Facebook](https://img.shields.io/badge/Follow%20%40cefjoeii%20on-Facebook-%233C5A99.svg)](https://facebook.com/cefjoeii)
-[![Follow on Instagram](https://img.shields.io/badge/Follow%20%40cefjoeii%20on-Instagram-C13584.svg)](https://instagram.com/cefjoeii)
-[![Follow on Twitter](https://img.shields.io/twitter/follow/cefjoeii.svg?style=social)](https://twitter.com/cefjoeii)
-
+Apple doesn't provide some basic useful utilities to make our iOS Development lives a little easier. This might be for a [good] reason, such as keeping the platform lightweight. It sometimes requires extra time and effort to implement a simple basic feature that you can easily do in Android built-in, so you end up doing a couple more hacks. This library was created to save time, to be more productive, and to be **DRY** (*Don't Repeat Yourself*).
 
 ## Demo
 <img src="Screenshots/Demo.gif" alt="PowerUpSwift" width="auto" height="auto" />
@@ -50,6 +39,17 @@ The documentation can be found [here](https://github.com/PowerUpX/PowerUpSwift/w
 ## Contribute
 
 Feel free to help out as I may have other work/life commitments. See [CONTRIBUTING.md](CONTRIBUTING.md).
+
+## Show Some :heart: :wave:
+[![GitHub Stars](https://img.shields.io/github/stars/PowerUpX/PowerUpSwift.svg?style=social&label=Star)](https://github.com/PowerUpX/PowerUpSwift)
+[![GitHub Forks](https://img.shields.io/github/forks/PowerUpX/PowerUpSwift.svg?style=social&label=Fork)](https://github.com/PowerUpX/PowerUpSwift/fork)
+[![GitHub Watchers](https://img.shields.io/github/watchers/PowerUpX/PowerUpSwift.svg?style=social&label=Watch)](https://github.com/PowerUpX/PowerUpSwift)
+
+[![Follow on GitHub](https://img.shields.io/github/followers/cefjoeii.svg?style=social&label=Follow)](https://github.com/cefjoeii)
+[![Follow on Facebook](https://img.shields.io/badge/Follow%20%40cefjoeii%20on-Facebook-%233C5A99.svg)](https://facebook.com/cefjoeii)
+[![Follow on Instagram](https://img.shields.io/badge/Follow%20%40cefjoeii%20on-Instagram-C13584.svg)](https://instagram.com/cefjoeii)
+[![Follow on Twitter](https://img.shields.io/twitter/follow/cefjoeii.svg?style=social)](https://twitter.com/cefjoeii)
+
 
 ## License
 

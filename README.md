@@ -20,6 +20,14 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 ## About
 Apple doesn't provide some basic useful utilities to make our iOS Development lives a little easier. This might be for a [good] reason, such as keeping the platform lightweight. It sometimes requires extra time and effort to implement a simple basic feature that you can easily do in Android built-in, so you end up doing a couple more hacks. This library was created to save time, to be more productive, and to be **DRY** (*Don't Repeat Yourself*).
 
+<br>
+
+<p align="center">
+  <img src="Screenshots/code-screenshot-purple.png" alt="PowerUpSwift Code Screenshot" width="auto" height="auto" />
+</p>
+
+Now you can get rid of your messy *Utilities* folder and have a cleaner project.
+
 ## Demo
 <img src="Screenshots/Demo.gif" alt="PowerUpSwift" width="auto" height="auto" />
 

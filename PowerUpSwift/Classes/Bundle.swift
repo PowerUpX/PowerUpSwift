@@ -1,6 +1,6 @@
 //
 //  Bundle.swift
-//  Pods-PowerUpSwift_Example
+//  PowerUpSwift
 //
 //  Created by Ceferino Jose II on 15/08/2019.
 //

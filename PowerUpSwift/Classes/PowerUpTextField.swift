@@ -9,7 +9,6 @@ import UIKit
 
 @IBDesignable
 open class PowerUpTextField: PowerUpBaseTextField {
-    // MARK: - UIView
     @IBInspectable open var cornerRadius: CGFloat = 0 {
         didSet { self.layer.cornerRadius = self.cornerRadius }
     }

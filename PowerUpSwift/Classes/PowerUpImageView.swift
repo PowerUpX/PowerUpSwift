@@ -9,79 +9,41 @@ import UIKit
 
 @IBDesignable
 open class PowerUpImageView: UIImageView {
-    @IBInspectable open var cornerRadius: CGFloat {
-        get {
-            return layer.cornerRadius
-        }
-        set {
-            layer.cornerRadius = newValue
-        }
+    @IBInspectable open var cornerRadius: CGFloat = 0 {
+        didSet { self.layer.cornerRadius = self.cornerRadius }
     }
     
-    @IBInspectable open var borderWidth: CGFloat {
-        get {
-            return layer.borderWidth
-        }
-        set {
-            layer.borderWidth = newValue
-        }
+    @IBInspectable open var borderWidth: CGFloat = 0 {
+        didSet { self.layer.borderWidth = self.borderWidth }
     }
     
     @IBInspectable open var borderColor: UIColor? {
-        get {
-            if let color = layer.borderColor {
-                return UIColor(cgColor: color)
-            }
-            return nil
-        }
-        set {
-            if let color = newValue {
-                layer.borderColor = color.cgColor
-            } else {
-                layer.borderColor = nil
-            }
-        }
+        didSet { self.layer.borderColor = self.borderColor?.cgColor }
     }
     
-    @IBInspectable open var shadowRadius: CGFloat {
-        get {
-            return layer.shadowRadius
-        }
-        set {
-            layer.shadowRadius = newValue
-        }
+    @IBInspectable open var shadowRadius: CGFloat = 0 {
+        didSet { self.layer.shadowRadius = self.shadowRadius }
     }
     
-    @IBInspectable open var shadowOpacity: Float {
-        get {
-            return layer.shadowOpacity
-        }
-        set {
-            layer.shadowOpacity = newValue
-        }
+    @IBInspectable open var shadowOpacity: Float = 0 {
+        didSet { self.layer.shadowOpacity = self.shadowOpacity }
     }
     
-    @IBInspectable open var shadowOffset: CGSize {
-        get {
-            return layer.shadowOffset
-        }
-        set {
-            layer.shadowOffset = newValue
-        }
+    @IBInspectable open var shadowOffset: CGSize = .zero {
+        didSet { self.layer.shadowOffset = self.shadowOffset }
     }
     
     @IBInspectable open var shadowColor: UIColor? {
-        get {
-            if let color = layer.shadowColor {
-                return UIColor(cgColor: color)
-            }
-            return nil
-        }
-        set {
-            if let color = newValue {
-                layer.shadowColor = color.cgColor
-            } else {
-                layer.shadowColor = nil
+        didSet { self.layer.shadowColor = self.borderColor?.cgColor }
+    }
+    
+    open override func traitCollectionDidChange(_ previousTraitCollection: UITraitCollection?) {
+        super.traitCollectionDidChange(previousTraitCollection)
+        
+        if #available(iOS 13.0, *) {
+            if self.traitCollection.hasDifferentColorAppearance(comparedTo: previousTraitCollection) {
+                self.layer.borderColor = self.borderColor?.cgColor
+                self.layer.shadowColor = self.borderColor?.cgColor
             }
         }
     }

@@ -8,7 +8,7 @@
 import UIKit
 
 @IBDesignable
-class PowerUpLoadingButton: PowerUpButton {
+open class PowerUpLoadingButton: PowerUpButton {
     /// The `alpha` value when showing the loading indicator.
     @IBInspectable open var disabledAlpha: CGFloat = 0.5
     
@@ -17,7 +17,7 @@ class PowerUpLoadingButton: PowerUpButton {
     
     private var activityIndicatorView: UIActivityIndicatorView!
     
-    func showLoading() {
+    open func showLoading() {
         // Clear out the title temporarily
         self.originalTitle = self.titleLabel?.text
         self.setTitle("", for: .normal)
@@ -60,7 +60,7 @@ class PowerUpLoadingButton: PowerUpButton {
         self.activityIndicatorView.startAnimating()
     }
     
-    func hideLoading() {
+    open func hideLoading() {
         // Bring the title back
         self.setTitle(self.originalTitle, for: .normal)
         

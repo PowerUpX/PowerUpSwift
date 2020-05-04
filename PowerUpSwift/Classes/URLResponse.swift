@@ -9,16 +9,24 @@ import Foundation
 
 extension Optional where Wrapped == URLResponse {
     public var isSuccess: Bool {
-        if self == nil {
-            return false
+        if let response = self {
+            switch response.code {
+            case 200...299:
+                return true
+            default:
+                return false
+            }
         }
         
-        switch self!.code {
-        case 200...299:
-            return true
-        default:
-            return false
+        return false
+    }
+    
+    public var isUnauthorized: Bool {
+        if let response = self {
+            return response.code == 401
         }
+        
+        return false
     }
 }
 

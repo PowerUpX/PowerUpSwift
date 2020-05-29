@@ -12,7 +12,7 @@ open class PowerUpTextView: UITextView {
     var placeholderLabel = PowerUpLabel()
     
     /// The custom-built placeholder for UITextViews through the PowerUpTextView subclass.
-    @IBInspectable open var placeholder: String = "" {
+    @IBInspectable open var placeholder: String? = nil {
         didSet {
             self.placeholderLabel.text = placeholder
         }

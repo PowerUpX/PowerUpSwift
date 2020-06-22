@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PowerUpSwift'
-  s.version          = '1.0.2'
+  s.version          = '1.3.7'
   s.summary          = 'Make iOS Development faster and become more productive.'
 
 # This description is used to generate tags and improve search results.

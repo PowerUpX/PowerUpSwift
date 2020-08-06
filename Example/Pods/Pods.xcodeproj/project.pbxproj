@@ -273,12 +273,12 @@
 			isa = PBXGroup;
 			children = (
 				AA50CD1CB97DAA0B74238AD6F0DD6A8B /* UIButton.swift */,
+				B47328FA2447EEFE0026D9D6 /* UICollectionViewCell.swift */,
 				4EC0228ACEF296CE331C30224D3C429B /* UIColor.swift */,
+				B47328F92447EEFE0026D9D6 /* UITableViewCell.swift */,
 				C0BCD4EADFE8EC6197C84ECF84796B24 /* UITextView.swift */,
 				E35708C7843E432E75302F665EF06B2C /* UIView.swift */,
 				C8C5372E3D997E28E7A01C3DCD3142AB /* UIViewController.swift */,
-				B47328FA2447EEFE0026D9D6 /* UICollectionViewCell.swift */,
-				B47328F92447EEFE0026D9D6 /* UITableViewCell.swift */,
 			);
 			name = UIKit;
 			sourceTree = "<group>";
@@ -305,6 +305,8 @@
 			isa = PBXGroup;
 			children = (
 				A345A49F0BD95E2BBEF290888AE77C7B /* Bool.swift */,
+				B42F5B612304EF0200FAA06B /* Bundle.swift */,
+				B4C79C9A2303F02500890A1B /* CLPlacemark.swift */,
 				B4307C50244EA6910039CD66 /* Data.swift */,
 				7340B2269E5A33E2284F7D561E4DEBE7 /* Dictionary.swift */,
 				EB1582306CC8633998DFBD944639FD5D /* Localizable.swift */,
@@ -314,8 +316,6 @@
 				4525383376C9D0F826CA33A3F0A9DDE6 /* URL.swift */,
 				BC846231B9A977531852DE603AC63568 /* URLRequest.swift */,
 				41F0C60456BF87080BF24C01EA3A3184 /* URLResponse.swift */,
-				B4C79C9A2303F02500890A1B /* CLPlacemark.swift */,
-				B42F5B612304EF0200FAA06B /* Bundle.swift */,
 			);
 			name = General;
 			sourceTree = "<group>";

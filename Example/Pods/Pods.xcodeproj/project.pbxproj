@@ -7,411 +7,427 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		086A00EFB50353E002A2D9E6E6881868 /* NSLayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6515E3BFAA5233AFE81614C6B5400B /* NSLayoutConstraint.swift */; };
-		096D495A9006F4C08B130347DD8DA80D /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7340B2269E5A33E2284F7D561E4DEBE7 /* Dictionary.swift */; };
-		13C99E5D9921D9F10E35E9873B67A2C5 /* PowerUpSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FD1CEF2D40870D0739B38000E92EDF1A /* PowerUpSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		175975339B89D1B08A6BC4D004CAA5DE /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C5372E3D997E28E7A01C3DCD3142AB /* UIViewController.swift */; };
-		206EA3A7E30E8C7344B011CDCE77B797 /* PowerUpTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBEC5CD421BCCA4CD7EC160A0749319 /* PowerUpTextField.swift */; };
-		2860383D0DC0AF7205EECBE5F798F185 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
-		290C949542D19B61B620F00F202D1468 /* Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1582306CC8633998DFBD944639FD5D /* Localizable.swift */; };
-		403087E2BF2BB924E1F00E20ED461DDE /* UITextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BCD4EADFE8EC6197C84ECF84796B24 /* UITextView.swift */; };
-		4CF4AD5D9A087428D1E3A096CE5220AE /* URLResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F0C60456BF87080BF24C01EA3A3184 /* URLResponse.swift */; };
-		4E5DDD1E026449ABF0A66EA311ED528E /* URLRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC846231B9A977531852DE603AC63568 /* URLRequest.swift */; };
-		50C71420D378F1B4F6CC778F6288CD5C /* PowerUpButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C69C842F6E357B5CE6CCC22CF08E5E /* PowerUpButton.swift */; };
-		54B33281EA649E0D2F20D7B9A8892F69 /* Pods-PowerUpSwift_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 93B519C6814B15EEC483D43C44A7BA1C /* Pods-PowerUpSwift_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5A88C81F86742B1A7D7050FA2CFEAA79 /* Pods-PowerUpSwift_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8A4D164B18233517FE34326980A214 /* Pods-PowerUpSwift_Example-dummy.m */; };
-		63E2C38FC4FDC81ABBE66535C52497C6 /* URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4525383376C9D0F826CA33A3F0A9DDE6 /* URL.swift */; };
-		7E6E3B7B3166F24D3C450037AA8346F0 /* PowerUpUnderlineTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7848003B152AB7A6CF5D487188597ADF /* PowerUpUnderlineTextField.swift */; };
-		939D6FBDE6B77C29F909E7B03CFEA4C1 /* PowerUpTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B670CD71B155E7C9B6A6170A0F7E089 /* PowerUpTextView.swift */; };
-		9DD0D266D3C942AFAE9B54EB70D5CBCC /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA50CD1CB97DAA0B74238AD6F0DD6A8B /* UIButton.swift */; };
-		AC5F933ED5E44F57953CA59A5565F03B /* Pods-PowerUpSwift_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BA38A0A0A2010D28344033DF3A57D4 /* Pods-PowerUpSwift_Tests-dummy.m */; };
-		B401A65222EEB1F300A5F0DB /* PowerUpImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B401A65122EEB1F300A5F0DB /* PowerUpImageView.swift */; };
-		B42F5B622304EF0200FAA06B /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42F5B612304EF0200FAA06B /* Bundle.swift */; };
-		B4307C51244EA6910039CD66 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4307C50244EA6910039CD66 /* Data.swift */; };
-		B4307C53244EA6A20039CD66 /* PowerUpLoadingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4307C52244EA6A20039CD66 /* PowerUpLoadingButton.swift */; };
-		B4446F8E24DB838D00F07FE3 /* UINavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4446F8D24DB838D00F07FE3 /* UINavigationController.swift */; };
-		B4446F9024DB856800F07FE3 /* UIRefreshControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4446F8F24DB856800F07FE3 /* UIRefreshControl.swift */; };
-		B4446F9224DB869300F07FE3 /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4446F9124DB869300F07FE3 /* UITableView.swift */; };
-		B47328F82447EE7B0026D9D6 /* PowerUpCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47328F72447EE7B0026D9D6 /* PowerUpCollectionView.swift */; };
-		B48BFE202447F086001FB35A /* UITableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47328F92447EEFE0026D9D6 /* UITableViewCell.swift */; };
-		B48BFE212447F086001FB35A /* UICollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47328FA2447EEFE0026D9D6 /* UICollectionViewCell.swift */; };
-		B4C79C952303AE6600890A1B /* PowerUpVisualEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C79C942303AE6600890A1B /* PowerUpVisualEffectView.swift */; };
-		B4C79C9B2303F02500890A1B /* CLPlacemark.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C79C9A2303F02500890A1B /* CLPlacemark.swift */; };
-		B7227F257B44967A5F5632259EB3683C /* Pods-PowerUpSwift_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E52A4FF7285D98858E51E2A64529DEE /* Pods-PowerUpSwift_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B8AE024D21977E6A00D78935 /* PowerUpBaseTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8AE024A21977E6A00D78935 /* PowerUpBaseTextField.swift */; };
-		B8AE02542197817100D78935 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BA63354F00D18CACC81E306999AD8B /* String.swift */; };
-		B8AE02552197817100D78935 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BA63354F00D18CACC81E306999AD8B /* String.swift */; };
-		C0C0D5C14390486F0881D6D9B86DA97C /* PowerUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491D8D7FDBBD91BF666AE93006AA3E6C /* PowerUpView.swift */; };
-		C2F24B3C10B9FAF786CCE85BAFAE5989 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BA63354F00D18CACC81E306999AD8B /* String.swift */; };
-		D4CEDAAD03E515BEBCE7B01340F4A406 /* PowerUpSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46BF59544D4ABBB93BAC0E7C735C5B94 /* PowerUpSwift-dummy.m */; };
-		DD6748B94E14E1EB5848D73DE6348E99 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
-		E722F1B3FFA4E1FAC99E1530C3EFCBD5 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35708C7843E432E75302F665EF06B2C /* UIView.swift */; };
-		E935FF7255B9413CB496AEDFC986DCCA /* Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC161E54627CE5C16C5590F582E2ECA /* Optional.swift */; };
-		EEA382E1F4746F784C24CFEB5DE22A10 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
-		F67A96601B9424F96EA51EF6BE28DDF7 /* Bool.swift in Sources */ = {isa = PBXBuildFile; fileRef = A345A49F0BD95E2BBEF290888AE77C7B /* Bool.swift */; };
-		FCE66EFF7B77A4F63D0199072B1ABC6C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */; };
-		FEC1382ACB146AFB1D07F2D9CBAFA395 /* PowerUpLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2500D7640CB2018935D87FC747F20AA3 /* PowerUpLabel.swift */; };
-		FEFFD81C730ECDBE96E3BFCCB12C7861 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC0228ACEF296CE331C30224D3C429B /* UIColor.swift */; };
+		00571144709EE2502F031FCF9663480E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9149302A6056DFF0B4F20B5266F5D5C6 /* CoreLocation.framework */; };
+		060C7F6ED6A680AC9986DC973EF6D3F5 /* URLResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F7E6CE9B76C1B0584B75138E7F99F7 /* URLResponse.swift */; };
+		06467006A6233F0CB502691B260F2392 /* URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34B21235B2A90BFC5D739D6B2E9672C /* URL.swift */; };
+		083D8982E33F8B195FD34377248B6C5A /* PowerUpLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEECFA60F4452F1624C6F4C9DE60C44 /* PowerUpLabel.swift */; };
+		09E0F33264B37C891E18FEC63D5715F6 /* Pods-PowerUpSwift_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CCDE8C44D9042D55863B58014A7211E5 /* Pods-PowerUpSwift_Example-dummy.m */; };
+		0C06769B6FDCE3ABCEB572BF5A915CBB /* PowerUpButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C6CBDE9764CD51AFE8C65FFE8D5681 /* PowerUpButton.swift */; };
+		0DB78B4B624515F91A7E242C5C1B1352 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA275EE167C9081D06C92B348570CA8F /* UIView.swift */; };
+		0F2EC4FC3D049898235C038F016CC7DC /* PowerUpBaseTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE31031B50978372BBE44F3EAC766DE /* PowerUpBaseTextField.swift */; };
+		13E8B5B90A065A62342695CA069CBEAC /* PowerUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60277CEAF17947FD323A9FAAA789FB76 /* PowerUpView.swift */; };
+		2408C4466BA7984BC5A9B8B0E34BC802 /* UIRefreshControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF4A00F85438B330F8E8E1892E1DFDF /* UIRefreshControl.swift */; };
+		24695116A8CADE4CAD015043673BE967 /* Pods-PowerUpSwift_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FE3C41C4CAD507076F286002CD51DE2 /* Pods-PowerUpSwift_Tests-dummy.m */; };
+		2621460D9A838886A844DE95FC85BFEB /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D163B7A75CCE8FF94323A5F036327915 /* UITableView.swift */; };
+		2CECE3DB1EDD57ADA8E5C561FF9DC18E /* Pods-PowerUpSwift_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B9BF64EB6613FD8293B19264B13D6C83 /* Pods-PowerUpSwift_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E48D38F3E104A930EBEEB2BCA137912 /* UITableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517E9F6148CC9407B5C0327FF2BE6A40 /* UITableViewCell.swift */; };
+		36EAC397417DD3C6546AB0F3D334F45A /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5966368C93D12BA33FD8F7A421DCA7 /* UIViewController.swift */; };
+		45CCCB574D70596C0D19E1C5CE88FAEC /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B346AD3A6B8D7D541891C65E3DD15C21 /* UIColor.swift */; };
+		4D311DDAD93F1E10D896A4EB8FE7D39C /* Pods-PowerUpSwift_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0681DE9F849EAE743EE76221B67EDF64 /* Pods-PowerUpSwift_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E5EFAF65769B8973F242B7944516C88 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E8970A1EAF0B18349FD191EC62E4AA /* Data.swift */; };
+		5965F971EB3E58C3444B4CB9A7CDDC24 /* Bool.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC92E6C823BA324E38B3FEC7FE64DDB6 /* Bool.swift */; };
+		78D4417302C41356712EBDFA1220B2D6 /* PowerUpTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61E6070C4236B54FA901EF1BF5DF16A /* PowerUpTextView.swift */; };
+		78DD453E83520DE0EE53FF3F9A7B3AA1 /* NSLayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5864AAC3C9C8B6782A982F4BE3615D /* NSLayoutConstraint.swift */; };
+		7C1CCD4B288E86271881A8D994E11447 /* UITextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE929AF7BEB1916D6E0B2A23C3427D5 /* UITextView.swift */; };
+		7C98F2F756816ED90B8A8CA2F9CA59E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CBA33DEEFDF3E85910015F6306D526C /* Foundation.framework */; };
+		843152B2697BA6447999968C0B1A7219 /* PowerUpSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E4104CC989CF3AEB82BA0D677BA11A4 /* PowerUpSwift-dummy.m */; };
+		873C38E8D900A67BDE1FD7804D9C8CAB /* PowerUpCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC93B8CA61692882203BFF96951E2EC0 /* PowerUpCollectionView.swift */; };
+		8856ED20E0B8CAFA21F7E29617587A56 /* UICollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD4444A66E39054D0EDBD23F5776122 /* UICollectionViewCell.swift */; };
+		899570F9019AE84EFAECC5B428C8BB98 /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67FB368B02425D556ECD365AFA9F1F3 /* Dictionary.swift */; };
+		91CC3CD4090A559CC7D8FFADB1EA9CF1 /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616AC344A5A2D72C730FBA3E7BF45BA4 /* Bundle.swift */; };
+		9D6E1DBA22A2FC8260BE0E0C92DB114E /* PowerUpLocalizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBECB3C8424D1316D2A998F0F6D05EA /* PowerUpLocalizable.swift */; };
+		A3F99C6E2C79C2CD1E1BEADCF2BC0E3F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CBA33DEEFDF3E85910015F6306D526C /* Foundation.framework */; };
+		A9892940632DD3227FD0818B18377930 /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F763B60B2A6AD629BF89F576988BFE89 /* UIButton.swift */; };
+		B461649324DBE2B700A0D3B5 /* PowerUpNavigationItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B461649224DBE2B700A0D3B5 /* PowerUpNavigationItem.swift */; };
+		B461649524DBE3B000A0D3B5 /* PowerUpBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B461649424DBE3B000A0D3B5 /* PowerUpBarItem.swift */; };
+		B461649724DBE42D00A0D3B5 /* PowerUpSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = B461649624DBE42D00A0D3B5 /* PowerUpSegmentedControl.swift */; };
+		BC9A63C79F8162885B649F2280EF9D0E /* Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE453C8646D1269CD1562DD8297A1801 /* Optional.swift */; };
+		C4D126B694AC0BE24E6273EEF5E687E1 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC53A16F2EF61A246DB676702A4CEB04 /* String.swift */; };
+		CF01BDE967A629C17EA1B24B7598E117 /* PowerUpImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC599EB0B847843B5FFE38351CDA34C /* PowerUpImageView.swift */; };
+		D2B3EA096EBDB7B25C9F6C06243EA566 /* PowerUpSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 435B6DBD060EA33D53506AC2810105C8 /* PowerUpSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D342FD90A59B47B5A385C293129BECFF /* CLPlacemark.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB7F897461A358118B466F65D6AE482 /* CLPlacemark.swift */; };
+		D6AA8C3CED449224AE196B94781F127D /* UINavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E022DE59C8A1ADF0523DAE7B9BCC68 /* UINavigationController.swift */; };
+		E3188D883AAAC9B4842B7EFB3750CC9F /* URLRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21ADA2DD796B823C3E3E5202804B8CAE /* URLRequest.swift */; };
+		E928831315A4DC9BFE8638756FDAD5FE /* PowerUpTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6FA7DFF5E9A369DB7D5ACA277F7834 /* PowerUpTextField.swift */; };
+		EF3BAFC8DB3EB79687AFE4268D2C26E6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A985EBE2404D4302DE8384CA5EB08108 /* UIKit.framework */; };
+		F348B7FB93EE32DE232899572438BF18 /* PowerUpLoadingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700985C2750F11549C0A0DA643FEF4B5 /* PowerUpLoadingButton.swift */; };
+		FAEEB354DE117CCB04B2E676CAF7C060 /* PowerUpVisualEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447EDF85C55B5601592F24661B6DC861 /* PowerUpVisualEffectView.swift */; };
+		FCE8C01594A14D994C8E53190E141DB1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CBA33DEEFDF3E85910015F6306D526C /* Foundation.framework */; };
+		FCE9CB89D174250266E69E135034AD47 /* PowerUpUnderlineTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCE1FC5D21229E572D5F60D9062C327 /* PowerUpUnderlineTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		98EA5A7B3718174464935FC135A61E2F /* PBXContainerItemProxy */ = {
+		A750877292E25BAF33D69CCE262DA169 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0F2340176A6ABB287A01A86CF37FB052;
+			remoteGlobalIDString = 61C391C2980A514D118A7B823AB3EE88;
 			remoteInfo = "Pods-PowerUpSwift_Example";
 		};
-		F46461A09EF542FEC002450A3C3D6771 /* PBXContainerItemProxy */ = {
+		D65519CC43B272352DE725C0C5A964FE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 698B993A614F28F94980823A5D0AE9DA;
+			remoteGlobalIDString = 4EC3E4D9FFF7B0343798450C71212B1B;
 			remoteInfo = PowerUpSwift;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00EA94E21763BF754A0D7CFB5A75C604 /* Pods-PowerUpSwift_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PowerUpSwift_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		081CAF6ABE89FEECC296CCD2A65A92FD /* Pods-PowerUpSwift_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PowerUpSwift_Tests-Info.plist"; sourceTree = "<group>"; };
-		0B670CD71B155E7C9B6A6170A0F7E089 /* PowerUpTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PowerUpTextView.swift; path = PowerUpSwift/Classes/PowerUpTextView.swift; sourceTree = "<group>"; };
-		2500D7640CB2018935D87FC747F20AA3 /* PowerUpLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PowerUpLabel.swift; path = PowerUpSwift/Classes/PowerUpLabel.swift; sourceTree = "<group>"; };
-		28BA38A0A0A2010D28344033DF3A57D4 /* Pods-PowerUpSwift_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PowerUpSwift_Tests-dummy.m"; sourceTree = "<group>"; };
-		28DE17A382DB94513930C3C48CF97D51 /* Pods-PowerUpSwift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PowerUpSwift_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		2DBEC5CD421BCCA4CD7EC160A0749319 /* PowerUpTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PowerUpTextField.swift; path = PowerUpSwift/Classes/PowerUpTextField.swift; sourceTree = "<group>"; };
-		3B6515E3BFAA5233AFE81614C6B5400B /* NSLayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSLayoutConstraint.swift; path = PowerUpSwift/Classes/NSLayoutConstraint.swift; sourceTree = "<group>"; };
-		41F0C60456BF87080BF24C01EA3A3184 /* URLResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLResponse.swift; path = PowerUpSwift/Classes/URLResponse.swift; sourceTree = "<group>"; };
-		4525383376C9D0F826CA33A3F0A9DDE6 /* URL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URL.swift; path = PowerUpSwift/Classes/URL.swift; sourceTree = "<group>"; };
-		45CE1CB2A5FBB70E8EF54DB992FEBB26 /* PowerUpSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PowerUpSwift-prefix.pch"; sourceTree = "<group>"; };
-		46BF59544D4ABBB93BAC0E7C735C5B94 /* PowerUpSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PowerUpSwift-dummy.m"; sourceTree = "<group>"; };
-		491D8D7FDBBD91BF666AE93006AA3E6C /* PowerUpView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PowerUpView.swift; path = PowerUpSwift/Classes/PowerUpView.swift; sourceTree = "<group>"; };
-		4EC0228ACEF296CE331C30224D3C429B /* UIColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIColor.swift; path = PowerUpSwift/Classes/UIColor.swift; sourceTree = "<group>"; };
-		6680128AAEB10868A15A15984DF42166 /* Pods-PowerUpSwift_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PowerUpSwift_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		678AE41C079ACD1A9C8477B7D98894AA /* Pods-PowerUpSwift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PowerUpSwift_Example.release.xcconfig"; sourceTree = "<group>"; };
-		6E52A4FF7285D98858E51E2A64529DEE /* Pods-PowerUpSwift_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PowerUpSwift_Tests-umbrella.h"; sourceTree = "<group>"; };
-		71BA63354F00D18CACC81E306999AD8B /* String.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = String.swift; path = PowerUpSwift/Classes/String.swift; sourceTree = "<group>"; };
-		7311B0278D0A2BD2641E8486C09D0FF4 /* PowerUpSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PowerUpSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7340B2269E5A33E2284F7D561E4DEBE7 /* Dictionary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Dictionary.swift; path = PowerUpSwift/Classes/Dictionary.swift; sourceTree = "<group>"; };
-		759B60C9CA7D87BB05EA074820B3F737 /* PowerUpSwift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = PowerUpSwift.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		7848003B152AB7A6CF5D487188597ADF /* PowerUpUnderlineTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PowerUpUnderlineTextField.swift; path = PowerUpSwift/Classes/PowerUpUnderlineTextField.swift; sourceTree = "<group>"; };
-		7BC161E54627CE5C16C5590F582E2ECA /* Optional.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Optional.swift; path = PowerUpSwift/Classes/Optional.swift; sourceTree = "<group>"; };
-		870D1CC89AB18A5DBE95FDDBCB79E355 /* Pods-PowerUpSwift_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PowerUpSwift_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		87602EE737CD247621C8A983CFA4E2AD /* Pods-PowerUpSwift_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PowerUpSwift_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		908E902E026C5C22904CF9014A5604AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		93B519C6814B15EEC483D43C44A7BA1C /* Pods-PowerUpSwift_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PowerUpSwift_Example-umbrella.h"; sourceTree = "<group>"; };
-		998385D4C720CC9EDE1C892C42B9E4CA /* PowerUpSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PowerUpSwift.xcconfig; sourceTree = "<group>"; };
-		A345A49F0BD95E2BBEF290888AE77C7B /* Bool.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Bool.swift; path = PowerUpSwift/Classes/Bool.swift; sourceTree = "<group>"; };
-		A3B96712239130084070090C6A02D342 /* Pods_PowerUpSwift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PowerUpSwift_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AA50CD1CB97DAA0B74238AD6F0DD6A8B /* UIButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIButton.swift; path = PowerUpSwift/Classes/UIButton.swift; sourceTree = "<group>"; };
-		B401A65122EEB1F300A5F0DB /* PowerUpImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PowerUpImageView.swift; path = PowerUpSwift/Classes/PowerUpImageView.swift; sourceTree = "<group>"; };
-		B42F5B612304EF0200FAA06B /* Bundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Bundle.swift; path = PowerUpSwift/Classes/Bundle.swift; sourceTree = "<group>"; };
-		B4307C50244EA6910039CD66 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Data.swift; path = PowerUpSwift/Classes/Data.swift; sourceTree = "<group>"; };
-		B4307C52244EA6A20039CD66 /* PowerUpLoadingButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PowerUpLoadingButton.swift; path = PowerUpSwift/Classes/PowerUpLoadingButton.swift; sourceTree = "<group>"; };
-		B4446F8D24DB838D00F07FE3 /* UINavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UINavigationController.swift; path = PowerUpSwift/Classes/UINavigationController.swift; sourceTree = "<group>"; };
-		B4446F8F24DB856800F07FE3 /* UIRefreshControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UIRefreshControl.swift; path = PowerUpSwift/Classes/UIRefreshControl.swift; sourceTree = "<group>"; };
-		B4446F9124DB869300F07FE3 /* UITableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UITableView.swift; path = PowerUpSwift/Classes/UITableView.swift; sourceTree = "<group>"; };
-		B47328F72447EE7B0026D9D6 /* PowerUpCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PowerUpCollectionView.swift; path = PowerUpSwift/Classes/PowerUpCollectionView.swift; sourceTree = "<group>"; };
-		B47328F92447EEFE0026D9D6 /* UITableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UITableViewCell.swift; path = PowerUpSwift/Classes/UITableViewCell.swift; sourceTree = "<group>"; };
-		B47328FA2447EEFE0026D9D6 /* UICollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UICollectionViewCell.swift; path = PowerUpSwift/Classes/UICollectionViewCell.swift; sourceTree = "<group>"; };
-		B4C79C942303AE6600890A1B /* PowerUpVisualEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PowerUpVisualEffectView.swift; path = PowerUpSwift/Classes/PowerUpVisualEffectView.swift; sourceTree = "<group>"; };
-		B4C79C9A2303F02500890A1B /* CLPlacemark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CLPlacemark.swift; path = PowerUpSwift/Classes/CLPlacemark.swift; sourceTree = "<group>"; };
-		B8AE024A21977E6A00D78935 /* PowerUpBaseTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PowerUpBaseTextField.swift; path = PowerUpSwift/Classes/PowerUpBaseTextField.swift; sourceTree = "<group>"; };
-		B9C69C842F6E357B5CE6CCC22CF08E5E /* PowerUpButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PowerUpButton.swift; path = PowerUpSwift/Classes/PowerUpButton.swift; sourceTree = "<group>"; };
-		BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		BC846231B9A977531852DE603AC63568 /* URLRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLRequest.swift; path = PowerUpSwift/Classes/URLRequest.swift; sourceTree = "<group>"; };
-		C0BCD4EADFE8EC6197C84ECF84796B24 /* UITextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UITextView.swift; path = PowerUpSwift/Classes/UITextView.swift; sourceTree = "<group>"; };
-		C2674320BDA8FBED1AD0147739A1FB3F /* PowerUpSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PowerUpSwift-Info.plist"; sourceTree = "<group>"; };
-		C8C5372E3D997E28E7A01C3DCD3142AB /* UIViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIViewController.swift; path = PowerUpSwift/Classes/UIViewController.swift; sourceTree = "<group>"; };
-		CA0852E434FECE51E660990FDF20DD40 /* Pods-PowerUpSwift_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PowerUpSwift_Example-Info.plist"; sourceTree = "<group>"; };
-		CEC34742FC69C2F8C47CCF98FDC40DE3 /* Pods_PowerUpSwift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PowerUpSwift_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D58814B103753B961B6B8B8F8AD89434 /* Pods-PowerUpSwift_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PowerUpSwift_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D6734012F0446A500AE191075B323813 /* PowerUpSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PowerUpSwift.modulemap; sourceTree = "<group>"; };
-		D9A73DB95769346952336D4B650BA5D1 /* Pods-PowerUpSwift_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PowerUpSwift_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		DA6B8BA4F6B72CE5F8510F76607AE33F /* Pods-PowerUpSwift_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PowerUpSwift_Example.modulemap"; sourceTree = "<group>"; };
-		DB8A4D164B18233517FE34326980A214 /* Pods-PowerUpSwift_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PowerUpSwift_Example-dummy.m"; sourceTree = "<group>"; };
-		E35708C7843E432E75302F665EF06B2C /* UIView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIView.swift; path = PowerUpSwift/Classes/UIView.swift; sourceTree = "<group>"; };
-		E8B1C2C36AFC00E34D7F25C6799E137D /* Pods-PowerUpSwift_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PowerUpSwift_Tests.modulemap"; sourceTree = "<group>"; };
-		EB1582306CC8633998DFBD944639FD5D /* Localizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Localizable.swift; path = PowerUpSwift/Classes/Localizable.swift; sourceTree = "<group>"; };
-		EDA8130EFA7E287F3A2FD6E921AFC64B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		F4FEEBA2011B0D0F1F6AEB95BE7D8B3B /* Pods-PowerUpSwift_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PowerUpSwift_Example-frameworks.sh"; sourceTree = "<group>"; };
-		FD1CEF2D40870D0739B38000E92EDF1A /* PowerUpSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PowerUpSwift-umbrella.h"; sourceTree = "<group>"; };
-		FF97463A632E174DE151635FCED832F8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		0107DF5A200DC4866E4D468F446D7C10 /* Pods-PowerUpSwift_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PowerUpSwift_Tests.modulemap"; sourceTree = "<group>"; };
+		0681DE9F849EAE743EE76221B67EDF64 /* Pods-PowerUpSwift_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PowerUpSwift_Tests-umbrella.h"; sourceTree = "<group>"; };
+		10F7E6CE9B76C1B0584B75138E7F99F7 /* URLResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = URLResponse.swift; sourceTree = "<group>"; };
+		157640C1D8FEEDBF66885A8DB33F2482 /* PowerUpSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PowerUpSwift-prefix.pch"; sourceTree = "<group>"; };
+		1CBA33DEEFDF3E85910015F6306D526C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		1FE3C41C4CAD507076F286002CD51DE2 /* Pods-PowerUpSwift_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PowerUpSwift_Tests-dummy.m"; sourceTree = "<group>"; };
+		21ADA2DD796B823C3E3E5202804B8CAE /* URLRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = URLRequest.swift; sourceTree = "<group>"; };
+		26C3D00AC9F9078DC3907AF0BB824C6A /* Pods-PowerUpSwift_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PowerUpSwift_Example-Info.plist"; sourceTree = "<group>"; };
+		334D31D16AAC2F9D784A3D2CB87D00C9 /* PowerUpSwift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = PowerUpSwift.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3E6C19975D02EE98435D26DC70248DA3 /* PowerUpSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PowerUpSwift.modulemap; sourceTree = "<group>"; };
+		3EF4A00F85438B330F8E8E1892E1DFDF /* UIRefreshControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIRefreshControl.swift; sourceTree = "<group>"; };
+		435B6DBD060EA33D53506AC2810105C8 /* PowerUpSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PowerUpSwift-umbrella.h"; sourceTree = "<group>"; };
+		447EDF85C55B5601592F24661B6DC861 /* PowerUpVisualEffectView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PowerUpVisualEffectView.swift; sourceTree = "<group>"; };
+		498F4EB1D32970DD7A1F7D0D6FB1AAF3 /* PowerUpSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PowerUpSwift.debug.xcconfig; sourceTree = "<group>"; };
+		4DEECFA60F4452F1624C6F4C9DE60C44 /* PowerUpLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PowerUpLabel.swift; sourceTree = "<group>"; };
+		4E5966368C93D12BA33FD8F7A421DCA7 /* UIViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		517E9F6148CC9407B5C0327FF2BE6A40 /* UITableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UITableViewCell.swift; sourceTree = "<group>"; };
+		5BC784F466A7404AC1262AA950620E89 /* Pods-PowerUpSwift_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PowerUpSwift_Example.modulemap"; sourceTree = "<group>"; };
+		5DBECB3C8424D1316D2A998F0F6D05EA /* PowerUpLocalizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PowerUpLocalizable.swift; sourceTree = "<group>"; };
+		5E4104CC989CF3AEB82BA0D677BA11A4 /* PowerUpSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PowerUpSwift-dummy.m"; sourceTree = "<group>"; };
+		60277CEAF17947FD323A9FAAA789FB76 /* PowerUpView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PowerUpView.swift; sourceTree = "<group>"; };
+		616AC344A5A2D72C730FBA3E7BF45BA4 /* Bundle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Bundle.swift; sourceTree = "<group>"; };
+		68E8970A1EAF0B18349FD191EC62E4AA /* Data.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		6AC599EB0B847843B5FFE38351CDA34C /* PowerUpImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PowerUpImageView.swift; sourceTree = "<group>"; };
+		6BD4444A66E39054D0EDBD23F5776122 /* UICollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UICollectionViewCell.swift; sourceTree = "<group>"; };
+		6BE3FAA05D7D9768D259686E46C9259E /* PowerUpSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PowerUpSwift.release.xcconfig; sourceTree = "<group>"; };
+		700985C2750F11549C0A0DA643FEF4B5 /* PowerUpLoadingButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PowerUpLoadingButton.swift; sourceTree = "<group>"; };
+		70E022DE59C8A1ADF0523DAE7B9BCC68 /* UINavigationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UINavigationController.swift; sourceTree = "<group>"; };
+		71C6CBDE9764CD51AFE8C65FFE8D5681 /* PowerUpButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PowerUpButton.swift; sourceTree = "<group>"; };
+		77E9DA60BACF1F6D03BB4429381E798B /* PowerUpSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PowerUpSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AE31031B50978372BBE44F3EAC766DE /* PowerUpBaseTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PowerUpBaseTextField.swift; sourceTree = "<group>"; };
+		7C6AAE59C5CE02944E974C3EAFBCB4F0 /* PowerUpSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PowerUpSwift-Info.plist"; sourceTree = "<group>"; };
+		8E5864AAC3C9C8B6782A982F4BE3615D /* NSLayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NSLayoutConstraint.swift; sourceTree = "<group>"; };
+		8E6FA7DFF5E9A369DB7D5ACA277F7834 /* PowerUpTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PowerUpTextField.swift; sourceTree = "<group>"; };
+		8F09319C86518EDA963FB12997F9CED7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		9149302A6056DFF0B4F20B5266F5D5C6 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
+		952247624019F059B371D1081E7D2B2E /* Pods-PowerUpSwift_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PowerUpSwift_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		967A7B7220C73DF61D82EA8226BE6104 /* Pods-PowerUpSwift_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PowerUpSwift_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A14027B536C2A592F4676D5443BA8A42 /* Pods-PowerUpSwift_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PowerUpSwift_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		A985EBE2404D4302DE8384CA5EB08108 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		ACA6C0AC04222224D39E4C2C210232F4 /* Pods_PowerUpSwift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PowerUpSwift_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEB63E7388F5332566475F44CEF96CEF /* Pods-PowerUpSwift_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PowerUpSwift_Tests-Info.plist"; sourceTree = "<group>"; };
+		B346AD3A6B8D7D541891C65E3DD15C21 /* UIColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		B34B21235B2A90BFC5D739D6B2E9672C /* URL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = URL.swift; sourceTree = "<group>"; };
+		B461649224DBE2B700A0D3B5 /* PowerUpNavigationItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerUpNavigationItem.swift; sourceTree = "<group>"; };
+		B461649424DBE3B000A0D3B5 /* PowerUpBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerUpBarItem.swift; sourceTree = "<group>"; };
+		B461649624DBE42D00A0D3B5 /* PowerUpSegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerUpSegmentedControl.swift; sourceTree = "<group>"; };
+		B9BF64EB6613FD8293B19264B13D6C83 /* Pods-PowerUpSwift_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PowerUpSwift_Example-umbrella.h"; sourceTree = "<group>"; };
+		BA275EE167C9081D06C92B348570CA8F /* UIView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		BAE929AF7BEB1916D6E0B2A23C3427D5 /* UITextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UITextView.swift; sourceTree = "<group>"; };
+		C61E6070C4236B54FA901EF1BF5DF16A /* PowerUpTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PowerUpTextView.swift; sourceTree = "<group>"; };
+		C9DA7C402F1DC3342B7B1D992DBC8563 /* Pods-PowerUpSwift_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PowerUpSwift_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		CB1975268A8087A5C628C3E67A931C32 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		CCB7F897461A358118B466F65D6AE482 /* CLPlacemark.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CLPlacemark.swift; sourceTree = "<group>"; };
+		CCDE8C44D9042D55863B58014A7211E5 /* Pods-PowerUpSwift_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PowerUpSwift_Example-dummy.m"; sourceTree = "<group>"; };
+		CF143DC023C9A02071C50ACB90E9E149 /* Pods-PowerUpSwift_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PowerUpSwift_Example-frameworks.sh"; sourceTree = "<group>"; };
+		D163B7A75CCE8FF94323A5F036327915 /* UITableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UITableView.swift; sourceTree = "<group>"; };
+		D67FB368B02425D556ECD365AFA9F1F3 /* Dictionary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Dictionary.swift; sourceTree = "<group>"; };
+		DC53A16F2EF61A246DB676702A4CEB04 /* String.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		DE453C8646D1269CD1562DD8297A1801 /* Optional.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Optional.swift; sourceTree = "<group>"; };
+		EC93B8CA61692882203BFF96951E2EC0 /* PowerUpCollectionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PowerUpCollectionView.swift; sourceTree = "<group>"; };
+		ECCE1FC5D21229E572D5F60D9062C327 /* PowerUpUnderlineTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PowerUpUnderlineTextField.swift; sourceTree = "<group>"; };
+		EEEEEC872DFAE9B6C5F06412C788010B /* Pods-PowerUpSwift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PowerUpSwift_Example.release.xcconfig"; sourceTree = "<group>"; };
+		F118DA6BB1574E347660212D1971D5B3 /* Pods-PowerUpSwift_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PowerUpSwift_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F159B8AACCE8C270434AD47C34BF6A68 /* Pods-PowerUpSwift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PowerUpSwift_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		F763B60B2A6AD629BF89F576988BFE89 /* UIButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
+		FA5EA5C1B7F585702695D3E5567F9D07 /* Pods-PowerUpSwift_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PowerUpSwift_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FC92E6C823BA324E38B3FEC7FE64DDB6 /* Bool.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Bool.swift; sourceTree = "<group>"; };
+		FD1EBA8B7B4724D82E94F884BCCAB0CA /* Pods_PowerUpSwift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PowerUpSwift_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		565C376ECA3D605AA4DA5AB20C0F6E14 /* Frameworks */ = {
+		0A44F309460D81E9FB5A83ABC9B13E3E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD6748B94E14E1EB5848D73DE6348E99 /* Foundation.framework in Frameworks */,
-				FCE66EFF7B77A4F63D0199072B1ABC6C /* UIKit.framework in Frameworks */,
+				00571144709EE2502F031FCF9663480E /* CoreLocation.framework in Frameworks */,
+				A3F99C6E2C79C2CD1E1BEADCF2BC0E3F /* Foundation.framework in Frameworks */,
+				EF3BAFC8DB3EB79687AFE4268D2C26E6 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C6C6F6A5A8F86A6734D449D5ED23EDE1 /* Frameworks */ = {
+		1FD56CF80A7B03D8FC06062E795C5D85 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2860383D0DC0AF7205EECBE5F798F185 /* Foundation.framework in Frameworks */,
+				FCE8C01594A14D994C8E53190E141DB1 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D505E73EB453DE585A534C1C30721C37 /* Frameworks */ = {
+		346FFC5B901AAAAD4A25CBBFF690CD9B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EEA382E1F4746F784C24CFEB5DE22A10 /* Foundation.framework in Frameworks */,
+				7C98F2F756816ED90B8A8CA2F9CA59E4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0791627EC328039217D3293A75B70F22 /* Pod */ = {
+		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				FF97463A632E174DE151635FCED832F8 /* LICENSE */,
-				759B60C9CA7D87BB05EA074820B3F737 /* PowerUpSwift.podspec */,
-				EDA8130EFA7E287F3A2FD6E921AFC64B /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		10DEDCB394BAA0C7FEDEBE330207B074 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				908E902E026C5C22904CF9014A5604AD /* Foundation.framework */,
-				BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		2026048E55BC8B2AC7064F5E301D5E56 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				501820DED8BF4269F6AC7EA1E10DC67C /* PowerUpSwift */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		21C485558A166E9D1839640D9E4462A4 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				CF535A42C244CB793C8C530E097C0E74 /* Pods-PowerUpSwift_Example */,
-				355AEA403E3F846639300E3443CB2F8B /* Pods-PowerUpSwift_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		355AEA403E3F846639300E3443CB2F8B /* Pods-PowerUpSwift_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				E8B1C2C36AFC00E34D7F25C6799E137D /* Pods-PowerUpSwift_Tests.modulemap */,
-				870D1CC89AB18A5DBE95FDDBCB79E355 /* Pods-PowerUpSwift_Tests-acknowledgements.markdown */,
-				87602EE737CD247621C8A983CFA4E2AD /* Pods-PowerUpSwift_Tests-acknowledgements.plist */,
-				28BA38A0A0A2010D28344033DF3A57D4 /* Pods-PowerUpSwift_Tests-dummy.m */,
-				081CAF6ABE89FEECC296CCD2A65A92FD /* Pods-PowerUpSwift_Tests-Info.plist */,
-				6E52A4FF7285D98858E51E2A64529DEE /* Pods-PowerUpSwift_Tests-umbrella.h */,
-				6680128AAEB10868A15A15984DF42166 /* Pods-PowerUpSwift_Tests.debug.xcconfig */,
-				D9A73DB95769346952336D4B650BA5D1 /* Pods-PowerUpSwift_Tests.release.xcconfig */,
-			);
-			name = "Pods-PowerUpSwift_Tests";
-			path = "Target Support Files/Pods-PowerUpSwift_Tests";
-			sourceTree = "<group>";
-		};
-		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				10DEDCB394BAA0C7FEDEBE330207B074 /* iOS */,
+				56901D4EED637120246CD9A641C6EE5F /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		501820DED8BF4269F6AC7EA1E10DC67C /* PowerUpSwift */ = {
+		5367E01A1AB3933AE700775141BDFA8F /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				0791627EC328039217D3293A75B70F22 /* Pod */,
-				B8AE024921977B1F00D78935 /* Extensions */,
-				B8AE02462197786C00D78935 /* Subclasses */,
-				69719C6CD88935B0DB30744F154AE103 /* Support Files */,
+				5E95596991999288E0C22539838F2362 /* Pods-PowerUpSwift_Example */,
+				6F07CAA7AAECA97830F43C1C1B2356B7 /* Pods-PowerUpSwift_Tests */,
 			);
-			name = PowerUpSwift;
-			path = ../..;
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		5F478793E290AAE9EA972F0D729E411D /* Products */ = {
+		56901D4EED637120246CD9A641C6EE5F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				A3B96712239130084070090C6A02D342 /* Pods_PowerUpSwift_Example.framework */,
-				CEC34742FC69C2F8C47CCF98FDC40DE3 /* Pods_PowerUpSwift_Tests.framework */,
-				7311B0278D0A2BD2641E8486C09D0FF4 /* PowerUpSwift.framework */,
+				9149302A6056DFF0B4F20B5266F5D5C6 /* CoreLocation.framework */,
+				1CBA33DEEFDF3E85910015F6306D526C /* Foundation.framework */,
+				A985EBE2404D4302DE8384CA5EB08108 /* UIKit.framework */,
 			);
-			name = Products;
+			name = iOS;
 			sourceTree = "<group>";
 		};
-		69719C6CD88935B0DB30744F154AE103 /* Support Files */ = {
+		5E95596991999288E0C22539838F2362 /* Pods-PowerUpSwift_Example */ = {
 			isa = PBXGroup;
 			children = (
-				D6734012F0446A500AE191075B323813 /* PowerUpSwift.modulemap */,
-				998385D4C720CC9EDE1C892C42B9E4CA /* PowerUpSwift.xcconfig */,
-				46BF59544D4ABBB93BAC0E7C735C5B94 /* PowerUpSwift-dummy.m */,
-				C2674320BDA8FBED1AD0147739A1FB3F /* PowerUpSwift-Info.plist */,
-				45CE1CB2A5FBB70E8EF54DB992FEBB26 /* PowerUpSwift-prefix.pch */,
-				FD1CEF2D40870D0739B38000E92EDF1A /* PowerUpSwift-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/PowerUpSwift";
-			sourceTree = "<group>";
-		};
-		7DB346D0F39D3F0E887471402A8071AB = {
-			isa = PBXGroup;
-			children = (
-				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				2026048E55BC8B2AC7064F5E301D5E56 /* Development Pods */,
-				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				5F478793E290AAE9EA972F0D729E411D /* Products */,
-				21C485558A166E9D1839640D9E4462A4 /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		B8AE02452197786200D78935 /* UIKit */ = {
-			isa = PBXGroup;
-			children = (
-				AA50CD1CB97DAA0B74238AD6F0DD6A8B /* UIButton.swift */,
-				B47328FA2447EEFE0026D9D6 /* UICollectionViewCell.swift */,
-				4EC0228ACEF296CE331C30224D3C429B /* UIColor.swift */,
-				B4446F8D24DB838D00F07FE3 /* UINavigationController.swift */,
-				B4446F8F24DB856800F07FE3 /* UIRefreshControl.swift */,
-				B47328F92447EEFE0026D9D6 /* UITableViewCell.swift */,
-				B4446F9124DB869300F07FE3 /* UITableView.swift */,
-				C0BCD4EADFE8EC6197C84ECF84796B24 /* UITextView.swift */,
-				E35708C7843E432E75302F665EF06B2C /* UIView.swift */,
-				C8C5372E3D997E28E7A01C3DCD3142AB /* UIViewController.swift */,
-			);
-			name = UIKit;
-			sourceTree = "<group>";
-		};
-		B8AE02462197786C00D78935 /* Subclasses */ = {
-			isa = PBXGroup;
-			children = (
-				B47328F72447EE7B0026D9D6 /* PowerUpCollectionView.swift */,
-				B8AE024A21977E6A00D78935 /* PowerUpBaseTextField.swift */,
-				B9C69C842F6E357B5CE6CCC22CF08E5E /* PowerUpButton.swift */,
-				B4307C52244EA6A20039CD66 /* PowerUpLoadingButton.swift */,
-				2500D7640CB2018935D87FC747F20AA3 /* PowerUpLabel.swift */,
-				2DBEC5CD421BCCA4CD7EC160A0749319 /* PowerUpTextField.swift */,
-				0B670CD71B155E7C9B6A6170A0F7E089 /* PowerUpTextView.swift */,
-				7848003B152AB7A6CF5D487188597ADF /* PowerUpUnderlineTextField.swift */,
-				491D8D7FDBBD91BF666AE93006AA3E6C /* PowerUpView.swift */,
-				B401A65122EEB1F300A5F0DB /* PowerUpImageView.swift */,
-				B4C79C942303AE6600890A1B /* PowerUpVisualEffectView.swift */,
-			);
-			name = Subclasses;
-			sourceTree = "<group>";
-		};
-		B8AE0248219778E800D78935 /* General */ = {
-			isa = PBXGroup;
-			children = (
-				A345A49F0BD95E2BBEF290888AE77C7B /* Bool.swift */,
-				B42F5B612304EF0200FAA06B /* Bundle.swift */,
-				B4C79C9A2303F02500890A1B /* CLPlacemark.swift */,
-				B4307C50244EA6910039CD66 /* Data.swift */,
-				7340B2269E5A33E2284F7D561E4DEBE7 /* Dictionary.swift */,
-				EB1582306CC8633998DFBD944639FD5D /* Localizable.swift */,
-				3B6515E3BFAA5233AFE81614C6B5400B /* NSLayoutConstraint.swift */,
-				7BC161E54627CE5C16C5590F582E2ECA /* Optional.swift */,
-				71BA63354F00D18CACC81E306999AD8B /* String.swift */,
-				4525383376C9D0F826CA33A3F0A9DDE6 /* URL.swift */,
-				BC846231B9A977531852DE603AC63568 /* URLRequest.swift */,
-				41F0C60456BF87080BF24C01EA3A3184 /* URLResponse.swift */,
-			);
-			name = General;
-			sourceTree = "<group>";
-		};
-		B8AE024921977B1F00D78935 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				B8AE0248219778E800D78935 /* General */,
-				B8AE02452197786200D78935 /* UIKit */,
-			);
-			name = Extensions;
-			sourceTree = "<group>";
-		};
-		CF535A42C244CB793C8C530E097C0E74 /* Pods-PowerUpSwift_Example */ = {
-			isa = PBXGroup;
-			children = (
-				DA6B8BA4F6B72CE5F8510F76607AE33F /* Pods-PowerUpSwift_Example.modulemap */,
-				D58814B103753B961B6B8B8F8AD89434 /* Pods-PowerUpSwift_Example-acknowledgements.markdown */,
-				00EA94E21763BF754A0D7CFB5A75C604 /* Pods-PowerUpSwift_Example-acknowledgements.plist */,
-				DB8A4D164B18233517FE34326980A214 /* Pods-PowerUpSwift_Example-dummy.m */,
-				F4FEEBA2011B0D0F1F6AEB95BE7D8B3B /* Pods-PowerUpSwift_Example-frameworks.sh */,
-				CA0852E434FECE51E660990FDF20DD40 /* Pods-PowerUpSwift_Example-Info.plist */,
-				93B519C6814B15EEC483D43C44A7BA1C /* Pods-PowerUpSwift_Example-umbrella.h */,
-				28DE17A382DB94513930C3C48CF97D51 /* Pods-PowerUpSwift_Example.debug.xcconfig */,
-				678AE41C079ACD1A9C8477B7D98894AA /* Pods-PowerUpSwift_Example.release.xcconfig */,
+				5BC784F466A7404AC1262AA950620E89 /* Pods-PowerUpSwift_Example.modulemap */,
+				FA5EA5C1B7F585702695D3E5567F9D07 /* Pods-PowerUpSwift_Example-acknowledgements.markdown */,
+				C9DA7C402F1DC3342B7B1D992DBC8563 /* Pods-PowerUpSwift_Example-acknowledgements.plist */,
+				CCDE8C44D9042D55863B58014A7211E5 /* Pods-PowerUpSwift_Example-dummy.m */,
+				CF143DC023C9A02071C50ACB90E9E149 /* Pods-PowerUpSwift_Example-frameworks.sh */,
+				26C3D00AC9F9078DC3907AF0BB824C6A /* Pods-PowerUpSwift_Example-Info.plist */,
+				B9BF64EB6613FD8293B19264B13D6C83 /* Pods-PowerUpSwift_Example-umbrella.h */,
+				F159B8AACCE8C270434AD47C34BF6A68 /* Pods-PowerUpSwift_Example.debug.xcconfig */,
+				EEEEEC872DFAE9B6C5F06412C788010B /* Pods-PowerUpSwift_Example.release.xcconfig */,
 			);
 			name = "Pods-PowerUpSwift_Example";
 			path = "Target Support Files/Pods-PowerUpSwift_Example";
 			sourceTree = "<group>";
 		};
+		6F07CAA7AAECA97830F43C1C1B2356B7 /* Pods-PowerUpSwift_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0107DF5A200DC4866E4D468F446D7C10 /* Pods-PowerUpSwift_Tests.modulemap */,
+				967A7B7220C73DF61D82EA8226BE6104 /* Pods-PowerUpSwift_Tests-acknowledgements.markdown */,
+				952247624019F059B371D1081E7D2B2E /* Pods-PowerUpSwift_Tests-acknowledgements.plist */,
+				1FE3C41C4CAD507076F286002CD51DE2 /* Pods-PowerUpSwift_Tests-dummy.m */,
+				AEB63E7388F5332566475F44CEF96CEF /* Pods-PowerUpSwift_Tests-Info.plist */,
+				0681DE9F849EAE743EE76221B67EDF64 /* Pods-PowerUpSwift_Tests-umbrella.h */,
+				A14027B536C2A592F4676D5443BA8A42 /* Pods-PowerUpSwift_Tests.debug.xcconfig */,
+				F118DA6BB1574E347660212D1971D5B3 /* Pods-PowerUpSwift_Tests.release.xcconfig */,
+			);
+			name = "Pods-PowerUpSwift_Tests";
+			path = "Target Support Files/Pods-PowerUpSwift_Tests";
+			sourceTree = "<group>";
+		};
+		828F1B081C545B44435562C66D59D04C /* PowerUpSwift */ = {
+			isa = PBXGroup;
+			children = (
+				B461648F24DBDCD700A0D3B5 /* PowerUp */,
+				B461648E24DBDCA800A0D3B5 /* CoreLocation */,
+				B461648D24DBDCA800A0D3B5 /* Foundation */,
+				B461648C24DBDCA700A0D3B5 /* UIKit */,
+				A87DB1352734E78D0ACD4CD57072BD24 /* Pod */,
+				D4E2828BC4809EC7A0724DF248D5F4C0 /* Support Files */,
+			);
+			name = PowerUpSwift;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		9661C6213950441786CAB233DE5E7DD8 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				828F1B081C545B44435562C66D59D04C /* PowerUpSwift */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		A87DB1352734E78D0ACD4CD57072BD24 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				8F09319C86518EDA963FB12997F9CED7 /* LICENSE */,
+				334D31D16AAC2F9D784A3D2CB87D00C9 /* PowerUpSwift.podspec */,
+				CB1975268A8087A5C628C3E67A931C32 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		AD083A9BC5E50D208864B6364CB2582C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACA6C0AC04222224D39E4C2C210232F4 /* Pods_PowerUpSwift_Example.framework */,
+				FD1EBA8B7B4724D82E94F884BCCAB0CA /* Pods_PowerUpSwift_Tests.framework */,
+				77E9DA60BACF1F6D03BB4429381E798B /* PowerUpSwift.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B461648C24DBDCA700A0D3B5 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				8E5864AAC3C9C8B6782A982F4BE3615D /* NSLayoutConstraint.swift */,
+				F763B60B2A6AD629BF89F576988BFE89 /* UIButton.swift */,
+				6BD4444A66E39054D0EDBD23F5776122 /* UICollectionViewCell.swift */,
+				B346AD3A6B8D7D541891C65E3DD15C21 /* UIColor.swift */,
+				70E022DE59C8A1ADF0523DAE7B9BCC68 /* UINavigationController.swift */,
+				3EF4A00F85438B330F8E8E1892E1DFDF /* UIRefreshControl.swift */,
+				D163B7A75CCE8FF94323A5F036327915 /* UITableView.swift */,
+				517E9F6148CC9407B5C0327FF2BE6A40 /* UITableViewCell.swift */,
+				BAE929AF7BEB1916D6E0B2A23C3427D5 /* UITextView.swift */,
+				BA275EE167C9081D06C92B348570CA8F /* UIView.swift */,
+				4E5966368C93D12BA33FD8F7A421DCA7 /* UIViewController.swift */,
+			);
+			name = UIKit;
+			path = PowerUpSwift/Classes/UIKit;
+			sourceTree = "<group>";
+		};
+		B461648D24DBDCA800A0D3B5 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				FC92E6C823BA324E38B3FEC7FE64DDB6 /* Bool.swift */,
+				616AC344A5A2D72C730FBA3E7BF45BA4 /* Bundle.swift */,
+				68E8970A1EAF0B18349FD191EC62E4AA /* Data.swift */,
+				D67FB368B02425D556ECD365AFA9F1F3 /* Dictionary.swift */,
+				DE453C8646D1269CD1562DD8297A1801 /* Optional.swift */,
+				DC53A16F2EF61A246DB676702A4CEB04 /* String.swift */,
+				B34B21235B2A90BFC5D739D6B2E9672C /* URL.swift */,
+				21ADA2DD796B823C3E3E5202804B8CAE /* URLRequest.swift */,
+				10F7E6CE9B76C1B0584B75138E7F99F7 /* URLResponse.swift */,
+			);
+			name = Foundation;
+			path = PowerUpSwift/Classes/Foundation;
+			sourceTree = "<group>";
+		};
+		B461648E24DBDCA800A0D3B5 /* CoreLocation */ = {
+			isa = PBXGroup;
+			children = (
+				CCB7F897461A358118B466F65D6AE482 /* CLPlacemark.swift */,
+			);
+			name = CoreLocation;
+			path = PowerUpSwift/Classes/CoreLocation;
+			sourceTree = "<group>";
+		};
+		B461648F24DBDCD700A0D3B5 /* PowerUp */ = {
+			isa = PBXGroup;
+			children = (
+				7AE31031B50978372BBE44F3EAC766DE /* PowerUpBaseTextField.swift */,
+				71C6CBDE9764CD51AFE8C65FFE8D5681 /* PowerUpButton.swift */,
+				EC93B8CA61692882203BFF96951E2EC0 /* PowerUpCollectionView.swift */,
+				6AC599EB0B847843B5FFE38351CDA34C /* PowerUpImageView.swift */,
+				4DEECFA60F4452F1624C6F4C9DE60C44 /* PowerUpLabel.swift */,
+				700985C2750F11549C0A0DA643FEF4B5 /* PowerUpLoadingButton.swift */,
+				5DBECB3C8424D1316D2A998F0F6D05EA /* PowerUpLocalizable.swift */,
+				8E6FA7DFF5E9A369DB7D5ACA277F7834 /* PowerUpTextField.swift */,
+				C61E6070C4236B54FA901EF1BF5DF16A /* PowerUpTextView.swift */,
+				ECCE1FC5D21229E572D5F60D9062C327 /* PowerUpUnderlineTextField.swift */,
+				60277CEAF17947FD323A9FAAA789FB76 /* PowerUpView.swift */,
+				447EDF85C55B5601592F24661B6DC861 /* PowerUpVisualEffectView.swift */,
+				B461649224DBE2B700A0D3B5 /* PowerUpNavigationItem.swift */,
+				B461649424DBE3B000A0D3B5 /* PowerUpBarItem.swift */,
+				B461649624DBE42D00A0D3B5 /* PowerUpSegmentedControl.swift */,
+			);
+			path = PowerUp;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				9661C6213950441786CAB233DE5E7DD8 /* Development Pods */,
+				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
+				AD083A9BC5E50D208864B6364CB2582C /* Products */,
+				5367E01A1AB3933AE700775141BDFA8F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D4E2828BC4809EC7A0724DF248D5F4C0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E6C19975D02EE98435D26DC70248DA3 /* PowerUpSwift.modulemap */,
+				5E4104CC989CF3AEB82BA0D677BA11A4 /* PowerUpSwift-dummy.m */,
+				7C6AAE59C5CE02944E974C3EAFBCB4F0 /* PowerUpSwift-Info.plist */,
+				157640C1D8FEEDBF66885A8DB33F2482 /* PowerUpSwift-prefix.pch */,
+				435B6DBD060EA33D53506AC2810105C8 /* PowerUpSwift-umbrella.h */,
+				498F4EB1D32970DD7A1F7D0D6FB1AAF3 /* PowerUpSwift.debug.xcconfig */,
+				6BE3FAA05D7D9768D259686E46C9259E /* PowerUpSwift.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/PowerUpSwift";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		41AABF8C177A9426D03747F63ED2BDC0 /* Headers */ = {
+		0E7468CA97BEEA7EA395E27046F0F300 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13C99E5D9921D9F10E35E9873B67A2C5 /* PowerUpSwift-umbrella.h in Headers */,
+				2CECE3DB1EDD57ADA8E5C561FF9DC18E /* Pods-PowerUpSwift_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D8D6A8BDB52451F1F8B2BC93AA2F4776 /* Headers */ = {
+		9781544DCEFFB347BDE348A8F6F68642 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54B33281EA649E0D2F20D7B9A8892F69 /* Pods-PowerUpSwift_Example-umbrella.h in Headers */,
+				D2B3EA096EBDB7B25C9F6C06243EA566 /* PowerUpSwift-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EBC43BE80D974D0BFBDA40F18977D063 /* Headers */ = {
+		F1BADBC79F46FD7215F1C9B2887F5D34 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7227F257B44967A5F5632259EB3683C /* Pods-PowerUpSwift_Tests-umbrella.h in Headers */,
+				4D311DDAD93F1E10D896A4EB8FE7D39C /* Pods-PowerUpSwift_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0F2340176A6ABB287A01A86CF37FB052 /* Pods-PowerUpSwift_Example */ = {
+		3A920F3E6123DA0D3A2C12CEEACE701E /* Pods-PowerUpSwift_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 70AAD0B6A6942152D090DAD4BED99C17 /* Build configuration list for PBXNativeTarget "Pods-PowerUpSwift_Example" */;
+			buildConfigurationList = 5C2AE7B7F246841DDC71825153899BCD /* Build configuration list for PBXNativeTarget "Pods-PowerUpSwift_Tests" */;
 			buildPhases = (
-				D8D6A8BDB52451F1F8B2BC93AA2F4776 /* Headers */,
-				C8EC3CE654ECE57E494B6FEF6390D629 /* Sources */,
-				D505E73EB453DE585A534C1C30721C37 /* Frameworks */,
-				108C729092229CF9E6449F9FF6FB36C9 /* Resources */,
+				F1BADBC79F46FD7215F1C9B2887F5D34 /* Headers */,
+				CDC6F0A3BBAC86DE72AA9836368F3FA5 /* Sources */,
+				1FD56CF80A7B03D8FC06062E795C5D85 /* Frameworks */,
+				E6497290097E3D41AE11541AE9E451C1 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				662AA2C6367C8FDE99C5C11DADA6ED80 /* PBXTargetDependency */,
+				F2A66AD6D15C5FB3B4B5196E26B4A46C /* PBXTargetDependency */,
 			);
-			name = "Pods-PowerUpSwift_Example";
-			productName = "Pods-PowerUpSwift_Example";
-			productReference = A3B96712239130084070090C6A02D342 /* Pods_PowerUpSwift_Example.framework */;
+			name = "Pods-PowerUpSwift_Tests";
+			productName = "Pods-PowerUpSwift_Tests";
+			productReference = FD1EBA8B7B4724D82E94F884BCCAB0CA /* Pods_PowerUpSwift_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		698B993A614F28F94980823A5D0AE9DA /* PowerUpSwift */ = {
+		4EC3E4D9FFF7B0343798450C71212B1B /* PowerUpSwift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3E09BFF34D30C63CF589AB4548BC6DEF /* Build configuration list for PBXNativeTarget "PowerUpSwift" */;
+			buildConfigurationList = 930AB488A128DC96FC4FC51F5E86F236 /* Build configuration list for PBXNativeTarget "PowerUpSwift" */;
 			buildPhases = (
-				41AABF8C177A9426D03747F63ED2BDC0 /* Headers */,
-				005311ED11E671694328A94E234B284E /* Sources */,
-				565C376ECA3D605AA4DA5AB20C0F6E14 /* Frameworks */,
-				A89EAD4E64068B590DF4584461BC7B19 /* Resources */,
+				9781544DCEFFB347BDE348A8F6F68642 /* Headers */,
+				9847BB1FE2B4CD4B10701965F214E18F /* Sources */,
+				0A44F309460D81E9FB5A83ABC9B13E3E /* Frameworks */,
+				E22C2DF0C9C8CE0B98540D74370F280C /* Resources */,
 			);
 			buildRules = (
 			);
@@ -419,49 +435,44 @@
 			);
 			name = PowerUpSwift;
 			productName = PowerUpSwift;
-			productReference = 7311B0278D0A2BD2641E8486C09D0FF4 /* PowerUpSwift.framework */;
+			productReference = 77E9DA60BACF1F6D03BB4429381E798B /* PowerUpSwift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		A13DCD883B7DF535842A14214FA0C722 /* Pods-PowerUpSwift_Tests */ = {
+		61C391C2980A514D118A7B823AB3EE88 /* Pods-PowerUpSwift_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A3CB19414E2300FC654A2D872C347110 /* Build configuration list for PBXNativeTarget "Pods-PowerUpSwift_Tests" */;
+			buildConfigurationList = D100ECFC35B55E624A9685E268358230 /* Build configuration list for PBXNativeTarget "Pods-PowerUpSwift_Example" */;
 			buildPhases = (
-				EBC43BE80D974D0BFBDA40F18977D063 /* Headers */,
-				0A1DE614BA1E8115DFCA60F5798641F7 /* Sources */,
-				C6C6F6A5A8F86A6734D449D5ED23EDE1 /* Frameworks */,
-				006E8971AF17C1A55A9791D7B78DE681 /* Resources */,
+				0E7468CA97BEEA7EA395E27046F0F300 /* Headers */,
+				D487E290A00A48EB917C9B1FAB0177A7 /* Sources */,
+				346FFC5B901AAAAD4A25CBBFF690CD9B /* Frameworks */,
+				282965D4CF7B5F656FEA79668A3C3B65 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				CF88C2DE500E19770AD6353BF48F05D9 /* PBXTargetDependency */,
+				A38A8EB56688630A68FCD451506EF0B4 /* PBXTargetDependency */,
 			);
-			name = "Pods-PowerUpSwift_Tests";
-			productName = "Pods-PowerUpSwift_Tests";
-			productReference = CEC34742FC69C2F8C47CCF98FDC40DE3 /* Pods_PowerUpSwift_Tests.framework */;
+			name = "Pods-PowerUpSwift_Example";
+			productName = "Pods-PowerUpSwift_Example";
+			productReference = ACA6C0AC04222224D39E4C2C210232F4 /* Pods_PowerUpSwift_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 1020;
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = PowerUpX;
 				TargetAttributes = {
-					0F2340176A6ABB287A01A86CF37FB052 = {
-						LastSwiftMigration = 1020;
-					};
-					698B993A614F28F94980823A5D0AE9DA = {
-						LastSwiftMigration = 1020;
-					};
-					A13DCD883B7DF535842A14214FA0C722 = {
-						LastSwiftMigration = 1020;
+					61C391C2980A514D118A7B823AB3EE88 = {
+						LastSwiftMigration = 1160;
 					};
 				};
 			};
-			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -469,34 +480,34 @@
 				en,
 				Base,
 			);
-			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 5F478793E290AAE9EA972F0D729E411D /* Products */;
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = AD083A9BC5E50D208864B6364CB2582C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0F2340176A6ABB287A01A86CF37FB052 /* Pods-PowerUpSwift_Example */,
-				A13DCD883B7DF535842A14214FA0C722 /* Pods-PowerUpSwift_Tests */,
-				698B993A614F28F94980823A5D0AE9DA /* PowerUpSwift */,
+				61C391C2980A514D118A7B823AB3EE88 /* Pods-PowerUpSwift_Example */,
+				3A920F3E6123DA0D3A2C12CEEACE701E /* Pods-PowerUpSwift_Tests */,
+				4EC3E4D9FFF7B0343798450C71212B1B /* PowerUpSwift */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		006E8971AF17C1A55A9791D7B78DE681 /* Resources */ = {
+		282965D4CF7B5F656FEA79668A3C3B65 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		108C729092229CF9E6449F9FF6FB36C9 /* Resources */ = {
+		E22C2DF0C9C8CE0B98540D74370F280C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A89EAD4E64068B590DF4584461BC7B19 /* Resources */ = {
+		E6497290097E3D41AE11541AE9E451C1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -506,234 +517,88 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		005311ED11E671694328A94E234B284E /* Sources */ = {
+		9847BB1FE2B4CD4B10701965F214E18F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F67A96601B9424F96EA51EF6BE28DDF7 /* Bool.swift in Sources */,
-				096D495A9006F4C08B130347DD8DA80D /* Dictionary.swift in Sources */,
-				290C949542D19B61B620F00F202D1468 /* Localizable.swift in Sources */,
-				086A00EFB50353E002A2D9E6E6881868 /* NSLayoutConstraint.swift in Sources */,
-				B4C79C9B2303F02500890A1B /* CLPlacemark.swift in Sources */,
-				E935FF7255B9413CB496AEDFC986DCCA /* Optional.swift in Sources */,
-				50C71420D378F1B4F6CC778F6288CD5C /* PowerUpButton.swift in Sources */,
-				B4307C51244EA6910039CD66 /* Data.swift in Sources */,
-				FEC1382ACB146AFB1D07F2D9CBAFA395 /* PowerUpLabel.swift in Sources */,
-				B401A65222EEB1F300A5F0DB /* PowerUpImageView.swift in Sources */,
-				D4CEDAAD03E515BEBCE7B01340F4A406 /* PowerUpSwift-dummy.m in Sources */,
-				206EA3A7E30E8C7344B011CDCE77B797 /* PowerUpTextField.swift in Sources */,
-				B8AE024D21977E6A00D78935 /* PowerUpBaseTextField.swift in Sources */,
-				939D6FBDE6B77C29F909E7B03CFEA4C1 /* PowerUpTextView.swift in Sources */,
-				7E6E3B7B3166F24D3C450037AA8346F0 /* PowerUpUnderlineTextField.swift in Sources */,
-				C0C0D5C14390486F0881D6D9B86DA97C /* PowerUpView.swift in Sources */,
-				C2F24B3C10B9FAF786CCE85BAFAE5989 /* String.swift in Sources */,
-				9DD0D266D3C942AFAE9B54EB70D5CBCC /* UIButton.swift in Sources */,
-				FEFFD81C730ECDBE96E3BFCCB12C7861 /* UIColor.swift in Sources */,
-				403087E2BF2BB924E1F00E20ED461DDE /* UITextView.swift in Sources */,
-				E722F1B3FFA4E1FAC99E1530C3EFCBD5 /* UIView.swift in Sources */,
-				175975339B89D1B08A6BC4D004CAA5DE /* UIViewController.swift in Sources */,
-				63E2C38FC4FDC81ABBE66535C52497C6 /* URL.swift in Sources */,
-				4E5DDD1E026449ABF0A66EA311ED528E /* URLRequest.swift in Sources */,
-				B48BFE212447F086001FB35A /* UICollectionViewCell.swift in Sources */,
-				B4307C53244EA6A20039CD66 /* PowerUpLoadingButton.swift in Sources */,
-				B4C79C952303AE6600890A1B /* PowerUpVisualEffectView.swift in Sources */,
-				4CF4AD5D9A087428D1E3A096CE5220AE /* URLResponse.swift in Sources */,
-				B48BFE202447F086001FB35A /* UITableViewCell.swift in Sources */,
+				5965F971EB3E58C3444B4CB9A7CDDC24 /* Bool.swift in Sources */,
+				91CC3CD4090A559CC7D8FFADB1EA9CF1 /* Bundle.swift in Sources */,
+				D342FD90A59B47B5A385C293129BECFF /* CLPlacemark.swift in Sources */,
+				B461649324DBE2B700A0D3B5 /* PowerUpNavigationItem.swift in Sources */,
+				4E5EFAF65769B8973F242B7944516C88 /* Data.swift in Sources */,
+				899570F9019AE84EFAECC5B428C8BB98 /* Dictionary.swift in Sources */,
+				78DD453E83520DE0EE53FF3F9A7B3AA1 /* NSLayoutConstraint.swift in Sources */,
+				BC9A63C79F8162885B649F2280EF9D0E /* Optional.swift in Sources */,
+				0F2EC4FC3D049898235C038F016CC7DC /* PowerUpBaseTextField.swift in Sources */,
+				0C06769B6FDCE3ABCEB572BF5A915CBB /* PowerUpButton.swift in Sources */,
+				873C38E8D900A67BDE1FD7804D9C8CAB /* PowerUpCollectionView.swift in Sources */,
+				CF01BDE967A629C17EA1B24B7598E117 /* PowerUpImageView.swift in Sources */,
+				083D8982E33F8B195FD34377248B6C5A /* PowerUpLabel.swift in Sources */,
+				F348B7FB93EE32DE232899572438BF18 /* PowerUpLoadingButton.swift in Sources */,
+				9D6E1DBA22A2FC8260BE0E0C92DB114E /* PowerUpLocalizable.swift in Sources */,
+				843152B2697BA6447999968C0B1A7219 /* PowerUpSwift-dummy.m in Sources */,
+				E928831315A4DC9BFE8638756FDAD5FE /* PowerUpTextField.swift in Sources */,
+				78D4417302C41356712EBDFA1220B2D6 /* PowerUpTextView.swift in Sources */,
+				FCE9CB89D174250266E69E135034AD47 /* PowerUpUnderlineTextField.swift in Sources */,
+				13E8B5B90A065A62342695CA069CBEAC /* PowerUpView.swift in Sources */,
+				FAEEB354DE117CCB04B2E676CAF7C060 /* PowerUpVisualEffectView.swift in Sources */,
+				C4D126B694AC0BE24E6273EEF5E687E1 /* String.swift in Sources */,
+				A9892940632DD3227FD0818B18377930 /* UIButton.swift in Sources */,
+				8856ED20E0B8CAFA21F7E29617587A56 /* UICollectionViewCell.swift in Sources */,
+				45CCCB574D70596C0D19E1C5CE88FAEC /* UIColor.swift in Sources */,
+				D6AA8C3CED449224AE196B94781F127D /* UINavigationController.swift in Sources */,
+				2408C4466BA7984BC5A9B8B0E34BC802 /* UIRefreshControl.swift in Sources */,
+				2621460D9A838886A844DE95FC85BFEB /* UITableView.swift in Sources */,
+				B461649524DBE3B000A0D3B5 /* PowerUpBarItem.swift in Sources */,
+				2E48D38F3E104A930EBEEB2BCA137912 /* UITableViewCell.swift in Sources */,
+				7C1CCD4B288E86271881A8D994E11447 /* UITextView.swift in Sources */,
+				0DB78B4B624515F91A7E242C5C1B1352 /* UIView.swift in Sources */,
+				36EAC397417DD3C6546AB0F3D334F45A /* UIViewController.swift in Sources */,
+				06467006A6233F0CB502691B260F2392 /* URL.swift in Sources */,
+				B461649724DBE42D00A0D3B5 /* PowerUpSegmentedControl.swift in Sources */,
+				E3188D883AAAC9B4842B7EFB3750CC9F /* URLRequest.swift in Sources */,
+				060C7F6ED6A680AC9986DC973EF6D3F5 /* URLResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0A1DE614BA1E8115DFCA60F5798641F7 /* Sources */ = {
+		CDC6F0A3BBAC86DE72AA9836368F3FA5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC5F933ED5E44F57953CA59A5565F03B /* Pods-PowerUpSwift_Tests-dummy.m in Sources */,
-				B8AE02542197817100D78935 /* String.swift in Sources */,
+				24695116A8CADE4CAD015043673BE967 /* Pods-PowerUpSwift_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C8EC3CE654ECE57E494B6FEF6390D629 /* Sources */ = {
+		D487E290A00A48EB917C9B1FAB0177A7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4446F9224DB869300F07FE3 /* UITableView.swift in Sources */,
-				5A88C81F86742B1A7D7050FA2CFEAA79 /* Pods-PowerUpSwift_Example-dummy.m in Sources */,
-				B4446F9024DB856800F07FE3 /* UIRefreshControl.swift in Sources */,
-				B4446F8E24DB838D00F07FE3 /* UINavigationController.swift in Sources */,
-				B42F5B622304EF0200FAA06B /* Bundle.swift in Sources */,
-				B8AE02552197817100D78935 /* String.swift in Sources */,
-				B47328F82447EE7B0026D9D6 /* PowerUpCollectionView.swift in Sources */,
+				09E0F33264B37C891E18FEC63D5715F6 /* Pods-PowerUpSwift_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		662AA2C6367C8FDE99C5C11DADA6ED80 /* PBXTargetDependency */ = {
+		A38A8EB56688630A68FCD451506EF0B4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = PowerUpSwift;
-			target = 698B993A614F28F94980823A5D0AE9DA /* PowerUpSwift */;
-			targetProxy = F46461A09EF542FEC002450A3C3D6771 /* PBXContainerItemProxy */;
+			target = 4EC3E4D9FFF7B0343798450C71212B1B /* PowerUpSwift */;
+			targetProxy = D65519CC43B272352DE725C0C5A964FE /* PBXContainerItemProxy */;
 		};
-		CF88C2DE500E19770AD6353BF48F05D9 /* PBXTargetDependency */ = {
+		F2A66AD6D15C5FB3B4B5196E26B4A46C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-PowerUpSwift_Example";
-			target = 0F2340176A6ABB287A01A86CF37FB052 /* Pods-PowerUpSwift_Example */;
-			targetProxy = 98EA5A7B3718174464935FC135A61E2F /* PBXContainerItemProxy */;
+			target = 61C391C2980A514D118A7B823AB3EE88 /* Pods-PowerUpSwift_Example */;
+			targetProxy = A750877292E25BAF33D69CCE262DA169 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		4F0D4CA2D14DD1054051EC6F531C0E18 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D9A73DB95769346952336D4B650BA5D1 /* Pods-PowerUpSwift_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-PowerUpSwift_Tests/Pods-PowerUpSwift_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PowerUpSwift_Tests/Pods-PowerUpSwift_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		AC3F8411EA640C74116D01FD67345679 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 28DE17A382DB94513930C3C48CF97D51 /* Pods-PowerUpSwift_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-PowerUpSwift_Example/Pods-PowerUpSwift_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PowerUpSwift_Example/Pods-PowerUpSwift_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B20725989737A006F5E06BD3AEDC5D5E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 998385D4C720CC9EDE1C892C42B9E4CA /* PowerUpSwift.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/PowerUpSwift/PowerUpSwift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PowerUpSwift/PowerUpSwift-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PowerUpSwift/PowerUpSwift.modulemap";
-				PRODUCT_MODULE_NAME = PowerUpSwift;
-				PRODUCT_NAME = PowerUpSwift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B63ECC4E729B6CFE355EFEBF56D97377 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 678AE41C079ACD1A9C8477B7D98894AA /* Pods-PowerUpSwift_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-PowerUpSwift_Example/Pods-PowerUpSwift_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PowerUpSwift_Example/Pods-PowerUpSwift_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		C92782E717C52E3633C9A5F211E7987A /* Debug */ = {
+		131356BE54884448CA49C07BEDF4BB2A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -762,8 +627,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -783,22 +646,58 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		C9B8B867B45D662DDA307A35B211ACC2 /* Debug */ = {
+		5777083B6328FA8126CC92E3C4FD2616 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6680128AAEB10868A15A15984DF42166 /* Pods-PowerUpSwift_Tests.debug.xcconfig */;
+			baseConfigurationReference = 498F4EB1D32970DD7A1F7D0D6FB1AAF3 /* PowerUpSwift.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PowerUpSwift/PowerUpSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PowerUpSwift/PowerUpSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PowerUpSwift/PowerUpSwift.modulemap";
+				PRODUCT_MODULE_NAME = PowerUpSwift;
+				PRODUCT_NAME = PowerUpSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9FD9D0D9C702EC4031E6A70D35028FF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEEEEC872DFAE9B6C5F06412C788010B /* Pods-PowerUpSwift_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -810,12 +709,50 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-PowerUpSwift_Tests/Pods-PowerUpSwift_Tests-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-PowerUpSwift_Example/Pods-PowerUpSwift_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PowerUpSwift_Tests/Pods-PowerUpSwift_Tests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-PowerUpSwift_Example/Pods-PowerUpSwift_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ADBE719B9B7A9A37636309575595E889 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F159B8AACCE8C270434AD47C34BF6A68 /* Pods-PowerUpSwift_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PowerUpSwift_Example/Pods-PowerUpSwift_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PowerUpSwift_Example/Pods-PowerUpSwift_Example.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -831,10 +768,46 @@
 			};
 			name = Debug;
 		};
-		CAC1B2AF86409A93B97926CD1F05AE36 /* Release */ = {
+		AE7CC44E07199BD6BE800AC309DED749 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 998385D4C720CC9EDE1C892C42B9E4CA /* PowerUpSwift.xcconfig */;
+			baseConfigurationReference = A14027B536C2A592F4676D5443BA8A42 /* Pods-PowerUpSwift_Tests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PowerUpSwift_Tests/Pods-PowerUpSwift_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PowerUpSwift_Tests/Pods-PowerUpSwift_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D368772D0BF0B836803D2C077426CCA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BE3FAA05D7D9768D259686E46C9259E /* PowerUpSwift.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -848,7 +821,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/PowerUpSwift/PowerUpSwift-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/PowerUpSwift/PowerUpSwift-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/PowerUpSwift/PowerUpSwift.modulemap";
 				PRODUCT_MODULE_NAME = PowerUpSwift;
@@ -856,7 +829,6 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -865,11 +837,10 @@
 			};
 			name = Release;
 		};
-		EA8C7AF90938697605468604B2A17B9F /* Release */ = {
+		F090CD07A80273D5A73C8EA19224ADDB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -898,8 +869,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -916,56 +885,93 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		FFDA6361EEB2558CB54E782470C4AAC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F118DA6BB1574E347660212D1971D5B3 /* Pods-PowerUpSwift_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PowerUpSwift_Tests/Pods-PowerUpSwift_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PowerUpSwift_Tests/Pods-PowerUpSwift_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C92782E717C52E3633C9A5F211E7987A /* Debug */,
-				EA8C7AF90938697605468604B2A17B9F /* Release */,
+				131356BE54884448CA49C07BEDF4BB2A /* Debug */,
+				F090CD07A80273D5A73C8EA19224ADDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3E09BFF34D30C63CF589AB4548BC6DEF /* Build configuration list for PBXNativeTarget "PowerUpSwift" */ = {
+		5C2AE7B7F246841DDC71825153899BCD /* Build configuration list for PBXNativeTarget "Pods-PowerUpSwift_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B20725989737A006F5E06BD3AEDC5D5E /* Debug */,
-				CAC1B2AF86409A93B97926CD1F05AE36 /* Release */,
+				AE7CC44E07199BD6BE800AC309DED749 /* Debug */,
+				FFDA6361EEB2558CB54E782470C4AAC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		70AAD0B6A6942152D090DAD4BED99C17 /* Build configuration list for PBXNativeTarget "Pods-PowerUpSwift_Example" */ = {
+		930AB488A128DC96FC4FC51F5E86F236 /* Build configuration list for PBXNativeTarget "PowerUpSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AC3F8411EA640C74116D01FD67345679 /* Debug */,
-				B63ECC4E729B6CFE355EFEBF56D97377 /* Release */,
+				5777083B6328FA8126CC92E3C4FD2616 /* Debug */,
+				D368772D0BF0B836803D2C077426CCA0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A3CB19414E2300FC654A2D872C347110 /* Build configuration list for PBXNativeTarget "Pods-PowerUpSwift_Tests" */ = {
+		D100ECFC35B55E624A9685E268358230 /* Build configuration list for PBXNativeTarget "Pods-PowerUpSwift_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C9B8B867B45D662DDA307A35B211ACC2 /* Debug */,
-				4F0D4CA2D14DD1054051EC6F531C0E18 /* Release */,
+				ADBE719B9B7A9A37636309575595E889 /* Debug */,
+				9FD9D0D9C702EC4031E6A70D35028FF7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 }

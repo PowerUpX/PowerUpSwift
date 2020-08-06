@@ -342,7 +342,8 @@
 				B461649424DBE3B000A0D3B5 /* PowerUpBarItem.swift */,
 				B461649624DBE42D00A0D3B5 /* PowerUpSegmentedControl.swift */,
 			);
-			path = PowerUp;
+			name = PowerUp;
+			path = PowerUpSwift/Classes/PowerUp;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {

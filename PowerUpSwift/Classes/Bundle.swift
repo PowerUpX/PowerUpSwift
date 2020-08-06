@@ -8,11 +8,15 @@
 import Foundation
 
 extension Bundle {
+    public static var appName: String? {
+        return self.main.infoDictionary?["CFBundleName"] as? String
+    }
+    
     public static var versionNumber: String? {
-        return main.infoDictionary?["CFBundleShortVersionString"] as? String
+        return self.main.infoDictionary?["CFBundleShortVersionString"] as? String
     }
     
     public static var buildNumber: String? {
-        return main.infoDictionary?["CFBundleVersion"] as? String
+        return self.main.infoDictionary?["CFBundleVersion"] as? String
     }
 }

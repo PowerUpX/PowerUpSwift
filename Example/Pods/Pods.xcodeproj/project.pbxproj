@@ -31,6 +31,7 @@
 		B4307C53244EA6A20039CD66 /* PowerUpLoadingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4307C52244EA6A20039CD66 /* PowerUpLoadingButton.swift */; };
 		B4446F8E24DB838D00F07FE3 /* UINavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4446F8D24DB838D00F07FE3 /* UINavigationController.swift */; };
 		B4446F9024DB856800F07FE3 /* UIRefreshControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4446F8F24DB856800F07FE3 /* UIRefreshControl.swift */; };
+		B4446F9224DB869300F07FE3 /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4446F9124DB869300F07FE3 /* UITableView.swift */; };
 		B47328F82447EE7B0026D9D6 /* PowerUpCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47328F72447EE7B0026D9D6 /* PowerUpCollectionView.swift */; };
 		B48BFE202447F086001FB35A /* UITableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47328F92447EEFE0026D9D6 /* UITableViewCell.swift */; };
 		B48BFE212447F086001FB35A /* UICollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47328FA2447EEFE0026D9D6 /* UICollectionViewCell.swift */; };
@@ -109,6 +110,7 @@
 		B4307C52244EA6A20039CD66 /* PowerUpLoadingButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PowerUpLoadingButton.swift; path = PowerUpSwift/Classes/PowerUpLoadingButton.swift; sourceTree = "<group>"; };
 		B4446F8D24DB838D00F07FE3 /* UINavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UINavigationController.swift; path = PowerUpSwift/Classes/UINavigationController.swift; sourceTree = "<group>"; };
 		B4446F8F24DB856800F07FE3 /* UIRefreshControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UIRefreshControl.swift; path = PowerUpSwift/Classes/UIRefreshControl.swift; sourceTree = "<group>"; };
+		B4446F9124DB869300F07FE3 /* UITableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UITableView.swift; path = PowerUpSwift/Classes/UITableView.swift; sourceTree = "<group>"; };
 		B47328F72447EE7B0026D9D6 /* PowerUpCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PowerUpCollectionView.swift; path = PowerUpSwift/Classes/PowerUpCollectionView.swift; sourceTree = "<group>"; };
 		B47328F92447EEFE0026D9D6 /* UITableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UITableViewCell.swift; path = PowerUpSwift/Classes/UITableViewCell.swift; sourceTree = "<group>"; };
 		B47328FA2447EEFE0026D9D6 /* UICollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UICollectionViewCell.swift; path = PowerUpSwift/Classes/UICollectionViewCell.swift; sourceTree = "<group>"; };
@@ -279,12 +281,13 @@
 				AA50CD1CB97DAA0B74238AD6F0DD6A8B /* UIButton.swift */,
 				B47328FA2447EEFE0026D9D6 /* UICollectionViewCell.swift */,
 				4EC0228ACEF296CE331C30224D3C429B /* UIColor.swift */,
+				B4446F8D24DB838D00F07FE3 /* UINavigationController.swift */,
+				B4446F8F24DB856800F07FE3 /* UIRefreshControl.swift */,
 				B47328F92447EEFE0026D9D6 /* UITableViewCell.swift */,
+				B4446F9124DB869300F07FE3 /* UITableView.swift */,
 				C0BCD4EADFE8EC6197C84ECF84796B24 /* UITextView.swift */,
 				E35708C7843E432E75302F665EF06B2C /* UIView.swift */,
 				C8C5372E3D997E28E7A01C3DCD3142AB /* UIViewController.swift */,
-				B4446F8D24DB838D00F07FE3 /* UINavigationController.swift */,
-				B4446F8F24DB856800F07FE3 /* UIRefreshControl.swift */,
 			);
 			name = UIKit;
 			sourceTree = "<group>";
@@ -552,6 +555,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4446F9224DB869300F07FE3 /* UITableView.swift in Sources */,
 				5A88C81F86742B1A7D7050FA2CFEAA79 /* Pods-PowerUpSwift_Example-dummy.m in Sources */,
 				B4446F9024DB856800F07FE3 /* UIRefreshControl.swift in Sources */,
 				B4446F8E24DB838D00F07FE3 /* UINavigationController.swift in Sources */,

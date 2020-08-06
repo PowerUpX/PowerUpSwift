@@ -42,8 +42,7 @@ open class PowerUpVisualEffectView: UIVisualEffectView {
         // Handle the color update when switching to or from dark mode
         if #available(iOS 13.0, *) {
             if self.traitCollection.hasDifferentColorAppearance(comparedTo: previousTraitCollection) {
-                self.layer.borderColor = self.borderColor?.cgColor
-                self.layer.shadowColor = self.shadowColor?.cgColor
+                self.layer.setNeedsDisplay()
             }
         }
     }

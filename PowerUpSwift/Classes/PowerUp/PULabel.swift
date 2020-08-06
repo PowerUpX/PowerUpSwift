@@ -10,10 +10,7 @@ import UIKit
 
 @IBDesignable open class PULabel: UILabel, PUXIBLocalizable {
     @IBInspectable open var xibLocKey: String? {
-        get { return nil }
-        set(key) {
-            self.text = key?.localized
-        }
+        didSet { self.text = self.xibLocKey?.localized }
     }
     
     @IBInspectable open var topInset: CGFloat = 0.0

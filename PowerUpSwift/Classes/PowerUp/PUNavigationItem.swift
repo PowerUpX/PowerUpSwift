@@ -10,9 +10,6 @@ import UIKit
 
 @IBDesignable open class PUNavigationItem: UINavigationItem, PUXIBLocalizable {
     @IBInspectable open var xibLocKey: String? {
-        get { return nil }
-        set(key) {
-            self.title = key?.localized
-        }
+        didSet { self.title = self.xibLocKey?.localized }
     }
 }

@@ -10,10 +10,7 @@ import UIKit
 
 @IBDesignable open class PUButton: UIButton {
     @IBInspectable open var xibLocKey: String? {
-        get { return nil }
-        set(key) {
-            self.setTitle(key?.localized, for: .normal)
-        }
+        didSet { self.setTitle(self.xibLocKey?.localized, for: .normal) }
     }
     
     @IBInspectable open var cornerRadius: CGFloat = 0 {

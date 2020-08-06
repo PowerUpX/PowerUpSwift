@@ -11,9 +11,6 @@ import UIKit
 @IBDesignable open class PUBarItem: UIBarItem, PUXIBLocalizable {
     /// Localizes UIBarButtonItem and UITabBarItem
     @IBInspectable open var xibLocKey: String? {
-        get { return nil }
-        set(key) {
-            self.title = key?.localized
-        }
+        didSet { self.title = self.xibLocKey?.localized }
     }
 }

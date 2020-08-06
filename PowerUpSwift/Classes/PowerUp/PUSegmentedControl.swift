@@ -10,9 +10,8 @@ import UIKit
 
 @IBDesignable open class PUSegmentedControl: UISegmentedControl, PUXIBMultiLocalizable {
     @IBInspectable open var xibLocKeys: String? {
-        get { return nil }
-        set(keys) {
-            guard let keys = keys?.components(separatedBy: ","), !keys.isEmpty else { return }
+        didSet {
+            guard let keys = self.xibLocKeys?.components(separatedBy: ","), !keys.isEmpty else { return }
             for (index, title) in keys.enumerated() {
                 self.setTitle(title.localized, forSegmentAt: index)
             }

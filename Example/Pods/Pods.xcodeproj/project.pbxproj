@@ -326,6 +326,7 @@
 		B461648F24DBDCD700A0D3B5 /* PowerUp */ = {
 			isa = PBXGroup;
 			children = (
+				B461649424DBE3B000A0D3B5 /* PUBarItem.swift */,
 				7AE31031B50978372BBE44F3EAC766DE /* PUBaseTextField.swift */,
 				71C6CBDE9764CD51AFE8C65FFE8D5681 /* PUButton.swift */,
 				EC93B8CA61692882203BFF96951E2EC0 /* PUCollectionView.swift */,
@@ -333,14 +334,13 @@
 				4DEECFA60F4452F1624C6F4C9DE60C44 /* PULabel.swift */,
 				700985C2750F11549C0A0DA643FEF4B5 /* PULoadingButton.swift */,
 				5DBECB3C8424D1316D2A998F0F6D05EA /* PULocalizable.swift */,
+				B461649224DBE2B700A0D3B5 /* PUNavigationItem.swift */,
+				B461649624DBE42D00A0D3B5 /* PUSegmentedControl.swift */,
 				8E6FA7DFF5E9A369DB7D5ACA277F7834 /* PUTextField.swift */,
 				C61E6070C4236B54FA901EF1BF5DF16A /* PUTextView.swift */,
 				ECCE1FC5D21229E572D5F60D9062C327 /* PUUnderlineTextField.swift */,
 				60277CEAF17947FD323A9FAAA789FB76 /* PUView.swift */,
 				447EDF85C55B5601592F24661B6DC861 /* PUVisualEffectView.swift */,
-				B461649224DBE2B700A0D3B5 /* PUNavigationItem.swift */,
-				B461649424DBE3B000A0D3B5 /* PUBarItem.swift */,
-				B461649624DBE42D00A0D3B5 /* PUSegmentedControl.swift */,
 			);
 			name = PowerUp;
 			path = PowerUpSwift/Classes/PowerUp;

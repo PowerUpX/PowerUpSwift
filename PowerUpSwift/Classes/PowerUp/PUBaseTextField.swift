@@ -11,10 +11,7 @@ import UIKit
 /// **PowerUpSwift**: The base class for the PowerUpTextFields that reduces the risk of code duplication.
 @IBDesignable open class PUBaseTextField: UITextField, PUXIBPlaceholderLocalizable {
     @IBInspectable open var xibPlaceholderLocKey: String? {
-        get { return nil }
-        set(key) {
-            self.placeholder = key?.localized
-        }
+        didSet { self.placeholder = self.xibPlaceholderLocKey?.localized }
     }
     
     // MARK: - Inset

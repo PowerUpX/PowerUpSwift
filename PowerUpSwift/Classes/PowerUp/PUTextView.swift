@@ -12,10 +12,7 @@ import UIKit
     var placeholderLabel = PULabel()
     
     @IBInspectable open var xibPlaceholderLocKey: String? {
-        get { return nil }
-        set(key) {
-            self.placeholder = key?.localized ?? ""
-        }
+        didSet { self.placeholder = self.xibPlaceholderLocKey?.localized }
     }
     
     /// **PowerUpSwift**: The custom-built placeholder for UITextViews through the PowerUpTextView subclass.

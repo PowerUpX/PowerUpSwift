@@ -28,6 +28,14 @@ extension Optional where Wrapped == URLResponse {
         
         return false
     }
+    
+    public var isForbidden: Bool {
+        if let response = self {
+            return response.code == 403
+        }
+        
+        return false
+    }
 }
 
 extension URLResponse {

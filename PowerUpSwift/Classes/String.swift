@@ -8,12 +8,13 @@
 import Foundation
 
 extension String {
-    /// Changes the current value (*mutating*) of the String by calling PowerUpSwift's `sanitize()`
+    /// **PowerUpSwift**: Changes the current value (*mutating*)
+    /// of the String by calling `sanitize()`
     public mutating func sanitized() {
         self = self.sanitize()
     }
     
-    /// Returns the trimmed valueof the String by:
+    /// **PowerUpSwift**: Returns the trimmed valueof the String by:
     /// - removing all the white spaces and white new lines around
     /// - replacing two or more spaces inside with a single space
     /// - replacing three or more new lines inside with two new lines
@@ -25,53 +26,59 @@ extension String {
             .replacingOccurrences(of: "\n\n\n+", with: "\n\n", options: .regularExpression)
     }
     
-    /// Checks if the String is a valid email and returns a Bool.
+    /// **PowerUpSwift**: Checks if the String is a valid email and returns a Bool.
     public var isValidEmail: Bool {
         let regEx = "[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,}"
         let predicate = NSPredicate(format:"SELF MATCHES %@", regEx)
         return predicate.evaluate(with: self)
     }
     
-    /// Reverses the value of `isValidEmail` so it feels more natural to write than using an exclamation point.
+    /// **PowerUpSwift**: Returns the reversed value of `isValidEmail`
+    /// so it feels more natural to write than using an exclamation point.
     public var isNotValidEmail: Bool {
         return !self.isValidEmail
     }
     
-    /// Reverses the built-in `isEmpty` so it feels more natural to write than using an exclamation point.
+    /// **PowerUpSwift**: Returns the reversed value of `isEmpty`
+    /// so it feels more natural to write than using an exclamation point.
     public var isNotEmpty: Bool {
         return !self.isEmpty
     }
     
-    /// Uses the very `String` as the **key** to find the value from the Localizable resources and return the localized **value**.
+    /// **PowerUpSwift**: Uses the very `String` as the **key** to find the value
+    /// from the main bundle's localizable resources and returns the **value**.
     public var localized: String {
         return NSLocalizedString(self, comment: "")
     }
     
-    /// Checks if the String is a valid ip address and returns a Bool.
+    /// **PowerUpSwift**: Checks if the String is a valid IP address and returns a Bool.
     public var isValidIP: Bool {
         let regEx = "^[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}$"
         let predicate = NSPredicate(format:"SELF MATCHES %@", regEx)
         return predicate.evaluate(with: self)
     }
     
-    /// Reverses the value of `isValidIP` so it feels more natural to write than using an exclamation point.
+    /// **PowerUpSwift**: Returns the reversed value of `isValidIP`
+    /// so it feels more natural to write than using an exclamation point.
     public var isNotValidIP: Bool {
         return !self.isValidIP
     }
     
-    /// Checks if the String is a valid mac address and returns a Bool.
+    /// **PowerUpSwift**: Checks if the String is a valid mac address and returns a Bool.
     public var isValidMAC: Bool {
         let regEx = "^([0-9A-Fa-f]{2}[:]){5}([0-9A-Fa-f]{2})$"
         let predicate = NSPredicate(format:"SELF MATCHES %@", regEx)
         return predicate.evaluate(with: self)
     }
     
-    /// Reverses the value of `isValidMAC` so it feels more natural to write than using an exclamation point.
+    /// **PowerUpSwift**: Returns the reversed value of `isValidMAC`
+    /// so it feels more natural to write than using an exclamation point.
     public var isNotValidMAC: Bool {
         return !self.isValidMAC
     }
     
-    /// Returns the `Dictionary` form of the `String` if the format is valid or `nil` if invalid.
+    /// **PowerUpSwift**: Returns the `Dictionary` form of the `String`
+    /// if the format is valid or `nil` if invalid.
     public var asJSON: [String: Any]? {
         if let data = self.data(using: .utf8) {
             do {
@@ -84,7 +91,7 @@ extension String {
         return nil
     }
     
-    /// Parses and returns the payload `Dictionary` if the string is a JWT.
+    /// **PowerUpSwift**: Parses the `String` and returns the payload `Dictionary` if it's a valid JWT.
     public var extractedJWTPayload: [String: Any]? {
         // Seperate the strings by '.'
         let segments = self.components(separatedBy: ".")

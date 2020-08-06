@@ -8,7 +8,7 @@
 import UIKit
 
 extension UINavigationController {
-    /// Adds a completion handler to `pushViewController(_, animated:)`.
+    /// **PowerUpSwift**: Adds a completion handler to `pushViewController(_, animated:)`.
     public func pushViewController(_ viewController: UIViewController, animated: Bool, completion: @escaping () -> Void) {
         self.pushViewController(viewController, animated: animated)
 
@@ -20,7 +20,7 @@ extension UINavigationController {
         coordinator.animate(alongsideTransition: nil) { _ in completion() }
     }
     
-    /// Adds a completion handler to `popViewController(animated:)`.
+    /// **PowerUpSwift**: Adds a completion handler to `popViewController(animated:)`.
     public func popViewController(animated: Bool, completion: @escaping () -> Void) {
         self.popViewController(animated: animated)
 

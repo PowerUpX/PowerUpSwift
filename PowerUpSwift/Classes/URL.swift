@@ -8,12 +8,12 @@
 import Foundation
 
 extension URL {
-    /// Add query parameters and set the value to itself. Thus, mutating.
+    /// **PowerUpSwift**: Add query parameters and set the value to itself. Thus, mutating.
     public mutating func addQueryParams(_ queryParams: [String: Any]) {
         self = self.addingQueryParams(queryParams)
     }
     
-    /// Add query parameters to your URL object using a dictionary and return.
+    /// **PowerUpSwift**: Add query parameters to your URL object using a dictionary and return.
     public func addingQueryParams(_ queryParams: [String: Any]) -> URL {
         var components = URLComponents(url: self, resolvingAgainstBaseURL: false)
         // Start putting together the paths:

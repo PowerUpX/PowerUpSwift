@@ -9,10 +9,10 @@ import UIKit
 
 @IBDesignable
 open class PowerUpLoadingButton: PowerUpButton {
-    /// The `alpha` value when showing the loading indicator.
+    /// **PowerUpSwift**: The `alpha` value when showing the loading indicator.
     @IBInspectable open var disabledAlpha: CGFloat = 0.5
     
-    /// The holder for the `UIButton`'s title when temporarily disabled.
+    /// **PowerUpSwift**: The holder for the `UIButton`'s title when temporarily disabled.
     private var originalTitle: String?
     
     private var activityIndicatorView: UIActivityIndicatorView!

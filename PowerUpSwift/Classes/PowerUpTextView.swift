@@ -11,24 +11,24 @@ import UIKit
 open class PowerUpTextView: UITextView {
     var placeholderLabel = PowerUpLabel()
     
-    /// The custom-built placeholder for UITextViews through the PowerUpTextView subclass.
+    /// **PowerUpSwift**: The custom-built placeholder for UITextViews through the PowerUpTextView subclass.
     @IBInspectable open var placeholder: String? = nil {
         didSet {
             self.placeholderLabel.text = placeholder
         }
     }
     
-    /// The custom-built placeholder color for UITextViews through the PowerUpTextView subclass.
+    /// **PowerUpSwift**: The custom-built placeholder color for UITextViews through the PowerUpTextView subclass.
     @IBInspectable open var placeholderColor: UIColor = UIColor(r: 255, g: 255, b: 255, a: 0.25) {
         didSet {
             self.placeholderLabel.textColor = placeholderColor
         }
     }
     
-    /// The user-defined minimum height.
+    /// **PowerUpSwift**: The user-defined minimum height.
     @IBInspectable open var minExpandableHeight: CGFloat = 30
     
-    /// The user-defined maximum height. Once it is reached, the text view becomes scrollable.
+    /// **PowerUpSwift**: The user-defined maximum height. Once reached, the text view becomes scrollable.
     @IBInspectable open var maxExpandableHeight: CGFloat = 30
     
     @IBInspectable open var topInset: CGFloat = 0 {
@@ -163,7 +163,7 @@ open class PowerUpTextView: UITextView {
         self.placeholderLabel.isHidden = !self.text!.isEmpty
     }
     
-    /// Clears the text view and sets the placeholder to visible.
+    /// **PowerUpSwift**: Clears the text view and sets the placeholder to visible.
     open func clear() {
         self.text = nil
         self.placeholderLabel.isHidden = false

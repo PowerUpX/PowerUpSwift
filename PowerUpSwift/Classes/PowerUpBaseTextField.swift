@@ -7,7 +7,7 @@
 
 import UIKit
 
-/// The base class for the PowerUpTextFields that reduces the risk of code duplication.
+/// **PowerUpSwift**: The base class for the PowerUpTextFields that reduces the risk of code duplication.
 @IBDesignable
 open class PowerUpBaseTextField: UITextField {
     // MARK: - Inset

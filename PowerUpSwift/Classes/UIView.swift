@@ -8,7 +8,7 @@
 import UIKit
 
 extension UIView {
-    /// Returns the first height constraint of the view.
+    /// **PowerUpSwift**: Returns the first height constraint of the view.
     public var heightConstraint: NSLayoutConstraint? {
         get {
             return constraints.filter {
@@ -23,7 +23,7 @@ extension UIView {
         }
     }
     
-    /// Returns the first width constraint of the view.
+    /// **PowerUpSwift**: Returns the first width constraint of the view.
     public var widthConstraint: NSLayoutConstraint? {
         get {
             return constraints.filter {

@@ -77,15 +77,15 @@ open class PowerUpUnderlineTextField: PowerUpBaseTextField {
     }
     
     // MARK: - Custom Functions
-    /// Sets the color of the underline to the specified error color and sets the property `isShowingError` to `true`.
+    /// **PowerUpSwift**: Sets the color of the underline to the specified error color and sets the property `isShowingError` to `true`.
     open func showErrorColor() {
         self.underline.borderColor = self.errorColor.cgColor
         self.isShowingError = true
     }
     
-    /// Removes the error color of the underline and sets the property `isShowingError` to `false`.
-    /// The underline color is set to the specified highlight color if it's the first responder and if `isHighlightOn` is enabled.
-    /// Otherwise, the underline gets set back to its original color.
+    /// **PowerUpSwift**: Removes the error color of the underline and sets the property `isShowingError` to `false`.
+    /// - The underline color is set to the specified highlight color if it's the first responder and if `isHighlightOn` is enabled.
+    /// - Otherwise, the underline gets set back to its original color.
     open func hideErrorColor() {
         if self.isFirstResponder && self.isHighlightOn {
             self.underline.borderColor = self.highlightColor.cgColor

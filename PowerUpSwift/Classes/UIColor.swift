@@ -8,7 +8,7 @@
 import UIKit
 
 extension UIColor {
-    /// Initializes a UIColor based from the hex value.
+    /// **PowerUpSwift**: Initializes a `UIColor` based from the hex value.
     /// - Parameter hex: The hex string value similar to HTML.
     /// ### Example
     /// ```
@@ -34,7 +34,7 @@ extension UIColor {
         self.init(red: CGFloat(r) / 255, green: CGFloat(g) / 255, blue: CGFloat(b) / 255, alpha: CGFloat(a) / 255)
     }
     
-    /// Initializes a UIColor based from the rgb/a value similar to HTML.
+    /// **PowerUpSwift**: Initializes a `UIColor` based from the rgb/a value similar to HTML.
     /// - Parameters:
     ///     - r: Red
     ///     - g: Green

@@ -45,10 +45,18 @@ extension String {
         return !self.isEmpty
     }
     
-    /// **PowerUpSwift**: Uses the very `String` as the **key** to find the value
-    /// from the main bundle's localizable resources and returns the **value**.
+    /// **PowerUpSwift**: Uses the very `String` as the **key** in
+    /// the main bundle's localizable resources and returns the **value**.
     public var localized: String {
         return NSLocalizedString(self, comment: "")
+    }
+    
+    /// **PowerUpSwift**: Uses the very `String` as the **key** in the
+    /// specified bundle's localizable resources and returns the **value**.
+    public func localized(in bundle: Bundle?, comment: String = "") -> String {
+        guard let bundle = bundle else { return self }
+        
+        return NSLocalizedString(self, bundle: bundle, comment: comment)
     }
     
     /// **PowerUpSwift**: Checks if the String is a valid IP address and returns a Bool.

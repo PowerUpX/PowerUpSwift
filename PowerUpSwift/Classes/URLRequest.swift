@@ -54,6 +54,12 @@ extension URLRequest {
         self.setValue("application/json", forHTTPHeaderField: "Content-Type")
     }
     
+    /// Sets the HTTP body by accepting an object which has a Type that conforms to `Encodable`.
+    mutating public func setBody<E: Encodable>(encodable: E) throws {
+        self.httpBody = try JSONEncoder().encode(encodable)
+        self.setValue("application/json", forHTTPHeaderField: "Content-Type")
+    }
+    
     mutating public func setHeaders(_ headers: [String: String]) {
         self.allHTTPHeaderFields = headers
     }

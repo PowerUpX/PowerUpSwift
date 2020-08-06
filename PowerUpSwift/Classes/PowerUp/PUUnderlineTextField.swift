@@ -1,5 +1,5 @@
 //
-//  PowerUpUnderlineTextField.swift
+//  PUUnderlineTextField.swift
 //  PowerUpSwift
 //
 //  Created by Ceferino Jose II on 11/6/18.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-@IBDesignable open class PowerUpUnderlineTextField: PowerUpBaseTextField {
+@IBDesignable open class PUUnderlineTextField: PUBaseTextField {
     private var underline = CALayer()
     
     // MARK: - Inspectables

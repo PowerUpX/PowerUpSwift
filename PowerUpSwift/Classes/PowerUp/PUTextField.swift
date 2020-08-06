@@ -1,5 +1,5 @@
 //
-//  PowerUpTextField.swift
+//  PUTextField.swift
 //  PowerUpSwift
 //
 //  Created by Ceferino Jose II on 10/10/18.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-@IBDesignable open class PowerUpTextField: PowerUpBaseTextField {
+@IBDesignable open class PUTextField: PUBaseTextField {
     @IBInspectable open var cornerRadius: CGFloat = 0 {
         didSet { self.layer.cornerRadius = self.cornerRadius }
     }

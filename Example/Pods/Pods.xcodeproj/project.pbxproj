@@ -10,12 +10,12 @@
 		00571144709EE2502F031FCF9663480E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9149302A6056DFF0B4F20B5266F5D5C6 /* CoreLocation.framework */; };
 		060C7F6ED6A680AC9986DC973EF6D3F5 /* URLResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F7E6CE9B76C1B0584B75138E7F99F7 /* URLResponse.swift */; };
 		06467006A6233F0CB502691B260F2392 /* URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34B21235B2A90BFC5D739D6B2E9672C /* URL.swift */; };
-		083D8982E33F8B195FD34377248B6C5A /* PowerUpLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEECFA60F4452F1624C6F4C9DE60C44 /* PowerUpLabel.swift */; };
+		083D8982E33F8B195FD34377248B6C5A /* PULabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEECFA60F4452F1624C6F4C9DE60C44 /* PULabel.swift */; };
 		09E0F33264B37C891E18FEC63D5715F6 /* Pods-PowerUpSwift_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CCDE8C44D9042D55863B58014A7211E5 /* Pods-PowerUpSwift_Example-dummy.m */; };
-		0C06769B6FDCE3ABCEB572BF5A915CBB /* PowerUpButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C6CBDE9764CD51AFE8C65FFE8D5681 /* PowerUpButton.swift */; };
+		0C06769B6FDCE3ABCEB572BF5A915CBB /* PUButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C6CBDE9764CD51AFE8C65FFE8D5681 /* PUButton.swift */; };
 		0DB78B4B624515F91A7E242C5C1B1352 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA275EE167C9081D06C92B348570CA8F /* UIView.swift */; };
-		0F2EC4FC3D049898235C038F016CC7DC /* PowerUpBaseTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE31031B50978372BBE44F3EAC766DE /* PowerUpBaseTextField.swift */; };
-		13E8B5B90A065A62342695CA069CBEAC /* PowerUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60277CEAF17947FD323A9FAAA789FB76 /* PowerUpView.swift */; };
+		0F2EC4FC3D049898235C038F016CC7DC /* PUBaseTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE31031B50978372BBE44F3EAC766DE /* PUBaseTextField.swift */; };
+		13E8B5B90A065A62342695CA069CBEAC /* PUView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60277CEAF17947FD323A9FAAA789FB76 /* PUView.swift */; };
 		2408C4466BA7984BC5A9B8B0E34BC802 /* UIRefreshControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF4A00F85438B330F8E8E1892E1DFDF /* UIRefreshControl.swift */; };
 		24695116A8CADE4CAD015043673BE967 /* Pods-PowerUpSwift_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FE3C41C4CAD507076F286002CD51DE2 /* Pods-PowerUpSwift_Tests-dummy.m */; };
 		2621460D9A838886A844DE95FC85BFEB /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D163B7A75CCE8FF94323A5F036327915 /* UITableView.swift */; };
@@ -26,34 +26,34 @@
 		4D311DDAD93F1E10D896A4EB8FE7D39C /* Pods-PowerUpSwift_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0681DE9F849EAE743EE76221B67EDF64 /* Pods-PowerUpSwift_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4E5EFAF65769B8973F242B7944516C88 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E8970A1EAF0B18349FD191EC62E4AA /* Data.swift */; };
 		5965F971EB3E58C3444B4CB9A7CDDC24 /* Bool.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC92E6C823BA324E38B3FEC7FE64DDB6 /* Bool.swift */; };
-		78D4417302C41356712EBDFA1220B2D6 /* PowerUpTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61E6070C4236B54FA901EF1BF5DF16A /* PowerUpTextView.swift */; };
+		78D4417302C41356712EBDFA1220B2D6 /* PUTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61E6070C4236B54FA901EF1BF5DF16A /* PUTextView.swift */; };
 		78DD453E83520DE0EE53FF3F9A7B3AA1 /* NSLayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5864AAC3C9C8B6782A982F4BE3615D /* NSLayoutConstraint.swift */; };
 		7C1CCD4B288E86271881A8D994E11447 /* UITextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE929AF7BEB1916D6E0B2A23C3427D5 /* UITextView.swift */; };
 		7C98F2F756816ED90B8A8CA2F9CA59E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CBA33DEEFDF3E85910015F6306D526C /* Foundation.framework */; };
 		843152B2697BA6447999968C0B1A7219 /* PowerUpSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E4104CC989CF3AEB82BA0D677BA11A4 /* PowerUpSwift-dummy.m */; };
-		873C38E8D900A67BDE1FD7804D9C8CAB /* PowerUpCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC93B8CA61692882203BFF96951E2EC0 /* PowerUpCollectionView.swift */; };
+		873C38E8D900A67BDE1FD7804D9C8CAB /* PUCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC93B8CA61692882203BFF96951E2EC0 /* PUCollectionView.swift */; };
 		8856ED20E0B8CAFA21F7E29617587A56 /* UICollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD4444A66E39054D0EDBD23F5776122 /* UICollectionViewCell.swift */; };
 		899570F9019AE84EFAECC5B428C8BB98 /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67FB368B02425D556ECD365AFA9F1F3 /* Dictionary.swift */; };
 		91CC3CD4090A559CC7D8FFADB1EA9CF1 /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616AC344A5A2D72C730FBA3E7BF45BA4 /* Bundle.swift */; };
-		9D6E1DBA22A2FC8260BE0E0C92DB114E /* PowerUpLocalizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBECB3C8424D1316D2A998F0F6D05EA /* PowerUpLocalizable.swift */; };
+		9D6E1DBA22A2FC8260BE0E0C92DB114E /* PULocalizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBECB3C8424D1316D2A998F0F6D05EA /* PULocalizable.swift */; };
 		A3F99C6E2C79C2CD1E1BEADCF2BC0E3F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CBA33DEEFDF3E85910015F6306D526C /* Foundation.framework */; };
 		A9892940632DD3227FD0818B18377930 /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F763B60B2A6AD629BF89F576988BFE89 /* UIButton.swift */; };
-		B461649324DBE2B700A0D3B5 /* PowerUpNavigationItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B461649224DBE2B700A0D3B5 /* PowerUpNavigationItem.swift */; };
-		B461649524DBE3B000A0D3B5 /* PowerUpBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B461649424DBE3B000A0D3B5 /* PowerUpBarItem.swift */; };
-		B461649724DBE42D00A0D3B5 /* PowerUpSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = B461649624DBE42D00A0D3B5 /* PowerUpSegmentedControl.swift */; };
+		B461649324DBE2B700A0D3B5 /* PUNavigationItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B461649224DBE2B700A0D3B5 /* PUNavigationItem.swift */; };
+		B461649524DBE3B000A0D3B5 /* PUBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B461649424DBE3B000A0D3B5 /* PUBarItem.swift */; };
+		B461649724DBE42D00A0D3B5 /* PUSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = B461649624DBE42D00A0D3B5 /* PUSegmentedControl.swift */; };
 		BC9A63C79F8162885B649F2280EF9D0E /* Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE453C8646D1269CD1562DD8297A1801 /* Optional.swift */; };
 		C4D126B694AC0BE24E6273EEF5E687E1 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC53A16F2EF61A246DB676702A4CEB04 /* String.swift */; };
-		CF01BDE967A629C17EA1B24B7598E117 /* PowerUpImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC599EB0B847843B5FFE38351CDA34C /* PowerUpImageView.swift */; };
+		CF01BDE967A629C17EA1B24B7598E117 /* PUImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC599EB0B847843B5FFE38351CDA34C /* PUImageView.swift */; };
 		D2B3EA096EBDB7B25C9F6C06243EA566 /* PowerUpSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 435B6DBD060EA33D53506AC2810105C8 /* PowerUpSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D342FD90A59B47B5A385C293129BECFF /* CLPlacemark.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB7F897461A358118B466F65D6AE482 /* CLPlacemark.swift */; };
 		D6AA8C3CED449224AE196B94781F127D /* UINavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E022DE59C8A1ADF0523DAE7B9BCC68 /* UINavigationController.swift */; };
 		E3188D883AAAC9B4842B7EFB3750CC9F /* URLRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21ADA2DD796B823C3E3E5202804B8CAE /* URLRequest.swift */; };
-		E928831315A4DC9BFE8638756FDAD5FE /* PowerUpTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6FA7DFF5E9A369DB7D5ACA277F7834 /* PowerUpTextField.swift */; };
+		E928831315A4DC9BFE8638756FDAD5FE /* PUTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6FA7DFF5E9A369DB7D5ACA277F7834 /* PUTextField.swift */; };
 		EF3BAFC8DB3EB79687AFE4268D2C26E6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A985EBE2404D4302DE8384CA5EB08108 /* UIKit.framework */; };
-		F348B7FB93EE32DE232899572438BF18 /* PowerUpLoadingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700985C2750F11549C0A0DA643FEF4B5 /* PowerUpLoadingButton.swift */; };
-		FAEEB354DE117CCB04B2E676CAF7C060 /* PowerUpVisualEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447EDF85C55B5601592F24661B6DC861 /* PowerUpVisualEffectView.swift */; };
+		F348B7FB93EE32DE232899572438BF18 /* PULoadingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700985C2750F11549C0A0DA643FEF4B5 /* PULoadingButton.swift */; };
+		FAEEB354DE117CCB04B2E676CAF7C060 /* PUVisualEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447EDF85C55B5601592F24661B6DC861 /* PUVisualEffectView.swift */; };
 		FCE8C01594A14D994C8E53190E141DB1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CBA33DEEFDF3E85910015F6306D526C /* Foundation.framework */; };
-		FCE9CB89D174250266E69E135034AD47 /* PowerUpUnderlineTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCE1FC5D21229E572D5F60D9062C327 /* PowerUpUnderlineTextField.swift */; };
+		FCE9CB89D174250266E69E135034AD47 /* PUUnderlineTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCE1FC5D21229E572D5F60D9062C327 /* PUUnderlineTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,28 +86,28 @@
 		3E6C19975D02EE98435D26DC70248DA3 /* PowerUpSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PowerUpSwift.modulemap; sourceTree = "<group>"; };
 		3EF4A00F85438B330F8E8E1892E1DFDF /* UIRefreshControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIRefreshControl.swift; sourceTree = "<group>"; };
 		435B6DBD060EA33D53506AC2810105C8 /* PowerUpSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PowerUpSwift-umbrella.h"; sourceTree = "<group>"; };
-		447EDF85C55B5601592F24661B6DC861 /* PowerUpVisualEffectView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PowerUpVisualEffectView.swift; sourceTree = "<group>"; };
+		447EDF85C55B5601592F24661B6DC861 /* PUVisualEffectView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PUVisualEffectView.swift; sourceTree = "<group>"; };
 		498F4EB1D32970DD7A1F7D0D6FB1AAF3 /* PowerUpSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PowerUpSwift.debug.xcconfig; sourceTree = "<group>"; };
-		4DEECFA60F4452F1624C6F4C9DE60C44 /* PowerUpLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PowerUpLabel.swift; sourceTree = "<group>"; };
+		4DEECFA60F4452F1624C6F4C9DE60C44 /* PULabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PULabel.swift; sourceTree = "<group>"; };
 		4E5966368C93D12BA33FD8F7A421DCA7 /* UIViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
 		517E9F6148CC9407B5C0327FF2BE6A40 /* UITableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UITableViewCell.swift; sourceTree = "<group>"; };
 		5BC784F466A7404AC1262AA950620E89 /* Pods-PowerUpSwift_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PowerUpSwift_Example.modulemap"; sourceTree = "<group>"; };
-		5DBECB3C8424D1316D2A998F0F6D05EA /* PowerUpLocalizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PowerUpLocalizable.swift; sourceTree = "<group>"; };
+		5DBECB3C8424D1316D2A998F0F6D05EA /* PULocalizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PULocalizable.swift; sourceTree = "<group>"; };
 		5E4104CC989CF3AEB82BA0D677BA11A4 /* PowerUpSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PowerUpSwift-dummy.m"; sourceTree = "<group>"; };
-		60277CEAF17947FD323A9FAAA789FB76 /* PowerUpView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PowerUpView.swift; sourceTree = "<group>"; };
+		60277CEAF17947FD323A9FAAA789FB76 /* PUView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PUView.swift; sourceTree = "<group>"; };
 		616AC344A5A2D72C730FBA3E7BF45BA4 /* Bundle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Bundle.swift; sourceTree = "<group>"; };
 		68E8970A1EAF0B18349FD191EC62E4AA /* Data.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
-		6AC599EB0B847843B5FFE38351CDA34C /* PowerUpImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PowerUpImageView.swift; sourceTree = "<group>"; };
+		6AC599EB0B847843B5FFE38351CDA34C /* PUImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PUImageView.swift; sourceTree = "<group>"; };
 		6BD4444A66E39054D0EDBD23F5776122 /* UICollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UICollectionViewCell.swift; sourceTree = "<group>"; };
 		6BE3FAA05D7D9768D259686E46C9259E /* PowerUpSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PowerUpSwift.release.xcconfig; sourceTree = "<group>"; };
-		700985C2750F11549C0A0DA643FEF4B5 /* PowerUpLoadingButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PowerUpLoadingButton.swift; sourceTree = "<group>"; };
+		700985C2750F11549C0A0DA643FEF4B5 /* PULoadingButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PULoadingButton.swift; sourceTree = "<group>"; };
 		70E022DE59C8A1ADF0523DAE7B9BCC68 /* UINavigationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UINavigationController.swift; sourceTree = "<group>"; };
-		71C6CBDE9764CD51AFE8C65FFE8D5681 /* PowerUpButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PowerUpButton.swift; sourceTree = "<group>"; };
+		71C6CBDE9764CD51AFE8C65FFE8D5681 /* PUButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PUButton.swift; sourceTree = "<group>"; };
 		77E9DA60BACF1F6D03BB4429381E798B /* PowerUpSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PowerUpSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7AE31031B50978372BBE44F3EAC766DE /* PowerUpBaseTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PowerUpBaseTextField.swift; sourceTree = "<group>"; };
+		7AE31031B50978372BBE44F3EAC766DE /* PUBaseTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PUBaseTextField.swift; sourceTree = "<group>"; };
 		7C6AAE59C5CE02944E974C3EAFBCB4F0 /* PowerUpSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PowerUpSwift-Info.plist"; sourceTree = "<group>"; };
 		8E5864AAC3C9C8B6782A982F4BE3615D /* NSLayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NSLayoutConstraint.swift; sourceTree = "<group>"; };
-		8E6FA7DFF5E9A369DB7D5ACA277F7834 /* PowerUpTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PowerUpTextField.swift; sourceTree = "<group>"; };
+		8E6FA7DFF5E9A369DB7D5ACA277F7834 /* PUTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PUTextField.swift; sourceTree = "<group>"; };
 		8F09319C86518EDA963FB12997F9CED7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		9149302A6056DFF0B4F20B5266F5D5C6 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
 		952247624019F059B371D1081E7D2B2E /* Pods-PowerUpSwift_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PowerUpSwift_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -119,13 +119,13 @@
 		AEB63E7388F5332566475F44CEF96CEF /* Pods-PowerUpSwift_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PowerUpSwift_Tests-Info.plist"; sourceTree = "<group>"; };
 		B346AD3A6B8D7D541891C65E3DD15C21 /* UIColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 		B34B21235B2A90BFC5D739D6B2E9672C /* URL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = URL.swift; sourceTree = "<group>"; };
-		B461649224DBE2B700A0D3B5 /* PowerUpNavigationItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerUpNavigationItem.swift; sourceTree = "<group>"; };
-		B461649424DBE3B000A0D3B5 /* PowerUpBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerUpBarItem.swift; sourceTree = "<group>"; };
-		B461649624DBE42D00A0D3B5 /* PowerUpSegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerUpSegmentedControl.swift; sourceTree = "<group>"; };
+		B461649224DBE2B700A0D3B5 /* PUNavigationItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PUNavigationItem.swift; sourceTree = "<group>"; };
+		B461649424DBE3B000A0D3B5 /* PUBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PUBarItem.swift; sourceTree = "<group>"; };
+		B461649624DBE42D00A0D3B5 /* PUSegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PUSegmentedControl.swift; sourceTree = "<group>"; };
 		B9BF64EB6613FD8293B19264B13D6C83 /* Pods-PowerUpSwift_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PowerUpSwift_Example-umbrella.h"; sourceTree = "<group>"; };
 		BA275EE167C9081D06C92B348570CA8F /* UIView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		BAE929AF7BEB1916D6E0B2A23C3427D5 /* UITextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UITextView.swift; sourceTree = "<group>"; };
-		C61E6070C4236B54FA901EF1BF5DF16A /* PowerUpTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PowerUpTextView.swift; sourceTree = "<group>"; };
+		C61E6070C4236B54FA901EF1BF5DF16A /* PUTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PUTextView.swift; sourceTree = "<group>"; };
 		C9DA7C402F1DC3342B7B1D992DBC8563 /* Pods-PowerUpSwift_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PowerUpSwift_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		CB1975268A8087A5C628C3E67A931C32 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		CCB7F897461A358118B466F65D6AE482 /* CLPlacemark.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CLPlacemark.swift; sourceTree = "<group>"; };
@@ -135,8 +135,8 @@
 		D67FB368B02425D556ECD365AFA9F1F3 /* Dictionary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Dictionary.swift; sourceTree = "<group>"; };
 		DC53A16F2EF61A246DB676702A4CEB04 /* String.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		DE453C8646D1269CD1562DD8297A1801 /* Optional.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Optional.swift; sourceTree = "<group>"; };
-		EC93B8CA61692882203BFF96951E2EC0 /* PowerUpCollectionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PowerUpCollectionView.swift; sourceTree = "<group>"; };
-		ECCE1FC5D21229E572D5F60D9062C327 /* PowerUpUnderlineTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PowerUpUnderlineTextField.swift; sourceTree = "<group>"; };
+		EC93B8CA61692882203BFF96951E2EC0 /* PUCollectionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PUCollectionView.swift; sourceTree = "<group>"; };
+		ECCE1FC5D21229E572D5F60D9062C327 /* PUUnderlineTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PUUnderlineTextField.swift; sourceTree = "<group>"; };
 		EEEEEC872DFAE9B6C5F06412C788010B /* Pods-PowerUpSwift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PowerUpSwift_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F118DA6BB1574E347660212D1971D5B3 /* Pods-PowerUpSwift_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PowerUpSwift_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F159B8AACCE8C270434AD47C34BF6A68 /* Pods-PowerUpSwift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PowerUpSwift_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -326,21 +326,21 @@
 		B461648F24DBDCD700A0D3B5 /* PowerUp */ = {
 			isa = PBXGroup;
 			children = (
-				7AE31031B50978372BBE44F3EAC766DE /* PowerUpBaseTextField.swift */,
-				71C6CBDE9764CD51AFE8C65FFE8D5681 /* PowerUpButton.swift */,
-				EC93B8CA61692882203BFF96951E2EC0 /* PowerUpCollectionView.swift */,
-				6AC599EB0B847843B5FFE38351CDA34C /* PowerUpImageView.swift */,
-				4DEECFA60F4452F1624C6F4C9DE60C44 /* PowerUpLabel.swift */,
-				700985C2750F11549C0A0DA643FEF4B5 /* PowerUpLoadingButton.swift */,
-				5DBECB3C8424D1316D2A998F0F6D05EA /* PowerUpLocalizable.swift */,
-				8E6FA7DFF5E9A369DB7D5ACA277F7834 /* PowerUpTextField.swift */,
-				C61E6070C4236B54FA901EF1BF5DF16A /* PowerUpTextView.swift */,
-				ECCE1FC5D21229E572D5F60D9062C327 /* PowerUpUnderlineTextField.swift */,
-				60277CEAF17947FD323A9FAAA789FB76 /* PowerUpView.swift */,
-				447EDF85C55B5601592F24661B6DC861 /* PowerUpVisualEffectView.swift */,
-				B461649224DBE2B700A0D3B5 /* PowerUpNavigationItem.swift */,
-				B461649424DBE3B000A0D3B5 /* PowerUpBarItem.swift */,
-				B461649624DBE42D00A0D3B5 /* PowerUpSegmentedControl.swift */,
+				7AE31031B50978372BBE44F3EAC766DE /* PUBaseTextField.swift */,
+				71C6CBDE9764CD51AFE8C65FFE8D5681 /* PUButton.swift */,
+				EC93B8CA61692882203BFF96951E2EC0 /* PUCollectionView.swift */,
+				6AC599EB0B847843B5FFE38351CDA34C /* PUImageView.swift */,
+				4DEECFA60F4452F1624C6F4C9DE60C44 /* PULabel.swift */,
+				700985C2750F11549C0A0DA643FEF4B5 /* PULoadingButton.swift */,
+				5DBECB3C8424D1316D2A998F0F6D05EA /* PULocalizable.swift */,
+				8E6FA7DFF5E9A369DB7D5ACA277F7834 /* PUTextField.swift */,
+				C61E6070C4236B54FA901EF1BF5DF16A /* PUTextView.swift */,
+				ECCE1FC5D21229E572D5F60D9062C327 /* PUUnderlineTextField.swift */,
+				60277CEAF17947FD323A9FAAA789FB76 /* PUView.swift */,
+				447EDF85C55B5601592F24661B6DC861 /* PUVisualEffectView.swift */,
+				B461649224DBE2B700A0D3B5 /* PUNavigationItem.swift */,
+				B461649424DBE3B000A0D3B5 /* PUBarItem.swift */,
+				B461649624DBE42D00A0D3B5 /* PUSegmentedControl.swift */,
 			);
 			name = PowerUp;
 			path = PowerUpSwift/Classes/PowerUp;
@@ -525,24 +525,24 @@
 				5965F971EB3E58C3444B4CB9A7CDDC24 /* Bool.swift in Sources */,
 				91CC3CD4090A559CC7D8FFADB1EA9CF1 /* Bundle.swift in Sources */,
 				D342FD90A59B47B5A385C293129BECFF /* CLPlacemark.swift in Sources */,
-				B461649324DBE2B700A0D3B5 /* PowerUpNavigationItem.swift in Sources */,
+				B461649324DBE2B700A0D3B5 /* PUNavigationItem.swift in Sources */,
 				4E5EFAF65769B8973F242B7944516C88 /* Data.swift in Sources */,
 				899570F9019AE84EFAECC5B428C8BB98 /* Dictionary.swift in Sources */,
 				78DD453E83520DE0EE53FF3F9A7B3AA1 /* NSLayoutConstraint.swift in Sources */,
 				BC9A63C79F8162885B649F2280EF9D0E /* Optional.swift in Sources */,
-				0F2EC4FC3D049898235C038F016CC7DC /* PowerUpBaseTextField.swift in Sources */,
-				0C06769B6FDCE3ABCEB572BF5A915CBB /* PowerUpButton.swift in Sources */,
-				873C38E8D900A67BDE1FD7804D9C8CAB /* PowerUpCollectionView.swift in Sources */,
-				CF01BDE967A629C17EA1B24B7598E117 /* PowerUpImageView.swift in Sources */,
-				083D8982E33F8B195FD34377248B6C5A /* PowerUpLabel.swift in Sources */,
-				F348B7FB93EE32DE232899572438BF18 /* PowerUpLoadingButton.swift in Sources */,
-				9D6E1DBA22A2FC8260BE0E0C92DB114E /* PowerUpLocalizable.swift in Sources */,
+				0F2EC4FC3D049898235C038F016CC7DC /* PUBaseTextField.swift in Sources */,
+				0C06769B6FDCE3ABCEB572BF5A915CBB /* PUButton.swift in Sources */,
+				873C38E8D900A67BDE1FD7804D9C8CAB /* PUCollectionView.swift in Sources */,
+				CF01BDE967A629C17EA1B24B7598E117 /* PUImageView.swift in Sources */,
+				083D8982E33F8B195FD34377248B6C5A /* PULabel.swift in Sources */,
+				F348B7FB93EE32DE232899572438BF18 /* PULoadingButton.swift in Sources */,
+				9D6E1DBA22A2FC8260BE0E0C92DB114E /* PULocalizable.swift in Sources */,
 				843152B2697BA6447999968C0B1A7219 /* PowerUpSwift-dummy.m in Sources */,
-				E928831315A4DC9BFE8638756FDAD5FE /* PowerUpTextField.swift in Sources */,
-				78D4417302C41356712EBDFA1220B2D6 /* PowerUpTextView.swift in Sources */,
-				FCE9CB89D174250266E69E135034AD47 /* PowerUpUnderlineTextField.swift in Sources */,
-				13E8B5B90A065A62342695CA069CBEAC /* PowerUpView.swift in Sources */,
-				FAEEB354DE117CCB04B2E676CAF7C060 /* PowerUpVisualEffectView.swift in Sources */,
+				E928831315A4DC9BFE8638756FDAD5FE /* PUTextField.swift in Sources */,
+				78D4417302C41356712EBDFA1220B2D6 /* PUTextView.swift in Sources */,
+				FCE9CB89D174250266E69E135034AD47 /* PUUnderlineTextField.swift in Sources */,
+				13E8B5B90A065A62342695CA069CBEAC /* PUView.swift in Sources */,
+				FAEEB354DE117CCB04B2E676CAF7C060 /* PUVisualEffectView.swift in Sources */,
 				C4D126B694AC0BE24E6273EEF5E687E1 /* String.swift in Sources */,
 				A9892940632DD3227FD0818B18377930 /* UIButton.swift in Sources */,
 				8856ED20E0B8CAFA21F7E29617587A56 /* UICollectionViewCell.swift in Sources */,
@@ -550,13 +550,13 @@
 				D6AA8C3CED449224AE196B94781F127D /* UINavigationController.swift in Sources */,
 				2408C4466BA7984BC5A9B8B0E34BC802 /* UIRefreshControl.swift in Sources */,
 				2621460D9A838886A844DE95FC85BFEB /* UITableView.swift in Sources */,
-				B461649524DBE3B000A0D3B5 /* PowerUpBarItem.swift in Sources */,
+				B461649524DBE3B000A0D3B5 /* PUBarItem.swift in Sources */,
 				2E48D38F3E104A930EBEEB2BCA137912 /* UITableViewCell.swift in Sources */,
 				7C1CCD4B288E86271881A8D994E11447 /* UITextView.swift in Sources */,
 				0DB78B4B624515F91A7E242C5C1B1352 /* UIView.swift in Sources */,
 				36EAC397417DD3C6546AB0F3D334F45A /* UIViewController.swift in Sources */,
 				06467006A6233F0CB502691B260F2392 /* URL.swift in Sources */,
-				B461649724DBE42D00A0D3B5 /* PowerUpSegmentedControl.swift in Sources */,
+				B461649724DBE42D00A0D3B5 /* PUSegmentedControl.swift in Sources */,
 				E3188D883AAAC9B4842B7EFB3750CC9F /* URLRequest.swift in Sources */,
 				060C7F6ED6A680AC9986DC973EF6D3F5 /* URLResponse.swift in Sources */,
 			);

@@ -1,5 +1,5 @@
 //
-//  PowerUpNavigationItem.swift
+//  PUNavigationItem.swift
 //  PowerUpSwift
 //
 //  Created by Ceferino Jose II on 8/6/20.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-@IBDesignable open class PowerUpNavigationItem: UINavigationItem, PUXIBLocalizable {
+@IBDesignable open class PUNavigationItem: UINavigationItem, PUXIBLocalizable {
     @IBInspectable open var xibLocKey: String? {
         get { return nil }
         set(key) {

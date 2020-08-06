@@ -1,5 +1,5 @@
 //
-//  PowerUpBaseTextField.swift
+//  PUBaseTextField.swift
 //  PowerUpSwift
 //
 //  Created by Ceferino Jose II on 11/11/18.
@@ -9,7 +9,7 @@
 import UIKit
 
 /// **PowerUpSwift**: The base class for the PowerUpTextFields that reduces the risk of code duplication.
-@IBDesignable open class PowerUpBaseTextField: UITextField, PUXIBPlaceholderLocalizable {
+@IBDesignable open class PUBaseTextField: UITextField, PUXIBPlaceholderLocalizable {
     @IBInspectable open var xibPlaceholderLocKey: String? {
         get { return nil }
         set(key) {
@@ -45,7 +45,7 @@ import UIKit
     
     // Swift does not provide a built-in max length property on text fields.
     // This lets you set the max length in the Interface Builder under the Attributes inspector.
-    // Make sure you set the class of the textfield to PowerUpTextField.
+    // Make sure you set the class of the textfield to PUTextField.
     @IBInspectable open var maxLength: Int {
         get {
             guard let l = __maxLengths[self] else {

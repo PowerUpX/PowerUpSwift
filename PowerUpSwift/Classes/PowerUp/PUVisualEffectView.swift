@@ -1,5 +1,5 @@
 //
-//  PowerUpVisualEffectView.swift
+//  PUVisualEffectView.swift
 //  PowerUpSwift
 //
 //  Created by Ceferino Jose II on 14/08/2019.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-@IBDesignable open class PowerUpVisualEffectView: UIVisualEffectView {
+@IBDesignable open class PUVisualEffectView: UIVisualEffectView {
     @IBInspectable open var cornerRadius: CGFloat = 0 {
         didSet { self.layer.cornerRadius = self.cornerRadius }
     }

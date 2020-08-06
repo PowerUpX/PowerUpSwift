@@ -1,14 +1,14 @@
 //
-//  PowerUpView.swift
+//  PUImageView.swift
 //  PowerUpSwift
 //
-//  Created by Ceferino Jose II on 10/10/18.
+//  Created by Ceferino Jose II on 29/07/2019.
 //  Copyright © 2020 PowerUpX. All rights reserved.
 //
 
 import UIKit
 
-@IBDesignable open class PowerUpView: UIView {
+@IBDesignable open class PUImageView: UIImageView {
     @IBInspectable open var cornerRadius: CGFloat = 0 {
         didSet { self.layer.cornerRadius = self.cornerRadius }
     }
@@ -48,3 +48,4 @@ import UIKit
         }
     }
 }
+

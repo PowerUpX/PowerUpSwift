@@ -1,5 +1,5 @@
 //
-//  PowerUpLocalizable.swift
+//  PULocalizable.swift
 //  PowerUpSwift
 //
 //  Created by Ceferino Jose II on 8/6/20.

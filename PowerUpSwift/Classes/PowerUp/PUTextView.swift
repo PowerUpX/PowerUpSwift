@@ -1,5 +1,5 @@
 //
-//  PowerUpTextView.swift
+//  PUTextView.swift
 //  PowerUpSwift
 //
 //  Created by Ceferino Jose II on 10/11/18.
@@ -8,8 +8,8 @@
 
 import UIKit
 
-@IBDesignable open class PowerUpTextView: UITextView, PUXIBPlaceholderLocalizable {
-    var placeholderLabel = PowerUpLabel()
+@IBDesignable open class PUTextView: UITextView, PUXIBPlaceholderLocalizable {
+    var placeholderLabel = PULabel()
     
     @IBInspectable open var xibPlaceholderLocKey: String? {
         get { return nil }
@@ -127,7 +127,7 @@ import UIKit
      Calculates the new height of the text view based on the size of the content
      and the user-defined `maxExpandableHeight`.
      You should reference an `@IBOutlet` to the height constraint.
-     Make sure the PowerUpTextView's delegate is also set through the Storyboard or via code.
+     Make sure the PUTextView's delegate is also set through the Storyboard or via code.
      ### Example
      ```
      @IBOutlet powerUpTextViewHeightConstraint: NSLayoutConstraint!

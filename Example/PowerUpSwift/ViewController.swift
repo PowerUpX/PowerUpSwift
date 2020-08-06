@@ -10,7 +10,7 @@ import UIKit
 import PowerUpSwift
 
 class ViewController: UIViewController {
-    @IBOutlet weak var powerUpTextField: PowerUpUnderlineTextField!
+    @IBOutlet weak var powerUpTextField: PUUnderlineTextField!
 
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -1,5 +1,5 @@
 //
-//  PowerUpLabel.swift
+//  PULabel.swift
 //  PowerUpSwift
 //
 //  Created by Ceferino Jose II on 10/10/18.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-@IBDesignable open class PowerUpLabel: UILabel, PUXIBLocalizable {
+@IBDesignable open class PULabel: UILabel, PUXIBLocalizable {
     @IBInspectable open var xibLocKey: String? {
         get { return nil }
         set(key) {
@@ -22,7 +22,7 @@ import UIKit
     @IBInspectable open var rightInset: CGFloat = 0.0
     
     /**
-     PowerUpLabel's UIEdgeInsets value can be set programmatically.
+     PULabel's UIEdgeInsets value can be set programmatically.
      ### Example
      ```
      self.powerUpLabel.insets = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0)

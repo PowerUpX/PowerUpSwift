@@ -1,5 +1,5 @@
 //
-//  PowerUpButton.swift
+//  PUButton.swift
 //  PowerUpSwift
 //
 //  Created by Ceferino Jose II on 10/10/18.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-@IBDesignable open class PowerUpButton: UIButton {
+@IBDesignable open class PUButton: UIButton {
     @IBInspectable open var xibLocKey: String? {
         get { return nil }
         set(key) {

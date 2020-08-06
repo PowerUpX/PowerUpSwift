@@ -1,5 +1,5 @@
 //
-//  PowerUpSegmentedControl.swift
+//  PUSegmentedControl.swift
 //  PowerUpSwift
 //
 //  Created by Ceferino Jose II on 8/6/20.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-@IBDesignable open class PowerUpSegmentedControl: UISegmentedControl, PUXIBMultiLocalizable {
+@IBDesignable open class PUSegmentedControl: UISegmentedControl, PUXIBMultiLocalizable {
     @IBInspectable open var xibLocKeys: String? {
         get { return nil }
         set(keys) {

@@ -1,5 +1,5 @@
 //
-//  PowerUpCollectionView.swift
+//  PUCollectionView.swift
 //  PowerUpSwift
 //
 //  Created by Ceferino Jose II on 4/14/20.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-@IBDesignable open class PowerUpCollectionView: UICollectionView {
+@IBDesignable open class PUCollectionView: UICollectionView {
     @IBInspectable open var cornerRadius: CGFloat = 0 {
         didSet { self.layer.cornerRadius = self.cornerRadius }
     }

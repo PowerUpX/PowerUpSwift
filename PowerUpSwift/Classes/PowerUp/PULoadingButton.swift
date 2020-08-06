@@ -1,5 +1,5 @@
 //
-//  PowerUpLoadingButton.swift
+//  PULoadingButton.swift
 //  PowerUpSwift
 //
 //  Created by Ceferino Jose II on 4/21/20.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-@IBDesignable open class PowerUpLoadingButton: PowerUpButton, PUXIBLocalizable {
+@IBDesignable open class PULoadingButton: PUButton, PUXIBLocalizable {
     /// **PowerUpSwift**: The `alpha` value when showing the loading indicator.
     @IBInspectable open var disabledAlpha: CGFloat = 0.5
     

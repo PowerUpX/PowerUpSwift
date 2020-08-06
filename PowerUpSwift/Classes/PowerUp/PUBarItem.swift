@@ -1,5 +1,5 @@
 //
-//  PowerUpBarItem.swift
+//  PUBarItem.swift
 //  PowerUpSwift
 //
 //  Created by Ceferino Jose II on 8/6/20.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-@IBDesignable open class PowerUpBarItem: UIBarItem, PUXIBLocalizable {
+@IBDesignable open class PUBarItem: UIBarItem, PUXIBLocalizable {
     /// Localizes UIBarButtonItem and UITabBarItem
     @IBInspectable open var xibLocKey: String? {
         get { return nil }

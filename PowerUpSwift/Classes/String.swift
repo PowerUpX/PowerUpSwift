@@ -117,7 +117,7 @@ extension String {
 }
 
 extension Optional where Wrapped == String {
-    var isNilOrEmpty: Bool {
+    public var isNilOrEmpty: Bool {
         return (self ?? "").isEmpty
     }
 }

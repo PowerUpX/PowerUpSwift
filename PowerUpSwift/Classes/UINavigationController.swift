@@ -9,7 +9,7 @@ import UIKit
 
 extension UINavigationController {
     /// Adds a completion handler to `pushViewController(_, animated:)`.
-    func pushViewController(_ viewController: UIViewController, animated: Bool, completion: @escaping () -> Void) {
+    public func pushViewController(_ viewController: UIViewController, animated: Bool, completion: @escaping () -> Void) {
         self.pushViewController(viewController, animated: animated)
 
         guard animated, let coordinator = self.transitionCoordinator else {
@@ -21,7 +21,7 @@ extension UINavigationController {
     }
     
     /// Adds a completion handler to `popViewController(animated:)`.
-    func popViewController(animated: Bool, completion: @escaping () -> Void) {
+    public func popViewController(animated: Bool, completion: @escaping () -> Void) {
         self.popViewController(animated: animated)
 
         guard animated, let coordinator = self.transitionCoordinator else {

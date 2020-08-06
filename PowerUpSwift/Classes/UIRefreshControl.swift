@@ -9,7 +9,7 @@ import UIKit
 
 extension UIRefreshControl {
     /// Reverses the value of `isRefreshing` so it feels more natural to write than using an exclamation point.
-    var isNotRefreshing: Bool {
+    public var isNotRefreshing: Bool {
         return !self.isRefreshing
     }
 }

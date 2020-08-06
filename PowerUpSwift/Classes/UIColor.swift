@@ -14,7 +14,7 @@ extension UIColor {
     /// ```
     /// UIColor(hex: "#FFFFFF")
     /// ```
-    convenience public init(hex: String) {
+    public convenience init(hex: String) {
         let hex = hex.trimmingCharacters(in: CharacterSet.alphanumerics.inverted)
         var int = UInt32()
         Scanner(string: hex).scanHexInt32(&int)
@@ -45,7 +45,7 @@ extension UIColor {
     /// UIColor(r: 255, g: 255, b: 255)
     /// UIColor(r: 0, g: 0, b: 0, a: 0.5)
     /// ```
-    convenience public init(r: CGFloat, g: CGFloat, b: CGFloat, a: CGFloat? = 1.0) {
+    public convenience init(r: CGFloat, g: CGFloat, b: CGFloat, a: CGFloat? = 1.0) {
         self.init(red: r / 255, green: g / 255, blue: b / 255, alpha: a!)
     }
 }

@@ -116,6 +116,12 @@ extension String {
     }
 }
 
+extension Optional where Wrapped == String {
+    var isNilOrEmpty: Bool {
+        return (self ?? "").isEmpty
+    }
+}
+
 // MARK: - Deprecated
 extension String {
     // This is how we are going to deprecate things.

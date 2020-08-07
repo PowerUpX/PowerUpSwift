@@ -18,6 +18,11 @@ extension UIViewController {
         self.view.endEditing(true)
     }
     
+    /// **PowerUpSwift**: A syntactic sugar for UIViewController instance's `navigationController` property.
+    public var navVC: UINavigationController? {
+        return self.navigationController
+    }
+    
     /// **PowerUpSwift**: [DEPRECATED] Present a view controller full screen no matter what.
     @available(iOS, obsoleted: 13.0, message: "This will no longer work starting in iOS 13.")
     public func showInFullScreen(completion: (() -> Void)? = nil) {

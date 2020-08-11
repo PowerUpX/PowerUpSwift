@@ -43,7 +43,11 @@ import UIKit
         // Handle the color update when switching to or from dark mode
         if #available(iOS 13.0, *) {
             if self.traitCollection.hasDifferentColorAppearance(comparedTo: previousTraitCollection) {
-                self.layer.setNeedsDisplay()
+                // This causes a blank image bug when switching to dark/light mode
+                // self.layer.setNeedsDisplay()
+                
+                self.layer.borderColor = self.borderColor?.cgColor
+                self.layer.shadowColor = self.borderColor?.cgColor
             }
         }
     }

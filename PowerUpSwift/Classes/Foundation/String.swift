@@ -27,7 +27,7 @@ extension String {
             .replacingOccurrences(of: "\n\n\n+", with: "\n\n", options: .regularExpression)
     }
     
-    /// **PowerUpSwift**: Checks if the String is a valid email and returns a Bool.
+    /// **PowerUpSwift**: Checks if the String is a valid email and returns a `Bool` value.
     public var isValidEmail: Bool {
         let regEx = "[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,}"
         let predicate = NSPredicate(format:"SELF MATCHES %@", regEx)
@@ -62,7 +62,7 @@ extension String {
         return NSLocalizedString(self, bundle: bundle, comment: comment)
     }
     
-    /// **PowerUpSwift**: Checks if the String is a valid IP address and returns a Bool.
+    /// **PowerUpSwift**: Checks if the String is a valid IP address and returns a `Bool` value.
     public var isValidIP: Bool {
         let regEx = "^[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}$"
         let predicate = NSPredicate(format:"SELF MATCHES %@", regEx)
@@ -75,7 +75,7 @@ extension String {
         return !self.isValidIP
     }
     
-    /// **PowerUpSwift**: Checks if the String is a valid mac address and returns a Bool.
+    /// **PowerUpSwift**: Checks if the String is a valid mac address and returns a `Bool` value.
     public var isValidMAC: Bool {
         let regEx = "^([0-9A-Fa-f]{2}[:]){5}([0-9A-Fa-f]{2})$"
         let predicate = NSPredicate(format:"SELF MATCHES %@", regEx)

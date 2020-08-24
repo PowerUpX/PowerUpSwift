@@ -8,22 +8,17 @@
 
 import UIKit
 
-public protocol PULocalizable {
-    var localized: String { get }
-    func localized(in bundle: Bundle?, comment: String) -> String
-}
-
-/// Protocol to localize basic controls.
+/// PowerUpSwift: A protocol to localize basic controls in the Interface Builder.
 public protocol PUXIBLocalizable {
     var xibLocKey: String? { get set }
 }
 
-/// Protocol to localize multiple texts in the same control.
+/// PowerUpSwift: A protocol to localize multiple texts in the same control such as the segmented control in the Interface Builder.
 public protocol PUXIBMultiLocalizable {
     var xibLocKeys: String? { get set }
 }
 
-/// Protocol to localize text field and text view placeholders.
+/// PowerUpSwift: A protocol to localize the placeholder in the text fields and text views in the Interface Builder.
 public protocol PUXIBPlaceholderLocalizable {
     var xibPlaceholderLocKey: String? { get set }
 }

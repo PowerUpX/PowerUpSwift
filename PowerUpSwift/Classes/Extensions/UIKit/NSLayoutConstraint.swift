@@ -11,8 +11,8 @@ import UIKit
 
 extension NSLayoutConstraint {
     /**
-     A hack that returns a new constraint based on the passed in **multiplier**
-     because Apple made the mutliplier property read-only.
+     PowerUpSwift A hack that returns a new constraint based on the passed in **multiplier**
+     because the mutliplier property read-only.
      ### Example
      ````
      self.myConstraint = self.myConstraint.withMultiplier(1.75)

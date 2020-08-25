@@ -10,7 +10,9 @@ import Foundation
 import CoreLocation
 
 extension CLPlacemark {
-    public var asFullAddress: String? {
+    /// PowerUpSwift: Returns a `String` that is composed of the concatenation of
+    /// the properties of the CLPlacemark instance to form a full address format.
+    public var fullAddress: String? {
         // See: https://stackoverflow.com/a/7768890
         var address = ""
         

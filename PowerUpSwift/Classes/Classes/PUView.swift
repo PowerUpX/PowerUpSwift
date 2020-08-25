@@ -8,7 +8,9 @@
 
 import UIKit
 
+/// PowerUpSwift: The subclass of `UIView` that allows the editing of additional UIKit properties via the Interface Builder.
 @IBDesignable open class PUView: UIView {
+    // MARK: - Inspectables
     @IBInspectable open var cornerRadius: CGFloat = 0 {
         didSet { self.layer.cornerRadius = self.cornerRadius }
     }
@@ -36,11 +38,14 @@ import UIKit
     @IBInspectable open var shadowColor: UIColor? {
         didSet { self.layer.shadowColor = self.shadowColor?.cgColor }
     }
-    
+}
+
+extension PUView {
+    /// nodoc:
     open override func traitCollectionDidChange(_ previousTraitCollection: UITraitCollection?) {
         super.traitCollectionDidChange(previousTraitCollection)
         
-        // Handle the color update when switching to or from dark mode
+        // Handle the color update of the layers when switching to or from dark mode
         if #available(iOS 13.0, *) {
             if self.traitCollection.hasDifferentColorAppearance(comparedTo: previousTraitCollection) {
                 self.layer.setNeedsDisplay()

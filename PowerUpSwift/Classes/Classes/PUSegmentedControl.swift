@@ -1,14 +1,25 @@
 //
-//  PUImageView.swift
+//  PUSegmentedControl.swift
 //  PowerUpSwift
 //
-//  Created by Ceferino Jose II on 29/07/2019.
+//  Created by Ceferino Jose II on 8/6/20.
 //  Copyright © 2020 PowerUpX. All rights reserved.
 //
 
 import UIKit
 
-@IBDesignable open class PUImageView: UIImageView {
+/// PowerUpSwift: The subclass of `UISegmentedControl` that allows the editing of additional UIKit properties via the Interface Builder.
+@IBDesignable open class PUSegmentedControl: UISegmentedControl, PUXIBMultiLocalizable, PUInspectable {
+    // MARK: - Inspectables
+    @IBInspectable open var xibLocKeys: String? {
+        didSet {
+            guard let keys = self.xibLocKeys?.components(separatedBy: ","), !keys.isEmpty else { return }
+            for (index, title) in keys.enumerated() {
+                self.setTitle(title.localized, forSegmentAt: index)
+            }
+        }
+    }
+    
     @IBInspectable open var cornerRadius: CGFloat = 0 {
         didSet { self.layer.cornerRadius = self.cornerRadius }
     }
@@ -36,20 +47,4 @@ import UIKit
     @IBInspectable open var shadowColor: UIColor? {
         didSet { self.layer.shadowColor = self.shadowColor?.cgColor }
     }
-    
-    open override func traitCollectionDidChange(_ previousTraitCollection: UITraitCollection?) {
-        super.traitCollectionDidChange(previousTraitCollection)
-        
-        // Handle the color update when switching to or from dark mode
-        if #available(iOS 13.0, *) {
-            if self.traitCollection.hasDifferentColorAppearance(comparedTo: previousTraitCollection) {
-                // This causes a blank image bug when switching to dark/light mode
-                // self.layer.setNeedsDisplay()
-                
-                self.layer.borderColor = self.borderColor?.cgColor
-                self.layer.shadowColor = self.borderColor?.cgColor
-            }
-        }
-    }
 }
-

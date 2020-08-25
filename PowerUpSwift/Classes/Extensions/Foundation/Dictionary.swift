@@ -9,7 +9,7 @@
 import Foundation
 
 extension Dictionary {
-    /// **PowerUpSwift**: Returns a JSON `Data` converted from a `Dictionary`.
+    /// PowerUpSwift: Returns a JSON `Data` converted from a `Dictionary`.
     public var data: Data? {
         return try? JSONSerialization.data(withJSONObject: self, options: .prettyPrinted)
     }

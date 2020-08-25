@@ -1,18 +1,16 @@
 //
-//  PUButton.swift
+//  PUCollectionView.swift
 //  PowerUpSwift
 //
-//  Created by Ceferino Jose II on 10/10/18.
+//  Created by Ceferino Jose II on 4/14/20.
 //  Copyright © 2020 PowerUpX. All rights reserved.
 //
 
 import UIKit
 
-@IBDesignable open class PUButton: UIButton {
-    @IBInspectable open var xibLocKey: String? {
-        didSet { self.setTitle(self.xibLocKey?.localized, for: .normal) }
-    }
-    
+/// PowerUpSwift: The subclass of `UICollectionView` that allows the editing of additional UIKit properties via the Interface Builder.
+@IBDesignable open class PUCollectionView: UICollectionView, PUInspectable {
+    // MARK: - Inspectables
     @IBInspectable open var cornerRadius: CGFloat = 0 {
         didSet { self.layer.cornerRadius = self.cornerRadius }
     }
@@ -40,7 +38,10 @@ import UIKit
     @IBInspectable open var shadowColor: UIColor? {
         didSet { self.layer.shadowColor = self.shadowColor?.cgColor }
     }
-    
+}
+
+extension PUCollectionView {
+    /// :nodoc:
     open override func traitCollectionDidChange(_ previousTraitCollection: UITraitCollection?) {
         super.traitCollectionDidChange(previousTraitCollection)
         
@@ -52,4 +53,3 @@ import UIKit
         }
     }
 }
-

@@ -9,6 +9,7 @@
 import UIKit
 
 extension UITableView {
+    /// PowerUpSwift: Looks for the selected item in the table view and deselects it.
     public func deselectSelectedRow(animated: Bool) {
         if let indexPathForSelectedRow = self.indexPathForSelectedRow {
             self.deselectRow(at: indexPathForSelectedRow, animated: animated)

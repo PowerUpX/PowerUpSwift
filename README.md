@@ -1,7 +1,7 @@
 <!--[![CI Status](https://img.shields.io/travis/cefjoeii/PowerUpSwift.svg?style=flat)](https://travis-ci.org/cefjoeii/PowerUpSwift)-->
 
 <p align="center">
-  <img src="Screenshots/PowerUpSwift.png" alt="PowerUpSwift" width="auto" height="auto" />
+  <img src="https://raw.githubusercontent.com/PowerUpX/PowerUpSwift/master/Screenshots/PowerUpSwift.png" alt="PowerUpSwift" width="auto" height="auto" />
 </p>
 
 <p align="center">
@@ -11,25 +11,19 @@
   <img src="https://img.shields.io/badge/language-american%20english-red.svg" />
 </p>
 
-<!--## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements-->
-
-## About
+## Overview
 Apple doesn't provide some basic useful utilities to make our iOS Development lives a little easier. This might be for a [good] reason, such as keeping the platform lightweight. It sometimes requires extra time and effort to implement a simple basic feature that you can easily do in Android built-in, so you end up doing a couple more hacks. This library was created to save time, to be more productive, and to be **DRY** (*Don't Repeat Yourself*).
 
 <br>
 
 <p align="center">
-  <img src="Screenshots/code-screenshot-purple.png" alt="PowerUpSwift Code Screenshot" width="auto" height="auto" />
+  <img src="https://raw.githubusercontent.com/PowerUpX/PowerUpSwift/master/Screenshots/code-screenshot-purple.png" alt="PowerUpSwift Code Screenshot" width="auto" height="auto" />
 </p>
 
-Now you can get rid of your messy *Utilities* folder and have a cleaner project.
+Now you can reduce your messy *Utilities* folder that's filling up your source code.
 
 ## Demo
-<img src="Screenshots/Demo.gif" alt="PowerUpSwift" width="auto" height="auto" />
+<img src="https://raw.githubusercontent.com/PowerUpX/PowerUpSwift/master/Screenshots/Demo.gif" alt="PowerUpSwift" width="auto" height="auto" />
 
 ## Installation
 
@@ -40,19 +34,20 @@ it, simply add the following line to your Podfile:
 pod 'PowerUpSwift'
 ```
 
-## How To Use
+## Usage
 
 The documentation can be found [here](https://github.com/PowerUpX/PowerUpSwift/wiki) in the Wiki page.
 
 ## Contribute
 
-Feel free to help out as I may have other work/life commitments. See [CONTRIBUTING.md](CONTRIBUTING.md).
+Feel free to help out. See [CONTRIBUTING.md](CONTRIBUTING.md).
 
-## Show Some :heart: :wave:
+## 💜 Show Some Support 
 [![GitHub Stars](https://img.shields.io/github/stars/PowerUpX/PowerUpSwift.svg?style=social&label=Star)](https://github.com/PowerUpX/PowerUpSwift)
 [![GitHub Forks](https://img.shields.io/github/forks/PowerUpX/PowerUpSwift.svg?style=social&label=Fork)](https://github.com/PowerUpX/PowerUpSwift/fork)
 [![GitHub Watchers](https://img.shields.io/github/watchers/PowerUpX/PowerUpSwift.svg?style=social&label=Watch)](https://github.com/PowerUpX/PowerUpSwift)
 
+## 💎 Follow Me 
 [![Follow on GitHub](https://img.shields.io/github/followers/cefjoeii.svg?style=social&label=Follow)](https://github.com/cefjoeii)
 [![Follow on Facebook](https://img.shields.io/badge/Follow%20%40cefjoeii%20on-Facebook-%233C5A99.svg)](https://facebook.com/cefjoeii)
 [![Follow on Instagram](https://img.shields.io/badge/Follow%20%40cefjoeii%20on-Instagram-C13584.svg)](https://instagram.com/cefjoeii)
@@ -61,4 +56,4 @@ Feel free to help out as I may have other work/life commitments. See [CONTRIBUTI
 
 ## License
 
-PowerUpSwift is available under the MIT license. See the LICENSE file for more info.
+**PowerUpSwift** is available under the MIT license. See the  [LICENSE](LICENSE) file for more info.

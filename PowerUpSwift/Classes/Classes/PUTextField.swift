@@ -1,14 +1,16 @@
 //
-//  PUCollectionView.swift
+//  PUTextField.swift
 //  PowerUpSwift
 //
-//  Created by Ceferino Jose II on 4/14/20.
+//  Created by Ceferino Jose II on 10/10/18.
 //  Copyright © 2020 PowerUpX. All rights reserved.
 //
 
 import UIKit
 
-@IBDesignable open class PUCollectionView: UICollectionView {
+/// PowerUpSwift: The subclass of `PUBaseTextField` that allows the editing of additional UIKit properties via the Interface Builder.
+@IBDesignable open class PUTextField: PUBaseTextField, PUInspectable {
+    // MARK: - Inspectables
     @IBInspectable open var cornerRadius: CGFloat = 0 {
         didSet { self.layer.cornerRadius = self.cornerRadius }
     }
@@ -36,7 +38,10 @@ import UIKit
     @IBInspectable open var shadowColor: UIColor? {
         didSet { self.layer.shadowColor = self.shadowColor?.cgColor }
     }
-    
+}
+
+extension PUTextField {
+    /// :nodoc:
     open override func traitCollectionDidChange(_ previousTraitCollection: UITraitCollection?) {
         super.traitCollectionDidChange(previousTraitCollection)
         

@@ -41,7 +41,8 @@
 		B461649324DBE2B700A0D3B5 /* PUNavigationItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B461649224DBE2B700A0D3B5 /* PUNavigationItem.swift */; };
 		B461649524DBE3B000A0D3B5 /* PUBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B461649424DBE3B000A0D3B5 /* PUBarItem.swift */; };
 		B461649724DBE42D00A0D3B5 /* PUSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = B461649624DBE42D00A0D3B5 /* PUSegmentedControl.swift */; };
-		B8912FD324F40BE700121BCA /* PURepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8912FD124F408E100121BCA /* PURepresentable.swift */; };
+		B8912FD324F40BE700121BCA /* PUInspectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8912FD124F408E100121BCA /* PUInspectable.swift */; };
+		B8E4EB4324F55CCD002C4569 /* PUTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E4EB4224F55CCD002C4569 /* PUTableView.swift */; };
 		BC9A63C79F8162885B649F2280EF9D0E /* Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE453C8646D1269CD1562DD8297A1801 /* Optional.swift */; };
 		C4D126B694AC0BE24E6273EEF5E687E1 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC53A16F2EF61A246DB676702A4CEB04 /* String.swift */; };
 		CF01BDE967A629C17EA1B24B7598E117 /* PUImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC599EB0B847843B5FFE38351CDA34C /* PUImageView.swift */; };
@@ -123,7 +124,8 @@
 		B461649224DBE2B700A0D3B5 /* PUNavigationItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PUNavigationItem.swift; sourceTree = "<group>"; };
 		B461649424DBE3B000A0D3B5 /* PUBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PUBarItem.swift; sourceTree = "<group>"; };
 		B461649624DBE42D00A0D3B5 /* PUSegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PUSegmentedControl.swift; sourceTree = "<group>"; };
-		B8912FD124F408E100121BCA /* PURepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PURepresentable.swift; sourceTree = "<group>"; };
+		B8912FD124F408E100121BCA /* PUInspectable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PUInspectable.swift; sourceTree = "<group>"; };
+		B8E4EB4224F55CCD002C4569 /* PUTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PUTableView.swift; sourceTree = "<group>"; };
 		B9BF64EB6613FD8293B19264B13D6C83 /* Pods-PowerUpSwift_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PowerUpSwift_Example-umbrella.h"; sourceTree = "<group>"; };
 		BA275EE167C9081D06C92B348570CA8F /* UIView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		BAE929AF7BEB1916D6E0B2A23C3427D5 /* UITextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UITextView.swift; sourceTree = "<group>"; };
@@ -242,7 +244,7 @@
 			isa = PBXGroup;
 			children = (
 				B8912FD024F4088900121BCA /* Extensions */,
-				B461648F24DBDCD700A0D3B5 /* Subclasses */,
+				B461648F24DBDCD700A0D3B5 /* Classes */,
 				A87DB1352734E78D0ACD4CD57072BD24 /* Pod */,
 				D4E2828BC4809EC7A0724DF248D5F4C0 /* Support Files */,
 			);
@@ -320,7 +322,7 @@
 			path = CoreLocation;
 			sourceTree = "<group>";
 		};
-		B461648F24DBDCD700A0D3B5 /* Subclasses */ = {
+		B461648F24DBDCD700A0D3B5 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
 				B461649424DBE3B000A0D3B5 /* PUBarItem.swift */,
@@ -332,6 +334,7 @@
 				700985C2750F11549C0A0DA643FEF4B5 /* PULoadingButton.swift */,
 				B461649224DBE2B700A0D3B5 /* PUNavigationItem.swift */,
 				B461649624DBE42D00A0D3B5 /* PUSegmentedControl.swift */,
+				B8E4EB4224F55CCD002C4569 /* PUTableView.swift */,
 				8E6FA7DFF5E9A369DB7D5ACA277F7834 /* PUTextField.swift */,
 				C61E6070C4236B54FA901EF1BF5DF16A /* PUTextView.swift */,
 				ECCE1FC5D21229E572D5F60D9062C327 /* PUUnderlineTextField.swift */,
@@ -339,15 +342,15 @@
 				447EDF85C55B5601592F24661B6DC861 /* PUVisualEffectView.swift */,
 				B8912FCF24F407CE00121BCA /* Protocols */,
 			);
-			name = Subclasses;
-			path = PowerUpSwift/Classes/Subclasses;
+			name = Classes;
+			path = PowerUpSwift/Classes/Classes;
 			sourceTree = "<group>";
 		};
 		B8912FCF24F407CE00121BCA /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
 				5DBECB3C8424D1316D2A998F0F6D05EA /* PULocalizable.swift */,
-				B8912FD124F408E100121BCA /* PURepresentable.swift */,
+				B8912FD124F408E100121BCA /* PUInspectable.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -546,7 +549,7 @@
 				4E5EFAF65769B8973F242B7944516C88 /* Data.swift in Sources */,
 				899570F9019AE84EFAECC5B428C8BB98 /* Dictionary.swift in Sources */,
 				78DD453E83520DE0EE53FF3F9A7B3AA1 /* NSLayoutConstraint.swift in Sources */,
-				B8912FD324F40BE700121BCA /* PURepresentable.swift in Sources */,
+				B8912FD324F40BE700121BCA /* PUInspectable.swift in Sources */,
 				BC9A63C79F8162885B649F2280EF9D0E /* Optional.swift in Sources */,
 				0F2EC4FC3D049898235C038F016CC7DC /* PUBaseTextField.swift in Sources */,
 				0C06769B6FDCE3ABCEB572BF5A915CBB /* PUButton.swift in Sources */,
@@ -555,6 +558,7 @@
 				083D8982E33F8B195FD34377248B6C5A /* PULabel.swift in Sources */,
 				F348B7FB93EE32DE232899572438BF18 /* PULoadingButton.swift in Sources */,
 				9D6E1DBA22A2FC8260BE0E0C92DB114E /* PULocalizable.swift in Sources */,
+				B8E4EB4324F55CCD002C4569 /* PUTableView.swift in Sources */,
 				843152B2697BA6447999968C0B1A7219 /* PowerUpSwift-dummy.m in Sources */,
 				E928831315A4DC9BFE8638756FDAD5FE /* PUTextField.swift in Sources */,
 				78D4417302C41356712EBDFA1220B2D6 /* PUTextView.swift in Sources */,

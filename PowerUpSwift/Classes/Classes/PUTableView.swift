@@ -1,14 +1,16 @@
 //
-//  PUVisualEffectView.swift
+//  PUTableView.swift
 //  PowerUpSwift
 //
-//  Created by Ceferino Jose II on 14/08/2019.
+//  Created by Ceferino Jose II on 8/25/20.
 //  Copyright © 2020 PowerUpX. All rights reserved.
 //
 
 import UIKit
 
-@IBDesignable open class PUVisualEffectView: UIVisualEffectView {
+/// PowerUpSwift: The subclass of `UITableView` that allows the editing of additional UIKit properties via the Interface Builder.
+@IBDesignable open class PUTableView: UITableView, PUInspectable {
+    // MARK: - Inspectables
     @IBInspectable open var cornerRadius: CGFloat = 0 {
         didSet { self.layer.cornerRadius = self.cornerRadius }
     }
@@ -36,7 +38,10 @@ import UIKit
     @IBInspectable open var shadowColor: UIColor? {
         didSet { self.layer.shadowColor = self.shadowColor?.cgColor }
     }
-    
+}
+
+extension PUTableView {
+    /// :nodoc:
     open override func traitCollectionDidChange(_ previousTraitCollection: UITraitCollection?) {
         super.traitCollectionDidChange(previousTraitCollection)
         
@@ -48,3 +53,4 @@ import UIKit
         }
     }
 }
+

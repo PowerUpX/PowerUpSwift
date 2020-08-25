@@ -9,21 +9,22 @@
 import UIKit
 
 extension UIViewController {
+    /// PowerUpSwift: Hides the keyboard when tapped outside the text field.
     public func hideKeyboardWhenTappedOutside() {
         let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(UIViewController.hideKeyboard))
         self.view.addGestureRecognizer(tap)
     }
     
-    @objc public func hideKeyboard() {
+    @objc func hideKeyboard() {
         self.view.endEditing(true)
     }
     
-    /// **PowerUpSwift**: A syntactic sugar for UIViewController instance's `navigationController` property.
+    /// PowerUpSwift: A syntactic sugar for UIViewController's `navigationController` property.
     public var navVC: UINavigationController? {
         return self.navigationController
     }
     
-    /// **PowerUpSwift**: [DEPRECATED] Present a view controller full screen no matter what.
+    /// PowerUpSwift: [OBSOLETED] Present a view controller full screen no matter what.
     @available(iOS, obsoleted: 13.0, message: "This will no longer work starting in iOS 13.")
     public func showInFullScreen(completion: (() -> Void)? = nil) {
         DispatchQueue.main.async {

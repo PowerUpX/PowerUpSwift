@@ -9,11 +9,11 @@
 import UIKit
 
 extension UIColor {
-    /// **PowerUpSwift**: Initializes a `UIColor` based from the hex value.
+    /// PowerUpSwift: Initializes a `UIColor` based from the hex value.
     /// - Parameter hex: The hex string value similar to HTML.
     /// ### Example
-    /// ```
-    /// UIColor(hex: "#FFFFFF")
+    /// ```swift
+    /// let color = UIColor(hex: "#FFFFFF")
     /// ```
     public convenience init(hex: String) {
         let hex = hex.trimmingCharacters(in: CharacterSet.alphanumerics.inverted)
@@ -35,16 +35,16 @@ extension UIColor {
         self.init(red: CGFloat(r) / 255, green: CGFloat(g) / 255, blue: CGFloat(b) / 255, alpha: CGFloat(a) / 255)
     }
     
-    /// **PowerUpSwift**: Initializes a `UIColor` based from the rgb/a value similar to HTML.
+    /// PowerUpSwift: Initializes a `UIColor` based from the rgb/a value similar to HTML.
     /// - Parameters:
     ///     - r: Red
     ///     - g: Green
     ///     - b: Blue
     ///     - a: Alpha that defaults to `1.0` if not provided.
     /// ### Example
-    /// ```
-    /// UIColor(r: 255, g: 255, b: 255)
-    /// UIColor(r: 0, g: 0, b: 0, a: 0.5)
+    /// ```swift
+    /// let color = UIColor(r: 255, g: 255, b: 255)
+    /// let anotherColor = UIColor(r: 0, g: 0, b: 0, a: 0.5)
     /// ```
     public convenience init(r: CGFloat, g: CGFloat, b: CGFloat, a: CGFloat? = 1.0) {
         self.init(red: r / 255, green: g / 255, blue: b / 255, alpha: a!)

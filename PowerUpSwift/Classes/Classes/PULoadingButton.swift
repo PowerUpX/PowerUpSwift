@@ -8,15 +8,20 @@
 
 import UIKit
 
+/// PowerUpSwift: The subclass of `PUButton` that allows the editing of additional UIKit properties via the Interface Builder.
 @IBDesignable open class PULoadingButton: PUButton, PUXIBLocalizable {
-    /// **PowerUpSwift**: The `alpha` value when showing the loading indicator.
+    /// PowerUpSwift: The opacity when the loading indicator is currently shown. Defaults to 0.5.
     @IBInspectable open var disabledAlpha: CGFloat = 0.5
     
-    /// **PowerUpSwift**: The holder for the `UIButton`'s title when temporarily disabled.
+    /// PowerUpSwift: The holder for the `UIButton`'s title when temporarily disabled.
     private var originalTitle: String?
     
     private var activityIndicatorView: UIActivityIndicatorView!
-    
+}
+
+// MARK: - Custom Functions
+extension PULoadingButton {
+    /// PowerUpSwift: Displays the loading indicator to the center of the button and temporarily hides the button's title.
     open func showLoading() {
         // Clear out the title temporarily
         self.originalTitle = self.titleLabel?.text
@@ -60,6 +65,7 @@ import UIKit
         self.activityIndicatorView.startAnimating()
     }
     
+    /// PowerUpSwift: Hides the loading indicator from the center of the button and displays the button's title back.
     open func hideLoading() {
         // Bring the title back
         self.setTitle(self.originalTitle, for: .normal)

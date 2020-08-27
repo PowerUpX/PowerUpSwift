@@ -102,7 +102,7 @@ extension String {
     }
     
     /// PowerUpSwift: Parses the `String` and returns the payload `Dictionary` if it's a valid JWT.
-    public var extractedJWTPayload: [String: Any]? {
+    public var jwtPayload: [String: Any]? {
         // Seperate the strings by '.'
         let segments = self.components(separatedBy: ".")
         

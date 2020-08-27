@@ -8,11 +8,10 @@
   <img src="https://img.shields.io/cocoapods/v/PowerUpSwift.svg?style=flat" />
   <img src="https://img.shields.io/cocoapods/l/PowerUpSwift.svg?style=flat" />
   <img src="https://img.shields.io/cocoapods/p/PowerUpSwift.svg?style=flat" />
-  <img src="https://img.shields.io/badge/language-american%20english-red.svg" />
 </p>
 
 ## Overview
-Apple doesn't provide some basic useful utilities to make our iOS Development lives a little easier. This might be for a [good] reason, such as keeping the platform lightweight. It sometimes requires extra time and effort to implement a simple basic feature that you can easily do in Android built-in, so you end up doing a couple more hacks. This library was created to save time, to be more productive, and to be **DRY** (*Don't Repeat Yourself*).
+Apple doesn't provide some basic useful utilities to make our iOS Development lives a little easier. This might be for a reason, such as keeping the platform lightweight. It sometimes requires extra time and effort to implement a simple basic feature that you can easily do in Android built-in, so you end up doing a couple more hacks. This library was created to save time, to be more productive, and to be **DRY** (*Don't Repeat Yourself*).
 
 <br>
 
@@ -20,7 +19,7 @@ Apple doesn't provide some basic useful utilities to make our iOS Development li
   <img src="https://raw.githubusercontent.com/PowerUpX/PowerUpSwift/master/Screenshots/code-screenshot-purple.png" alt="PowerUpSwift Code Screenshot" width="auto" height="auto" />
 </p>
 
-Now you can reduce your messy *Utilities* folder that's filling up your source code.
+Now you can reduce the bulky *Utilities* folder that's filling up your source code.
 
 ## Demo
 <img src="https://raw.githubusercontent.com/PowerUpX/PowerUpSwift/master/Screenshots/Demo.gif" alt="PowerUpSwift" width="auto" height="auto" />

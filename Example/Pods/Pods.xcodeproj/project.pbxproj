@@ -13,7 +13,6 @@
 		083D8982E33F8B195FD34377248B6C5A /* PULabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEECFA60F4452F1624C6F4C9DE60C44 /* PULabel.swift */; };
 		09E0F33264B37C891E18FEC63D5715F6 /* Pods-PowerUpSwift_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CCDE8C44D9042D55863B58014A7211E5 /* Pods-PowerUpSwift_Example-dummy.m */; };
 		0C06769B6FDCE3ABCEB572BF5A915CBB /* PUButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C6CBDE9764CD51AFE8C65FFE8D5681 /* PUButton.swift */; };
-		0DB78B4B624515F91A7E242C5C1B1352 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA275EE167C9081D06C92B348570CA8F /* UIView.swift */; };
 		0F2EC4FC3D049898235C038F016CC7DC /* PUBaseTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE31031B50978372BBE44F3EAC766DE /* PUBaseTextField.swift */; };
 		13E8B5B90A065A62342695CA069CBEAC /* PUView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60277CEAF17947FD323A9FAAA789FB76 /* PUView.swift */; };
 		2408C4466BA7984BC5A9B8B0E34BC802 /* UIRefreshControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF4A00F85438B330F8E8E1892E1DFDF /* UIRefreshControl.swift */; };
@@ -126,7 +125,6 @@
 		B8912FD124F408E100121BCA /* PUInspectable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PUInspectable.swift; sourceTree = "<group>"; };
 		B8E4EB4224F55CCD002C4569 /* PUTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PUTableView.swift; sourceTree = "<group>"; };
 		B9BF64EB6613FD8293B19264B13D6C83 /* Pods-PowerUpSwift_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PowerUpSwift_Example-umbrella.h"; sourceTree = "<group>"; };
-		BA275EE167C9081D06C92B348570CA8F /* UIView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		BAE929AF7BEB1916D6E0B2A23C3427D5 /* UITextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UITextView.swift; sourceTree = "<group>"; };
 		C61E6070C4236B54FA901EF1BF5DF16A /* PUTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PUTextView.swift; sourceTree = "<group>"; };
 		C9DA7C402F1DC3342B7B1D992DBC8563 /* Pods-PowerUpSwift_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PowerUpSwift_Example-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -290,7 +288,6 @@
 				D163B7A75CCE8FF94323A5F036327915 /* UITableView.swift */,
 				517E9F6148CC9407B5C0327FF2BE6A40 /* UITableViewCell.swift */,
 				BAE929AF7BEB1916D6E0B2A23C3427D5 /* UITextView.swift */,
-				BA275EE167C9081D06C92B348570CA8F /* UIView.swift */,
 				4E5966368C93D12BA33FD8F7A421DCA7 /* UIViewController.swift */,
 			);
 			path = UIKit;
@@ -571,7 +568,6 @@
 				B461649524DBE3B000A0D3B5 /* PUBarItem.swift in Sources */,
 				2E48D38F3E104A930EBEEB2BCA137912 /* UITableViewCell.swift in Sources */,
 				7C1CCD4B288E86271881A8D994E11447 /* UITextView.swift in Sources */,
-				0DB78B4B624515F91A7E242C5C1B1352 /* UIView.swift in Sources */,
 				36EAC397417DD3C6546AB0F3D334F45A /* UIViewController.swift in Sources */,
 				06467006A6233F0CB502691B260F2392 /* URL.swift in Sources */,
 				B461649724DBE42D00A0D3B5 /* PUSegmentedControl.swift in Sources */,

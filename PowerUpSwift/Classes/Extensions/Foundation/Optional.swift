@@ -9,6 +9,7 @@
 import Foundation
 
 extension Optional {
+    /// :nodoc:
     public var stringValue : String? {
         if self == nil { return nil }
         
@@ -19,6 +20,7 @@ extension Optional {
         return nil
     }
     
+    /// :nodoc:
     public var boolValue: Bool {
         if self == nil { return false }
         
@@ -33,26 +35,32 @@ extension Optional {
         return false
     }
     
+    /// :nodoc:
     public var dictionaryValue: [String: Any] {
         return self as? [String: Any] ?? [:]
     }
     
+    /// :nodoc:
     public var dictionaryArrayValue: [[String: Any]] {
         return self as? [[String: Any]] ?? []
     }
     
+    /// :nodoc:
     public var intValue: Int? {
         return self as? Int
     }
     
+    /// :nodoc:
     public var doubleValue: Double? {
         return self as? Double
     }
     
+    /// :nodoc:
     public var floatValue: Float? {
         return self as? Float
     }
     
+    /// :nodoc:
     public var urlValue: URL? {
         if self == nil { return nil }
         

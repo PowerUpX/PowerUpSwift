@@ -11,6 +11,7 @@ import UIKit
 extension UIColor {
     /// PowerUpSwift: Initializes a `UIColor` based from the hex value.
     /// - Parameter hex: The hex string value similar to HTML.
+    ///
     /// ### Example
     /// ```swift
     /// let color = UIColor(hex: "#FFFFFF")

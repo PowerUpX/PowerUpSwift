@@ -11,7 +11,7 @@ import UIKit
 
 extension NSLayoutConstraint {
     /**
-     PowerUpSwift A hack that returns a new constraint based on the passed in **multiplier**
+     PowerUpSwift Returns a new constraint based on the passed in **multiplier**
      because the mutliplier property read-only.
      ### Example
      ````
@@ -24,15 +24,16 @@ extension NSLayoutConstraint {
         NSLayoutConstraint.deactivate([self])
         
         let newConstraint = NSLayoutConstraint(
-            item: firstItem as Any,
-            attribute: firstAttribute,
-            relatedBy: relation,
-            toItem: secondItem,
-            attribute: secondAttribute,
+            item: self.firstItem as Any,
+            attribute: self.firstAttribute,
+            relatedBy: self.relation,
+            toItem: self.secondItem,
+            attribute: self.secondAttribute,
             multiplier: multiplier,
-            constant: constant)
+            constant: self.constant
+        )
         
-        newConstraint.priority = priority
+        newConstraint.priority = self.priority
         newConstraint.shouldBeArchived = self.shouldBeArchived
         newConstraint.identifier = self.identifier
         

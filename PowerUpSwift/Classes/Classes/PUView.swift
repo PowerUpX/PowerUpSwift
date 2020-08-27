@@ -41,7 +41,7 @@ import UIKit
 }
 
 extension PUView {
-    /// nodoc:
+    /// :nodoc:
     open override func traitCollectionDidChange(_ previousTraitCollection: UITraitCollection?) {
         super.traitCollectionDidChange(previousTraitCollection)
         

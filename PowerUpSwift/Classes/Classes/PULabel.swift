@@ -47,9 +47,9 @@ import UIKit
     /// PowerUpSwift: The right padding. Defaults to 0.
     @IBInspectable open var rightInset: CGFloat = 0
     
-    // MARK: - Properties
+    // MARK: - Custom Properties
     /**
-     PowerUpSwift: `UIEdgeInsets` value can be set programmatically.
+     PowerUpSwift: The padding on all sides that is set programmatically.
      ### Example
      ```
      self.powerUpLabel.insets = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0)

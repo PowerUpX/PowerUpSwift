@@ -36,24 +36,23 @@ pod 'PowerUpSwift'
 
 ## Usage
 
-The documentation can be found [here](https://github.com/PowerUpX/PowerUpSwift/wiki) in the Wiki page.
+The reference docs can be found [here](http://powerupx.github.io/PowerUpSwiftDocs).
 
 ## Contribute
 
 Feel free to help out. See [CONTRIBUTING.md](CONTRIBUTING.md).
 
-## 💜 Show Some Support 
+## Support 
 [![GitHub Stars](https://img.shields.io/github/stars/PowerUpX/PowerUpSwift.svg?style=social&label=Star)](https://github.com/PowerUpX/PowerUpSwift)
 [![GitHub Forks](https://img.shields.io/github/forks/PowerUpX/PowerUpSwift.svg?style=social&label=Fork)](https://github.com/PowerUpX/PowerUpSwift/fork)
 [![GitHub Watchers](https://img.shields.io/github/watchers/PowerUpX/PowerUpSwift.svg?style=social&label=Watch)](https://github.com/PowerUpX/PowerUpSwift)
 
-## 💎 Follow Me 
+## Author 
 [![Follow on GitHub](https://img.shields.io/github/followers/cefjoeii.svg?style=social&label=Follow)](https://github.com/cefjoeii)
 [![Follow on Facebook](https://img.shields.io/badge/Follow%20%40cefjoeii%20on-Facebook-%233C5A99.svg)](https://facebook.com/cefjoeii)
 [![Follow on Instagram](https://img.shields.io/badge/Follow%20%40cefjoeii%20on-Instagram-C13584.svg)](https://instagram.com/cefjoeii)
 [![Follow on Twitter](https://img.shields.io/twitter/follow/cefjoeii.svg?style=social)](https://twitter.com/cefjoeii)
 
-
 ## License
 
-**PowerUpSwift** is available under the MIT license. See the  [LICENSE](LICENSE) file for more info.
+**PowerUpSwift** is available under the MIT license. See the LICENSE file for more info.

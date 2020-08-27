@@ -10,6 +10,7 @@ import UIKit
 
 /// PowerUpSwift: The subclass of `PUButton` that allows the editing of additional UIKit properties via the Interface Builder.
 @IBDesignable open class PULoadingButton: PUButton, PUXIBLocalizable {
+    // MARK: - Inspectables
     /// PowerUpSwift: The opacity when the loading indicator is currently shown. Defaults to 0.5.
     @IBInspectable open var disabledAlpha: CGFloat = 0.5
     

@@ -49,25 +49,24 @@ extension URLRequest {
         self.httpMethod = method.rawValue
     }
     
-    /// PowerUpSwift: Sets the HTTP body by accepting a `Dictionary`
-    /// that is converted to a `Data` behind the scenes.
+    /// PowerUpSwift: Sets the HTTP body by accepting a `Dictionary`.
     public mutating func setBody(_ json: [String: Any]) {
         self.httpBody = json.data
         self.setValue("application/json", forHTTPHeaderField: "Content-Type")
     }
     
-    /// PowerUpSwift: Sets the HTTP body by accepting an object which has a Type that conforms to `Encodable`.
+    /// PowerUpSwift: Sets the HTTP body by accepting an object which has a `Type` that conforms to `Encodable`.
     public mutating func setBody<E: Encodable>(encodable: E) throws {
         self.httpBody = try JSONEncoder().encode(encodable)
         self.setValue("application/json", forHTTPHeaderField: "Content-Type")
     }
     
-    /// PowerUpSwift: A syntatic sugar to set all the HTTP Headers at once.
+    /// PowerUpSwift: A wrapper to set all the HTTP Headers at once.
     public mutating func setHeaders(_ headers: [String: String]) {
         self.allHTTPHeaderFields = headers
     }
     
-    /// PowerUpSwift: A syntactic sugar to set the header fields intuitively.
+    /// PowerUpSwift: A wrapper to set the header fields intuitively.
     /// - Parameters:
     ///     - key: String
     ///     - value: String

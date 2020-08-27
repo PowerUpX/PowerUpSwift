@@ -89,7 +89,7 @@ extension String {
     
     /// PowerUpSwift: Returns the `Dictionary` form of the `String`
     /// if the format is valid or `nil` if invalid.
-    public var asJSON: [String: Any]? {
+    public var json: [String: Any]? {
         if let data = self.data(using: .utf8) {
             do {
                 return try JSONSerialization.jsonObject(with: data, options: []) as? [String: Any]

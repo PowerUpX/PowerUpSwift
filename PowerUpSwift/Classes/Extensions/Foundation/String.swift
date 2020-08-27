@@ -127,6 +127,7 @@ extension String {
 }
 
 extension Optional where Wrapped == String {
+    /// :nodoc:
     public var isNilOrEmpty: Bool {
         return (self ?? "").isEmpty
     }

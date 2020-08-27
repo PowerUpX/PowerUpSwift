@@ -13,16 +13,28 @@
 ## Overview
 Apple doesn't provide some basic useful utilities to make our iOS Development lives a little easier. This might be for a reason, such as keeping the platform lightweight. It sometimes requires extra time and effort to implement a simple basic feature that you can easily do in Android built-in, so you end up doing a couple more hacks. This library was created to save time, to be more productive, and to be **DRY** (*Don't Repeat Yourself*).
 
-<br>
+## Usage
+
+The documentation reference can be found [here](http://powerupx.github.io/PowerUpSwiftDocs).
+
+### Inteface Builder
+
+Just set `PUButton` as the custom class and see the magic! You'll be able to edit directly on the Interface Builder the corner radius, border width, border color, shadow radius, shadow opacity, shadow offset, shadow color, and etc. This applies to other controls such as `PUView`, `PUImageView` and many more.
+
+<img src="https://raw.githubusercontent.com/PowerUpX/PowerUpSwift/master/Screenshots/Demo.gif" alt="PowerUpSwift" width="auto" height="auto" />
+
+### Code
+
+Import into the file as needed.
+```swift
+import PowerUpSwift
+```
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/PowerUpX/PowerUpSwift/master/Screenshots/code-screenshot-purple.png" alt="PowerUpSwift Code Screenshot" width="auto" height="auto" />
 </p>
 
 Now you can reduce the bulky *Utilities* folder that's filling up your source code.
-
-## Demo
-<img src="https://raw.githubusercontent.com/PowerUpX/PowerUpSwift/master/Screenshots/Demo.gif" alt="PowerUpSwift" width="auto" height="auto" />
 
 ## Installation
 
@@ -33,13 +45,13 @@ it, simply add the following line to your Podfile:
 pod 'PowerUpSwift'
 ```
 
-## Usage
+## Migration
 
-The reference docs can be found [here](http://powerupx.github.io/PowerUpSwiftDocs).
+If you were using an old version of PowerUpSwift and want to bump to the latest one, make sure to check out [MIGRATION.md](https://github.com/PowerUpX/PowerUpSwift/blob/master/MIGRATION.md).
 
 ## Contribute
 
-Feel free to help out. See [CONTRIBUTING.md](CONTRIBUTING.md).
+You are encouraged to help out. See [CONTRIBUTING.md](https://github.com/PowerUpX/PowerUpSwift/blob/master/CONTRIBUTING.md).
 
 ## Support 
 [![GitHub Stars](https://img.shields.io/github/stars/PowerUpX/PowerUpSwift.svg?style=social&label=Star)](https://github.com/PowerUpX/PowerUpSwift)
@@ -54,4 +66,4 @@ Feel free to help out. See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## License
 
-**PowerUpSwift** is available under the MIT license. See the LICENSE file for more info.
+**PowerUpSwift** is available under the **MIT** license. See the [LICENSE](https://github.com/PowerUpX/PowerUpSwift/blob/master/LICENSE) file for more info.

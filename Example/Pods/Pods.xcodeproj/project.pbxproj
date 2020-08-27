@@ -39,6 +39,7 @@
 		B461649324DBE2B700A0D3B5 /* PUNavigationItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B461649224DBE2B700A0D3B5 /* PUNavigationItem.swift */; };
 		B461649524DBE3B000A0D3B5 /* PUBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B461649424DBE3B000A0D3B5 /* PUBarItem.swift */; };
 		B461649724DBE42D00A0D3B5 /* PUSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = B461649624DBE42D00A0D3B5 /* PUSegmentedControl.swift */; };
+		B843301E24F7BF640013E295 /* MIGRATION.md in Resources */ = {isa = PBXBuildFile; fileRef = B843301D24F7BF640013E295 /* MIGRATION.md */; };
 		B8912FD324F40BE700121BCA /* PUInspectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8912FD124F408E100121BCA /* PUInspectable.swift */; };
 		B8E4EB4324F55CCD002C4569 /* PUTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E4EB4224F55CCD002C4569 /* PUTableView.swift */; };
 		BC9A63C79F8162885B649F2280EF9D0E /* Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE453C8646D1269CD1562DD8297A1801 /* Optional.swift */; };
@@ -122,6 +123,7 @@
 		B461649224DBE2B700A0D3B5 /* PUNavigationItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PUNavigationItem.swift; sourceTree = "<group>"; };
 		B461649424DBE3B000A0D3B5 /* PUBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PUBarItem.swift; sourceTree = "<group>"; };
 		B461649624DBE42D00A0D3B5 /* PUSegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PUSegmentedControl.swift; sourceTree = "<group>"; };
+		B843301D24F7BF640013E295 /* MIGRATION.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = MIGRATION.md; sourceTree = "<group>"; };
 		B8912FD124F408E100121BCA /* PUInspectable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PUInspectable.swift; sourceTree = "<group>"; };
 		B8E4EB4224F55CCD002C4569 /* PUTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PUTableView.swift; sourceTree = "<group>"; };
 		B9BF64EB6613FD8293B19264B13D6C83 /* Pods-PowerUpSwift_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PowerUpSwift_Example-umbrella.h"; sourceTree = "<group>"; };
@@ -262,6 +264,7 @@
 				8F09319C86518EDA963FB12997F9CED7 /* LICENSE */,
 				334D31D16AAC2F9D784A3D2CB87D00C9 /* PowerUpSwift.podspec */,
 				CB1975268A8087A5C628C3E67A931C32 /* README.md */,
+				B843301D24F7BF640013E295 /* MIGRATION.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -519,6 +522,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B843301E24F7BF640013E295 /* MIGRATION.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

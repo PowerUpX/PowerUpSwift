@@ -9,7 +9,7 @@ Thank you for considering contributing to this awesome library!
 * Unit Tests
 
 ## Coding conventions
-* It will be nice if you know how we can integrate SwiftLint to a Cocoapod project to have a consistent style across the codebase.
+* It will be nice to integrate SwiftLint to have a consistent style across the codebase.
 
 ## Notes
 * Please do not make Pull Requests for the Example folder (at least for now).

@@ -28,10 +28,6 @@ extension Optional {
             return Bool(self as! String) ?? false
         }
         
-        if self is Int || self is Int? {
-            return Bool(self as! Int)
-        }
-        
         return false
     }
     

@@ -25,7 +25,6 @@
 		45CCCB574D70596C0D19E1C5CE88FAEC /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B346AD3A6B8D7D541891C65E3DD15C21 /* UIColor.swift */; };
 		4D311DDAD93F1E10D896A4EB8FE7D39C /* Pods-PowerUpSwift_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0681DE9F849EAE743EE76221B67EDF64 /* Pods-PowerUpSwift_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4E5EFAF65769B8973F242B7944516C88 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E8970A1EAF0B18349FD191EC62E4AA /* Data.swift */; };
-		5965F971EB3E58C3444B4CB9A7CDDC24 /* Bool.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC92E6C823BA324E38B3FEC7FE64DDB6 /* Bool.swift */; };
 		78D4417302C41356712EBDFA1220B2D6 /* PUTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61E6070C4236B54FA901EF1BF5DF16A /* PUTextView.swift */; };
 		78DD453E83520DE0EE53FF3F9A7B3AA1 /* NSLayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5864AAC3C9C8B6782A982F4BE3615D /* NSLayoutConstraint.swift */; };
 		7C1CCD4B288E86271881A8D994E11447 /* UITextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE929AF7BEB1916D6E0B2A23C3427D5 /* UITextView.swift */; };
@@ -146,7 +145,6 @@
 		F159B8AACCE8C270434AD47C34BF6A68 /* Pods-PowerUpSwift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PowerUpSwift_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F763B60B2A6AD629BF89F576988BFE89 /* UIButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
 		FA5EA5C1B7F585702695D3E5567F9D07 /* Pods-PowerUpSwift_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PowerUpSwift_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		FC92E6C823BA324E38B3FEC7FE64DDB6 /* Bool.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Bool.swift; sourceTree = "<group>"; };
 		FD1EBA8B7B4724D82E94F884BCCAB0CA /* Pods_PowerUpSwift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PowerUpSwift_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -301,7 +299,6 @@
 		B461648D24DBDCA800A0D3B5 /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
-				FC92E6C823BA324E38B3FEC7FE64DDB6 /* Bool.swift */,
 				616AC344A5A2D72C730FBA3E7BF45BA4 /* Bundle.swift */,
 				68E8970A1EAF0B18349FD191EC62E4AA /* Data.swift */,
 				D67FB368B02425D556ECD365AFA9F1F3 /* Dictionary.swift */,
@@ -542,7 +539,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5965F971EB3E58C3444B4CB9A7CDDC24 /* Bool.swift in Sources */,
 				91CC3CD4090A559CC7D8FFADB1EA9CF1 /* Bundle.swift in Sources */,
 				D342FD90A59B47B5A385C293129BECFF /* CLPlacemark.swift in Sources */,
 				B461649324DBE2B700A0D3B5 /* PUNavigationItem.swift in Sources */,

@@ -19,7 +19,9 @@ extension UIViewController {
         self.view.endEditing(true)
     }
     
-    /// PowerUpSwift: A syntactic sugar for UIViewController's `navigationController` property.
+    /// PowerUpSwift: A syntactic sugar to access UIViewController's `navigationController` property.
+    /// - Some developers name their view controllers with something like `someVC` instead of `someViewController`.
+    /// - This comes in handy since it will make the code more streamlined.
     public var navVC: UINavigationController? {
         return self.navigationController
     }

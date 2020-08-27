@@ -10,12 +10,12 @@ import UIKit
 
 extension UIViewController {
     /// PowerUpSwift: Hides the keyboard when tapped outside the text field.
-    public func hideKeyboardWhenTappedOutside() {
-        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(UIViewController.hideKeyboard))
+    public func dismissKeyboardWhenTappedOutside() {
+        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(UIViewController.dismissKeyboard))
         self.view.addGestureRecognizer(tap)
     }
     
-    @objc func hideKeyboard() {
+    @objc func dismissKeyboard() {
         self.view.endEditing(true)
     }
     

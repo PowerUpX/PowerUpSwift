@@ -8,5 +8,5 @@
 * The `asJSON` computed property on `String` extension has been renamed to `json`.
 * The `extractedJWTPayload` computed property on `String` extension has been renamed to `jwtPayload`.
 * The `heightConstraint` and `widthConstraint` computed properties on `UIView` extensions have been removed.
-* The `hideKeyboardWhenTappedOutside` function on `UIViewController` extension has been changed renamed to `dismissKeyboardWhenTappedOutside`.
+* The `hideKeyboardWhenTappedOutside()` function on `UIViewController` extension has been renamed to `dismissKeyboardWhenTappedOutside()`.
 * The `showInFullScreen(completion:)` function on `UIViewController` extension has been removed since it no longer works starting in iOS 13.

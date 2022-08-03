@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import UIKit
 
 /// PowerUpSwift: A protocol that the majority of the PowerUpSwift classes conform to such as `PUView`.
 /// All these classes allow the editing of additional UIKit properties via the Interface Builder.

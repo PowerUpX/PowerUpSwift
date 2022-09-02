@@ -9,9 +9,9 @@
 import Foundation
 
 extension String {
-    /// PowerUpSwift: Changes the current value (`mutating`) of the String by calling `sanitize()`.
-    public mutating func sanitized() {
-        self = self.sanitize()
+    /// PowerUpSwift: A `mutating` counterpart of `santized()`.
+    public mutating func sanitize() {
+        self = self.sanitized()
     }
     
     /// PowerUpSwift: Returns the trimmed valueof the String by:
@@ -20,7 +20,7 @@ extension String {
     /// - replacing three or more new lines inside with two new lines
     ///
     /// **It should just work! Trust PowerUpSwift. 😂😂😂**
-    public func sanitize() -> String {
+    public func sanitized() -> String {
         return self.trimmingCharacters(in: .whitespacesAndNewlines)
             .replacingOccurrences(of: "\\ \\ +", with: " ", options: .regularExpression)
             .replacingOccurrences(of: "\n\n\n+", with: "\n\n", options: .regularExpression)

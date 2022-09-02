@@ -7,65 +7,64 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00571144709EE2502F031FCF9663480E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9149302A6056DFF0B4F20B5266F5D5C6 /* CoreLocation.framework */; };
-		060C7F6ED6A680AC9986DC973EF6D3F5 /* URLResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F7E6CE9B76C1B0584B75138E7F99F7 /* URLResponse.swift */; };
-		06467006A6233F0CB502691B260F2392 /* URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34B21235B2A90BFC5D739D6B2E9672C /* URL.swift */; };
-		083D8982E33F8B195FD34377248B6C5A /* PULabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEECFA60F4452F1624C6F4C9DE60C44 /* PULabel.swift */; };
-		09E0F33264B37C891E18FEC63D5715F6 /* Pods-PowerUpSwift_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CCDE8C44D9042D55863B58014A7211E5 /* Pods-PowerUpSwift_Example-dummy.m */; };
-		0C06769B6FDCE3ABCEB572BF5A915CBB /* PUButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C6CBDE9764CD51AFE8C65FFE8D5681 /* PUButton.swift */; };
-		0F2EC4FC3D049898235C038F016CC7DC /* PUBaseTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE31031B50978372BBE44F3EAC766DE /* PUBaseTextField.swift */; };
-		13E8B5B90A065A62342695CA069CBEAC /* PUView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60277CEAF17947FD323A9FAAA789FB76 /* PUView.swift */; };
-		2408C4466BA7984BC5A9B8B0E34BC802 /* UIRefreshControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF4A00F85438B330F8E8E1892E1DFDF /* UIRefreshControl.swift */; };
-		24695116A8CADE4CAD015043673BE967 /* Pods-PowerUpSwift_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FE3C41C4CAD507076F286002CD51DE2 /* Pods-PowerUpSwift_Tests-dummy.m */; };
-		2621460D9A838886A844DE95FC85BFEB /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D163B7A75CCE8FF94323A5F036327915 /* UITableView.swift */; };
-		2CECE3DB1EDD57ADA8E5C561FF9DC18E /* Pods-PowerUpSwift_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B9BF64EB6613FD8293B19264B13D6C83 /* Pods-PowerUpSwift_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2E48D38F3E104A930EBEEB2BCA137912 /* UITableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517E9F6148CC9407B5C0327FF2BE6A40 /* UITableViewCell.swift */; };
-		36EAC397417DD3C6546AB0F3D334F45A /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5966368C93D12BA33FD8F7A421DCA7 /* UIViewController.swift */; };
-		45CCCB574D70596C0D19E1C5CE88FAEC /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B346AD3A6B8D7D541891C65E3DD15C21 /* UIColor.swift */; };
-		4D311DDAD93F1E10D896A4EB8FE7D39C /* Pods-PowerUpSwift_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0681DE9F849EAE743EE76221B67EDF64 /* Pods-PowerUpSwift_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4E5EFAF65769B8973F242B7944516C88 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E8970A1EAF0B18349FD191EC62E4AA /* Data.swift */; };
-		78D4417302C41356712EBDFA1220B2D6 /* PUTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61E6070C4236B54FA901EF1BF5DF16A /* PUTextView.swift */; };
-		78DD453E83520DE0EE53FF3F9A7B3AA1 /* NSLayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5864AAC3C9C8B6782A982F4BE3615D /* NSLayoutConstraint.swift */; };
-		7C1CCD4B288E86271881A8D994E11447 /* UITextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE929AF7BEB1916D6E0B2A23C3427D5 /* UITextView.swift */; };
-		7C98F2F756816ED90B8A8CA2F9CA59E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CBA33DEEFDF3E85910015F6306D526C /* Foundation.framework */; };
-		843152B2697BA6447999968C0B1A7219 /* PowerUpSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E4104CC989CF3AEB82BA0D677BA11A4 /* PowerUpSwift-dummy.m */; };
-		873C38E8D900A67BDE1FD7804D9C8CAB /* PUCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC93B8CA61692882203BFF96951E2EC0 /* PUCollectionView.swift */; };
-		8856ED20E0B8CAFA21F7E29617587A56 /* UICollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD4444A66E39054D0EDBD23F5776122 /* UICollectionViewCell.swift */; };
-		899570F9019AE84EFAECC5B428C8BB98 /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67FB368B02425D556ECD365AFA9F1F3 /* Dictionary.swift */; };
-		91CC3CD4090A559CC7D8FFADB1EA9CF1 /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616AC344A5A2D72C730FBA3E7BF45BA4 /* Bundle.swift */; };
-		9D6E1DBA22A2FC8260BE0E0C92DB114E /* PULocalizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBECB3C8424D1316D2A998F0F6D05EA /* PULocalizable.swift */; };
-		A3F99C6E2C79C2CD1E1BEADCF2BC0E3F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CBA33DEEFDF3E85910015F6306D526C /* Foundation.framework */; };
-		A9892940632DD3227FD0818B18377930 /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F763B60B2A6AD629BF89F576988BFE89 /* UIButton.swift */; };
-		B461649324DBE2B700A0D3B5 /* PUNavigationItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B461649224DBE2B700A0D3B5 /* PUNavigationItem.swift */; };
-		B461649524DBE3B000A0D3B5 /* PUBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B461649424DBE3B000A0D3B5 /* PUBarItem.swift */; };
-		B461649724DBE42D00A0D3B5 /* PUSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = B461649624DBE42D00A0D3B5 /* PUSegmentedControl.swift */; };
-		B843301E24F7BF640013E295 /* MIGRATION.md in Resources */ = {isa = PBXBuildFile; fileRef = B843301D24F7BF640013E295 /* MIGRATION.md */; };
-		B8912FD324F40BE700121BCA /* PUInspectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8912FD124F408E100121BCA /* PUInspectable.swift */; };
-		B8E4EB4324F55CCD002C4569 /* PUTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E4EB4224F55CCD002C4569 /* PUTableView.swift */; };
-		BC9A63C79F8162885B649F2280EF9D0E /* Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE453C8646D1269CD1562DD8297A1801 /* Optional.swift */; };
-		C4D126B694AC0BE24E6273EEF5E687E1 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC53A16F2EF61A246DB676702A4CEB04 /* String.swift */; };
-		CF01BDE967A629C17EA1B24B7598E117 /* PUImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC599EB0B847843B5FFE38351CDA34C /* PUImageView.swift */; };
-		D2B3EA096EBDB7B25C9F6C06243EA566 /* PowerUpSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 435B6DBD060EA33D53506AC2810105C8 /* PowerUpSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D342FD90A59B47B5A385C293129BECFF /* CLPlacemark.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB7F897461A358118B466F65D6AE482 /* CLPlacemark.swift */; };
-		D6AA8C3CED449224AE196B94781F127D /* UINavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E022DE59C8A1ADF0523DAE7B9BCC68 /* UINavigationController.swift */; };
-		E3188D883AAAC9B4842B7EFB3750CC9F /* URLRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21ADA2DD796B823C3E3E5202804B8CAE /* URLRequest.swift */; };
-		E928831315A4DC9BFE8638756FDAD5FE /* PUTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6FA7DFF5E9A369DB7D5ACA277F7834 /* PUTextField.swift */; };
-		EF3BAFC8DB3EB79687AFE4268D2C26E6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A985EBE2404D4302DE8384CA5EB08108 /* UIKit.framework */; };
-		F348B7FB93EE32DE232899572438BF18 /* PULoadingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700985C2750F11549C0A0DA643FEF4B5 /* PULoadingButton.swift */; };
-		FAEEB354DE117CCB04B2E676CAF7C060 /* PUVisualEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447EDF85C55B5601592F24661B6DC861 /* PUVisualEffectView.swift */; };
-		FCE8C01594A14D994C8E53190E141DB1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CBA33DEEFDF3E85910015F6306D526C /* Foundation.framework */; };
-		FCE9CB89D174250266E69E135034AD47 /* PUUnderlineTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCE1FC5D21229E572D5F60D9062C327 /* PUUnderlineTextField.swift */; };
+		01A9BFD7F92907FAF671E0394CF50DB6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8468981A0F1717108B3D1DAE12F9BF0 /* Foundation.framework */; };
+		07B3463E509184617C16ECFDDCF69678 /* PowerUpSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DE248A0EF09B4566CF66A27472571F2A /* PowerUpSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		089695074C4DBED16E582B6BBBC07AB4 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FE25B0B20C04D63237A3A3F874E5E7 /* UIViewController.swift */; };
+		124ED840E92137C74B89B0869F7AFFB8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD4C805D66801143E5E09F008E63A396 /* CoreLocation.framework */; };
+		157652D97FC681049C72CAF1E140852B /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DFBD23C1D4BB9153D88E1FE40F28A24 /* UIButton.swift */; };
+		157B9B801A0793BDFB47B630B5DC222E /* Pods-PowerUpSwift_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B9BF64EB6613FD8293B19264B13D6C83 /* Pods-PowerUpSwift_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1611C419C9CFD23AC6C67E508232F9C8 /* PUUnderlineTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61DC1F4D0BDA2D4B04814F51ECBE510 /* PUUnderlineTextField.swift */; };
+		204F788550D9476E79DF4951DFB29FB7 /* UINavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2A6FAF0F0E9061B118E0369FD7AC39 /* UINavigationController.swift */; };
+		21F11B480A95B70F16A022E2387F36AC /* PUTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43512DCAB1ADF234808FE6D58A185A7C /* PUTextField.swift */; };
+		2635972C78D30E34CF213B9711291BC2 /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = F942460A9E12E4D44F8D8E9D339CE187 /* Dictionary.swift */; };
+		27C0ED61E113533E9F597823FAC86FD4 /* PUVisualEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F232A8D715391EDB510DA68D535DE3BD /* PUVisualEffectView.swift */; };
+		29BAA209930D4D883B1358356DB4E210 /* UIRefreshControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0979B122C8C3E39D284FDB93AF6BF05 /* UIRefreshControl.swift */; };
+		2BEB63750EE40B8BC36AE547AE499C46 /* PUNavigationItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FE56A972E72ABB8E73145CA53CDC35 /* PUNavigationItem.swift */; };
+		30F9A7E97EC8441637F70D92F08CEBEE /* PUImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A30843C265598BFC8B838B4FDAC3464 /* PUImageView.swift */; };
+		31E34FC7C487B9ECE9AA77A991E96D2E /* URLRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EDF78A0A01CC92F90B6A48A8A04E5E /* URLRequest.swift */; };
+		328F124D2C8CBC7D9B2CDB40F79981B2 /* PUView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031FFCEA0ECC9FCE66FB9C0586F11CE2 /* PUView.swift */; };
+		402A96D9AE23B724DA8BCB714D078C3A /* Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5197E0BAD17B31FE77E614631DE3A1 /* Optional.swift */; };
+		41A49E46E25D82ED56AD19762A52E870 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8E26F20CCD6E9A091BFCB4E336B518 /* Data.swift */; };
+		48B9EDD7EF1F8B0A9197D4AC2B5898C6 /* PUSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = C754010D1B4043C3EA2A5B01772CD3BC /* PUSegmentedControl.swift */; };
+		5334DD0BD3B5FEC95D0DA60457C836D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8468981A0F1717108B3D1DAE12F9BF0 /* Foundation.framework */; };
+		53C53A32CD2C36CC5B8415946448F343 /* PUTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1A0C21CA36ACCFA5A30CE18CD4CA86 /* PUTextView.swift */; };
+		567CD2B8D40E2CE4443FCDB0D9352089 /* PULocalizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A400A574B8E46409786DEE670E3DB9C2 /* PULocalizable.swift */; };
+		5BC0AC5E7C91F8D4CCA40E7CC4E30177 /* PUInspectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB3F802CE6A73B6FDBC51DD3C1FDF11 /* PUInspectable.swift */; };
+		68A13E6536124061CC731DE2DE6B7E0C /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4F57700E37030A83D530D4FBFA1B6F /* UIColor.swift */; };
+		6BBF99A85EE05867E3CB1C70CD603A35 /* CLPlacemark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B0979A336ACBB33BDC583B00722EB6C /* CLPlacemark.swift */; };
+		6C6D5DBF1CA85048306886C3C4CDB73F /* Pods-PowerUpSwift_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0681DE9F849EAE743EE76221B67EDF64 /* Pods-PowerUpSwift_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D5BD11E53F54BEED0B5BEBA58A3D156 /* Pods-PowerUpSwift_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CCDE8C44D9042D55863B58014A7211E5 /* Pods-PowerUpSwift_Example-dummy.m */; };
+		70A238C41D3E6DE19F52C6DC2547687A /* URLResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153532278EBEADE923F4B1374A7C5F7F /* URLResponse.swift */; };
+		7C51FB1F47F5D8F969C9ED4284997EC4 /* PULoadingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61DB3869D64E08983B5766FB5C749FA5 /* PULoadingButton.swift */; };
+		7F007EF11A72EA27FC275F65FB87AF51 /* UITextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E66021AA74053C6ED131B7BBA57500 /* UITextView.swift */; };
+		810683615727131890C2FBB7A5790586 /* UITableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECEFD2EB6E699EA172DA21D1DC2C4D3 /* UITableViewCell.swift */; };
+		94A9B370E6879419181165D9C101C1F0 /* PUBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8F522A309CCF8FC61E4FE0F6629975 /* PUBarItem.swift */; };
+		A27A36641B7A0D8A5B116A13872551E5 /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04ABA6F6CEBE442FAA469B7D4F00358 /* Bundle.swift */; };
+		AB39ED2D86D1F763FD87294C04789A82 /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0684FE176DA0D3C35C87A3F273B3926A /* UITableView.swift */; };
+		B8BC239C861ED2CF3A44246B1FDF07AE /* PUCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD79BA76A7B7842F0BDF869ED00394DF /* PUCollectionView.swift */; };
+		BE8AA6A0CF40ED1440615767E4A4C6AA /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1787BCC63CF540F79A927C8C4B5EE00F /* String.swift */; };
+		C5B53DD25C7A46791B558941CD3CC067 /* PULabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AF4A2A8B6F2EBC7E83F4B992579E90 /* PULabel.swift */; };
+		C62431C5B5085B77CCBF73682A67FC86 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5718ED8B2A619A50D245A73687A6D721 /* UIKit.framework */; };
+		CC800FC1DCDB607861D1723FDB496B4A /* URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16F99C1405AFE6B893E995410B42FEA /* URL.swift */; };
+		CEDCD8B1D0608D0B9D228CFC311286D3 /* PUButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99AA7533B91C8384E13B9D71AC55872E /* PUButton.swift */; };
+		D652CEBB992AD2CC94D1E178D6901179 /* Pods-PowerUpSwift_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FE3C41C4CAD507076F286002CD51DE2 /* Pods-PowerUpSwift_Tests-dummy.m */; };
+		D6A97EA60EDBEC1C93BE3644AFF86B7B /* PUBaseTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AD3B251B8DB059D68CA23AF7BB24FF /* PUBaseTextField.swift */; };
+		DA5D8DC0FA38F3558054E5AB0BCB02E3 /* UICollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F6743182F39902920A66B13AC45AF0 /* UICollectionViewCell.swift */; };
+		E57A1D2B877A0B53189EA7C4270C50AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8468981A0F1717108B3D1DAE12F9BF0 /* Foundation.framework */; };
+		EE5D8DE54468604BA512C4815E5095A6 /* NSLayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F99F86BF9344208E6BB55F3C48D839D /* NSLayoutConstraint.swift */; };
+		F13678589BE71A86142C45489D08B288 /* PUTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE870DF7405B3A9542C93EDD183B396D /* PUTableView.swift */; };
+		FF57C52BE1653DD4A04AE7E2152E9FF8 /* PowerUpSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DFC6DA667B3E5ECC8D00DB30CD7E78DA /* PowerUpSwift-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A750877292E25BAF33D69CCE262DA169 /* PBXContainerItemProxy */ = {
+		666354D4FF76D5E909951AE907AD015F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 61C391C2980A514D118A7B823AB3EE88;
 			remoteInfo = "Pods-PowerUpSwift_Example";
 		};
-		D65519CC43B272352DE725C0C5A964FE /* PBXContainerItemProxy */ = {
+		6DD9434A3B508B12799AFDF4C5924DA5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -76,102 +75,101 @@
 
 /* Begin PBXFileReference section */
 		0107DF5A200DC4866E4D468F446D7C10 /* Pods-PowerUpSwift_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PowerUpSwift_Tests.modulemap"; sourceTree = "<group>"; };
+		02E66021AA74053C6ED131B7BBA57500 /* UITextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UITextView.swift; sourceTree = "<group>"; };
+		031FFCEA0ECC9FCE66FB9C0586F11CE2 /* PUView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PUView.swift; sourceTree = "<group>"; };
 		0681DE9F849EAE743EE76221B67EDF64 /* Pods-PowerUpSwift_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PowerUpSwift_Tests-umbrella.h"; sourceTree = "<group>"; };
-		10F7E6CE9B76C1B0584B75138E7F99F7 /* URLResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = URLResponse.swift; sourceTree = "<group>"; };
-		157640C1D8FEEDBF66885A8DB33F2482 /* PowerUpSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PowerUpSwift-prefix.pch"; sourceTree = "<group>"; };
-		1CBA33DEEFDF3E85910015F6306D526C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		0684FE176DA0D3C35C87A3F273B3926A /* UITableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UITableView.swift; sourceTree = "<group>"; };
+		0A30843C265598BFC8B838B4FDAC3464 /* PUImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PUImageView.swift; sourceTree = "<group>"; };
+		0F99F86BF9344208E6BB55F3C48D839D /* NSLayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NSLayoutConstraint.swift; sourceTree = "<group>"; };
+		153532278EBEADE923F4B1374A7C5F7F /* URLResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = URLResponse.swift; sourceTree = "<group>"; };
+		1787BCC63CF540F79A927C8C4B5EE00F /* String.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		1A8E26F20CCD6E9A091BFCB4E336B518 /* Data.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		1FE3C41C4CAD507076F286002CD51DE2 /* Pods-PowerUpSwift_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PowerUpSwift_Tests-dummy.m"; sourceTree = "<group>"; };
-		21ADA2DD796B823C3E3E5202804B8CAE /* URLRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = URLRequest.swift; sourceTree = "<group>"; };
 		26C3D00AC9F9078DC3907AF0BB824C6A /* Pods-PowerUpSwift_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PowerUpSwift_Example-Info.plist"; sourceTree = "<group>"; };
-		334D31D16AAC2F9D784A3D2CB87D00C9 /* PowerUpSwift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = PowerUpSwift.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		3E6C19975D02EE98435D26DC70248DA3 /* PowerUpSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PowerUpSwift.modulemap; sourceTree = "<group>"; };
-		3EF4A00F85438B330F8E8E1892E1DFDF /* UIRefreshControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIRefreshControl.swift; sourceTree = "<group>"; };
-		435B6DBD060EA33D53506AC2810105C8 /* PowerUpSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PowerUpSwift-umbrella.h"; sourceTree = "<group>"; };
-		447EDF85C55B5601592F24661B6DC861 /* PUVisualEffectView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PUVisualEffectView.swift; sourceTree = "<group>"; };
-		498F4EB1D32970DD7A1F7D0D6FB1AAF3 /* PowerUpSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PowerUpSwift.debug.xcconfig; sourceTree = "<group>"; };
-		4DEECFA60F4452F1624C6F4C9DE60C44 /* PULabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PULabel.swift; sourceTree = "<group>"; };
-		4E5966368C93D12BA33FD8F7A421DCA7 /* UIViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
-		517E9F6148CC9407B5C0327FF2BE6A40 /* UITableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UITableViewCell.swift; sourceTree = "<group>"; };
+		2C4BDE705088418D6DF6EBA4AA9DB6F2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		3EB3F802CE6A73B6FDBC51DD3C1FDF11 /* PUInspectable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PUInspectable.swift; sourceTree = "<group>"; };
+		3ECEFD2EB6E699EA172DA21D1DC2C4D3 /* UITableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UITableViewCell.swift; sourceTree = "<group>"; };
+		43512DCAB1ADF234808FE6D58A185A7C /* PUTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PUTextField.swift; sourceTree = "<group>"; };
+		44AF4A2A8B6F2EBC7E83F4B992579E90 /* PULabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PULabel.swift; sourceTree = "<group>"; };
+		51B514FA0E1ED549798207595895D3B6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		5718ED8B2A619A50D245A73687A6D721 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		5BC784F466A7404AC1262AA950620E89 /* Pods-PowerUpSwift_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PowerUpSwift_Example.modulemap"; sourceTree = "<group>"; };
-		5DBECB3C8424D1316D2A998F0F6D05EA /* PULocalizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PULocalizable.swift; sourceTree = "<group>"; };
-		5E4104CC989CF3AEB82BA0D677BA11A4 /* PowerUpSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PowerUpSwift-dummy.m"; sourceTree = "<group>"; };
-		60277CEAF17947FD323A9FAAA789FB76 /* PUView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PUView.swift; sourceTree = "<group>"; };
-		616AC344A5A2D72C730FBA3E7BF45BA4 /* Bundle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Bundle.swift; sourceTree = "<group>"; };
-		68E8970A1EAF0B18349FD191EC62E4AA /* Data.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
-		6AC599EB0B847843B5FFE38351CDA34C /* PUImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PUImageView.swift; sourceTree = "<group>"; };
-		6BD4444A66E39054D0EDBD23F5776122 /* UICollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UICollectionViewCell.swift; sourceTree = "<group>"; };
-		6BE3FAA05D7D9768D259686E46C9259E /* PowerUpSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PowerUpSwift.release.xcconfig; sourceTree = "<group>"; };
-		700985C2750F11549C0A0DA643FEF4B5 /* PULoadingButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PULoadingButton.swift; sourceTree = "<group>"; };
-		70E022DE59C8A1ADF0523DAE7B9BCC68 /* UINavigationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UINavigationController.swift; sourceTree = "<group>"; };
-		71C6CBDE9764CD51AFE8C65FFE8D5681 /* PUButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PUButton.swift; sourceTree = "<group>"; };
-		77E9DA60BACF1F6D03BB4429381E798B /* PowerUpSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PowerUpSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7AE31031B50978372BBE44F3EAC766DE /* PUBaseTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PUBaseTextField.swift; sourceTree = "<group>"; };
-		7C6AAE59C5CE02944E974C3EAFBCB4F0 /* PowerUpSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PowerUpSwift-Info.plist"; sourceTree = "<group>"; };
-		8E5864AAC3C9C8B6782A982F4BE3615D /* NSLayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NSLayoutConstraint.swift; sourceTree = "<group>"; };
-		8E6FA7DFF5E9A369DB7D5ACA277F7834 /* PUTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PUTextField.swift; sourceTree = "<group>"; };
-		8F09319C86518EDA963FB12997F9CED7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		9149302A6056DFF0B4F20B5266F5D5C6 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
+		5D8F522A309CCF8FC61E4FE0F6629975 /* PUBarItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PUBarItem.swift; sourceTree = "<group>"; };
+		5E4F57700E37030A83D530D4FBFA1B6F /* UIColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		61DB3869D64E08983B5766FB5C749FA5 /* PULoadingButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PULoadingButton.swift; sourceTree = "<group>"; };
+		68EDF78A0A01CC92F90B6A48A8A04E5E /* URLRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = URLRequest.swift; sourceTree = "<group>"; };
+		6B0979A336ACBB33BDC583B00722EB6C /* CLPlacemark.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CLPlacemark.swift; sourceTree = "<group>"; };
+		6B1A0C21CA36ACCFA5A30CE18CD4CA86 /* PUTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PUTextView.swift; sourceTree = "<group>"; };
+		75B0966518F8480E2D678B4B21ED6E98 /* PowerUpSwift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = PowerUpSwift.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		77E9DA60BACF1F6D03BB4429381E798B /* PowerUpSwift */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PowerUpSwift; path = PowerUpSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84B86946B4731D878C6A3C2F4871CB6E /* PowerUpSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PowerUpSwift.modulemap; sourceTree = "<group>"; };
+		8A6790BBEEE38605EAA5CAD084FD30B6 /* PowerUpSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PowerUpSwift-prefix.pch"; sourceTree = "<group>"; };
+		8DFBD23C1D4BB9153D88E1FE40F28A24 /* UIButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
+		93FE56A972E72ABB8E73145CA53CDC35 /* PUNavigationItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PUNavigationItem.swift; sourceTree = "<group>"; };
 		952247624019F059B371D1081E7D2B2E /* Pods-PowerUpSwift_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PowerUpSwift_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		967A7B7220C73DF61D82EA8226BE6104 /* Pods-PowerUpSwift_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PowerUpSwift_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		99AA7533B91C8384E13B9D71AC55872E /* PUButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PUButton.swift; sourceTree = "<group>"; };
+		9D057DAA79AFDE67D86A7B1A7F001B1C /* PowerUpSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PowerUpSwift.debug.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A14027B536C2A592F4676D5443BA8A42 /* Pods-PowerUpSwift_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PowerUpSwift_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		A985EBE2404D4302DE8384CA5EB08108 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		ACA6C0AC04222224D39E4C2C210232F4 /* Pods_PowerUpSwift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PowerUpSwift_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A400A574B8E46409786DEE670E3DB9C2 /* PULocalizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PULocalizable.swift; sourceTree = "<group>"; };
+		A61DC1F4D0BDA2D4B04814F51ECBE510 /* PUUnderlineTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PUUnderlineTextField.swift; sourceTree = "<group>"; };
+		AA62F1CB5F8EADEA552D8FD63E289D15 /* PowerUpSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PowerUpSwift.release.xcconfig; sourceTree = "<group>"; };
+		ACA6C0AC04222224D39E4C2C210232F4 /* Pods-PowerUpSwift_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-PowerUpSwift_Example"; path = Pods_PowerUpSwift_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD4C805D66801143E5E09F008E63A396 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
 		AEB63E7388F5332566475F44CEF96CEF /* Pods-PowerUpSwift_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PowerUpSwift_Tests-Info.plist"; sourceTree = "<group>"; };
-		B346AD3A6B8D7D541891C65E3DD15C21 /* UIColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
-		B34B21235B2A90BFC5D739D6B2E9672C /* URL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = URL.swift; sourceTree = "<group>"; };
-		B461649224DBE2B700A0D3B5 /* PUNavigationItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PUNavigationItem.swift; sourceTree = "<group>"; };
-		B461649424DBE3B000A0D3B5 /* PUBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PUBarItem.swift; sourceTree = "<group>"; };
-		B461649624DBE42D00A0D3B5 /* PUSegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PUSegmentedControl.swift; sourceTree = "<group>"; };
-		B843301D24F7BF640013E295 /* MIGRATION.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = MIGRATION.md; sourceTree = "<group>"; };
-		B8912FD124F408E100121BCA /* PUInspectable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PUInspectable.swift; sourceTree = "<group>"; };
-		B8E4EB4224F55CCD002C4569 /* PUTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PUTableView.swift; sourceTree = "<group>"; };
 		B9BF64EB6613FD8293B19264B13D6C83 /* Pods-PowerUpSwift_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PowerUpSwift_Example-umbrella.h"; sourceTree = "<group>"; };
-		BAE929AF7BEB1916D6E0B2A23C3427D5 /* UITextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UITextView.swift; sourceTree = "<group>"; };
-		C61E6070C4236B54FA901EF1BF5DF16A /* PUTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PUTextView.swift; sourceTree = "<group>"; };
+		BE870DF7405B3A9542C93EDD183B396D /* PUTableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PUTableView.swift; sourceTree = "<group>"; };
+		C754010D1B4043C3EA2A5B01772CD3BC /* PUSegmentedControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PUSegmentedControl.swift; sourceTree = "<group>"; };
 		C9DA7C402F1DC3342B7B1D992DBC8563 /* Pods-PowerUpSwift_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PowerUpSwift_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		CB1975268A8087A5C628C3E67A931C32 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		CCB7F897461A358118B466F65D6AE482 /* CLPlacemark.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CLPlacemark.swift; sourceTree = "<group>"; };
 		CCDE8C44D9042D55863B58014A7211E5 /* Pods-PowerUpSwift_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PowerUpSwift_Example-dummy.m"; sourceTree = "<group>"; };
+		CD5197E0BAD17B31FE77E614631DE3A1 /* Optional.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Optional.swift; sourceTree = "<group>"; };
 		CF143DC023C9A02071C50ACB90E9E149 /* Pods-PowerUpSwift_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PowerUpSwift_Example-frameworks.sh"; sourceTree = "<group>"; };
-		D163B7A75CCE8FF94323A5F036327915 /* UITableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UITableView.swift; sourceTree = "<group>"; };
-		D67FB368B02425D556ECD365AFA9F1F3 /* Dictionary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Dictionary.swift; sourceTree = "<group>"; };
-		DC53A16F2EF61A246DB676702A4CEB04 /* String.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
-		DE453C8646D1269CD1562DD8297A1801 /* Optional.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Optional.swift; sourceTree = "<group>"; };
-		EC93B8CA61692882203BFF96951E2EC0 /* PUCollectionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PUCollectionView.swift; sourceTree = "<group>"; };
-		ECCE1FC5D21229E572D5F60D9062C327 /* PUUnderlineTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PUUnderlineTextField.swift; sourceTree = "<group>"; };
+		CF2A6FAF0F0E9061B118E0369FD7AC39 /* UINavigationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UINavigationController.swift; sourceTree = "<group>"; };
+		D04ABA6F6CEBE442FAA469B7D4F00358 /* Bundle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Bundle.swift; sourceTree = "<group>"; };
+		D8468981A0F1717108B3D1DAE12F9BF0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D9AD3B251B8DB059D68CA23AF7BB24FF /* PUBaseTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PUBaseTextField.swift; sourceTree = "<group>"; };
+		DD79BA76A7B7842F0BDF869ED00394DF /* PUCollectionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PUCollectionView.swift; sourceTree = "<group>"; };
+		DE248A0EF09B4566CF66A27472571F2A /* PowerUpSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PowerUpSwift-umbrella.h"; sourceTree = "<group>"; };
+		DF2E320F9BD2F051FCC3605DA2B9112B /* PowerUpSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PowerUpSwift-Info.plist"; sourceTree = "<group>"; };
+		DFC6DA667B3E5ECC8D00DB30CD7E78DA /* PowerUpSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PowerUpSwift-dummy.m"; sourceTree = "<group>"; };
+		E0979B122C8C3E39D284FDB93AF6BF05 /* UIRefreshControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIRefreshControl.swift; sourceTree = "<group>"; };
+		E0F6743182F39902920A66B13AC45AF0 /* UICollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UICollectionViewCell.swift; sourceTree = "<group>"; };
 		EEEEEC872DFAE9B6C5F06412C788010B /* Pods-PowerUpSwift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PowerUpSwift_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F118DA6BB1574E347660212D1971D5B3 /* Pods-PowerUpSwift_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PowerUpSwift_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F159B8AACCE8C270434AD47C34BF6A68 /* Pods-PowerUpSwift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PowerUpSwift_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		F763B60B2A6AD629BF89F576988BFE89 /* UIButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
+		F16F99C1405AFE6B893E995410B42FEA /* URL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = URL.swift; sourceTree = "<group>"; };
+		F232A8D715391EDB510DA68D535DE3BD /* PUVisualEffectView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PUVisualEffectView.swift; sourceTree = "<group>"; };
+		F3FE25B0B20C04D63237A3A3F874E5E7 /* UIViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		F942460A9E12E4D44F8D8E9D339CE187 /* Dictionary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Dictionary.swift; sourceTree = "<group>"; };
 		FA5EA5C1B7F585702695D3E5567F9D07 /* Pods-PowerUpSwift_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PowerUpSwift_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		FD1EBA8B7B4724D82E94F884BCCAB0CA /* Pods_PowerUpSwift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PowerUpSwift_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD1EBA8B7B4724D82E94F884BCCAB0CA /* Pods-PowerUpSwift_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-PowerUpSwift_Tests"; path = Pods_PowerUpSwift_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0A44F309460D81E9FB5A83ABC9B13E3E /* Frameworks */ = {
+		5FB914AC45C83E06712A6855C1B4A31F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00571144709EE2502F031FCF9663480E /* CoreLocation.framework in Frameworks */,
-				A3F99C6E2C79C2CD1E1BEADCF2BC0E3F /* Foundation.framework in Frameworks */,
-				EF3BAFC8DB3EB79687AFE4268D2C26E6 /* UIKit.framework in Frameworks */,
+				E57A1D2B877A0B53189EA7C4270C50AD /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1FD56CF80A7B03D8FC06062E795C5D85 /* Frameworks */ = {
+		5FC5676AC0F75FCB0C295A805825F0B4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCE8C01594A14D994C8E53190E141DB1 /* Foundation.framework in Frameworks */,
+				124ED840E92137C74B89B0869F7AFFB8 /* CoreLocation.framework in Frameworks */,
+				01A9BFD7F92907FAF671E0394CF50DB6 /* Foundation.framework in Frameworks */,
+				C62431C5B5085B77CCBF73682A67FC86 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		346FFC5B901AAAAD4A25CBBFF690CD9B /* Frameworks */ = {
+		CB344B18B2C299B5E8EBF29B27B53725 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C98F2F756816ED90B8A8CA2F9CA59E4 /* Foundation.framework in Frameworks */,
+				5334DD0BD3B5FEC95D0DA60457C836D3 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,9 +179,65 @@
 		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				56901D4EED637120246CD9A641C6EE5F /* iOS */,
+				065D6C27922C2715849A6FBB784C1A1B /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		065D6C27922C2715849A6FBB784C1A1B /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				AD4C805D66801143E5E09F008E63A396 /* CoreLocation.framework */,
+				D8468981A0F1717108B3D1DAE12F9BF0 /* Foundation.framework */,
+				5718ED8B2A619A50D245A73687A6D721 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		0DD0BA3D6C42758884032E2E757872B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACA6C0AC04222224D39E4C2C210232F4 /* Pods-PowerUpSwift_Example */,
+				FD1EBA8B7B4724D82E94F884BCCAB0CA /* Pods-PowerUpSwift_Tests */,
+				77E9DA60BACF1F6D03BB4429381E798B /* PowerUpSwift */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24CA4AA3D1E3ABB9BEF92286A0C2A999 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5D8F522A309CCF8FC61E4FE0F6629975 /* PUBarItem.swift */,
+				D9AD3B251B8DB059D68CA23AF7BB24FF /* PUBaseTextField.swift */,
+				99AA7533B91C8384E13B9D71AC55872E /* PUButton.swift */,
+				DD79BA76A7B7842F0BDF869ED00394DF /* PUCollectionView.swift */,
+				0A30843C265598BFC8B838B4FDAC3464 /* PUImageView.swift */,
+				44AF4A2A8B6F2EBC7E83F4B992579E90 /* PULabel.swift */,
+				61DB3869D64E08983B5766FB5C749FA5 /* PULoadingButton.swift */,
+				93FE56A972E72ABB8E73145CA53CDC35 /* PUNavigationItem.swift */,
+				C754010D1B4043C3EA2A5B01772CD3BC /* PUSegmentedControl.swift */,
+				BE870DF7405B3A9542C93EDD183B396D /* PUTableView.swift */,
+				43512DCAB1ADF234808FE6D58A185A7C /* PUTextField.swift */,
+				6B1A0C21CA36ACCFA5A30CE18CD4CA86 /* PUTextView.swift */,
+				A61DC1F4D0BDA2D4B04814F51ECBE510 /* PUUnderlineTextField.swift */,
+				031FFCEA0ECC9FCE66FB9C0586F11CE2 /* PUView.swift */,
+				F232A8D715391EDB510DA68D535DE3BD /* PUVisualEffectView.swift */,
+				5D1D244BCDD23EA593457E0D916E18EA /* Protocols */,
+			);
+			name = Classes;
+			path = PowerUpSwift/Classes/Classes;
+			sourceTree = "<group>";
+		};
+		526DC7EF7C270D79141FA3849CB68BEB /* PowerUpSwift */ = {
+			isa = PBXGroup;
+			children = (
+				24CA4AA3D1E3ABB9BEF92286A0C2A999 /* Classes */,
+				D666468DB063FBA182CD844260728B98 /* Extensions */,
+				C3678B164DA43801E61F74ED12A16234 /* Pod */,
+				63D875269B2BDE7E9B1A6D4D3F72F6E5 /* Support Files */,
+			);
+			name = PowerUpSwift;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		5367E01A1AB3933AE700775141BDFA8F /* Targets Support Files */ = {
@@ -195,14 +249,14 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		56901D4EED637120246CD9A641C6EE5F /* iOS */ = {
+		5D1D244BCDD23EA593457E0D916E18EA /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
-				9149302A6056DFF0B4F20B5266F5D5C6 /* CoreLocation.framework */,
-				1CBA33DEEFDF3E85910015F6306D526C /* Foundation.framework */,
-				A985EBE2404D4302DE8384CA5EB08108 /* UIKit.framework */,
+				3EB3F802CE6A73B6FDBC51DD3C1FDF11 /* PUInspectable.swift */,
+				A400A574B8E46409786DEE670E3DB9C2 /* PULocalizable.swift */,
 			);
-			name = iOS;
+			name = Protocols;
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 		5E95596991999288E0C22539838F2362 /* Pods-PowerUpSwift_Example */ = {
@@ -222,6 +276,48 @@
 			path = "Target Support Files/Pods-PowerUpSwift_Example";
 			sourceTree = "<group>";
 		};
+		63D875269B2BDE7E9B1A6D4D3F72F6E5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				84B86946B4731D878C6A3C2F4871CB6E /* PowerUpSwift.modulemap */,
+				DFC6DA667B3E5ECC8D00DB30CD7E78DA /* PowerUpSwift-dummy.m */,
+				DF2E320F9BD2F051FCC3605DA2B9112B /* PowerUpSwift-Info.plist */,
+				8A6790BBEEE38605EAA5CAD084FD30B6 /* PowerUpSwift-prefix.pch */,
+				DE248A0EF09B4566CF66A27472571F2A /* PowerUpSwift-umbrella.h */,
+				9D057DAA79AFDE67D86A7B1A7F001B1C /* PowerUpSwift.debug.xcconfig */,
+				AA62F1CB5F8EADEA552D8FD63E289D15 /* PowerUpSwift.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/PowerUpSwift";
+			sourceTree = "<group>";
+		};
+		68D1D3445CD00775E600AF508CF1194C /* CoreLocation */ = {
+			isa = PBXGroup;
+			children = (
+				6B0979A336ACBB33BDC583B00722EB6C /* CLPlacemark.swift */,
+			);
+			name = CoreLocation;
+			path = CoreLocation;
+			sourceTree = "<group>";
+		};
+		6D101FAD01B9BEFE0930A4A275FA16BD /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				0F99F86BF9344208E6BB55F3C48D839D /* NSLayoutConstraint.swift */,
+				8DFBD23C1D4BB9153D88E1FE40F28A24 /* UIButton.swift */,
+				E0F6743182F39902920A66B13AC45AF0 /* UICollectionViewCell.swift */,
+				5E4F57700E37030A83D530D4FBFA1B6F /* UIColor.swift */,
+				CF2A6FAF0F0E9061B118E0369FD7AC39 /* UINavigationController.swift */,
+				E0979B122C8C3E39D284FDB93AF6BF05 /* UIRefreshControl.swift */,
+				0684FE176DA0D3C35C87A3F273B3926A /* UITableView.swift */,
+				3ECEFD2EB6E699EA172DA21D1DC2C4D3 /* UITableViewCell.swift */,
+				02E66021AA74053C6ED131B7BBA57500 /* UITextView.swift */,
+				F3FE25B0B20C04D63237A3A3F874E5E7 /* UIViewController.swift */,
+			);
+			name = UIKit;
+			path = UIKit;
+			sourceTree = "<group>";
+		};
 		6F07CAA7AAECA97830F43C1C1B2356B7 /* Pods-PowerUpSwift_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -238,181 +334,86 @@
 			path = "Target Support Files/Pods-PowerUpSwift_Tests";
 			sourceTree = "<group>";
 		};
-		828F1B081C545B44435562C66D59D04C /* PowerUpSwift */ = {
+		78266931B3340802E742323C8AB38FD5 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B8912FD024F4088900121BCA /* Extensions */,
-				B461648F24DBDCD700A0D3B5 /* Classes */,
-				A87DB1352734E78D0ACD4CD57072BD24 /* Pod */,
-				D4E2828BC4809EC7A0724DF248D5F4C0 /* Support Files */,
-			);
-			name = PowerUpSwift;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		9661C6213950441786CAB233DE5E7DD8 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				828F1B081C545B44435562C66D59D04C /* PowerUpSwift */,
+				526DC7EF7C270D79141FA3849CB68BEB /* PowerUpSwift */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		A87DB1352734E78D0ACD4CD57072BD24 /* Pod */ = {
+		A82859A4DBF91038E20E23193CB09ADE /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
-				8F09319C86518EDA963FB12997F9CED7 /* LICENSE */,
-				334D31D16AAC2F9D784A3D2CB87D00C9 /* PowerUpSwift.podspec */,
-				CB1975268A8087A5C628C3E67A931C32 /* README.md */,
-				B843301D24F7BF640013E295 /* MIGRATION.md */,
+				D04ABA6F6CEBE442FAA469B7D4F00358 /* Bundle.swift */,
+				1A8E26F20CCD6E9A091BFCB4E336B518 /* Data.swift */,
+				F942460A9E12E4D44F8D8E9D339CE187 /* Dictionary.swift */,
+				CD5197E0BAD17B31FE77E614631DE3A1 /* Optional.swift */,
+				1787BCC63CF540F79A927C8C4B5EE00F /* String.swift */,
+				F16F99C1405AFE6B893E995410B42FEA /* URL.swift */,
+				68EDF78A0A01CC92F90B6A48A8A04E5E /* URLRequest.swift */,
+				153532278EBEADE923F4B1374A7C5F7F /* URLResponse.swift */,
 			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		AD083A9BC5E50D208864B6364CB2582C /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				ACA6C0AC04222224D39E4C2C210232F4 /* Pods_PowerUpSwift_Example.framework */,
-				FD1EBA8B7B4724D82E94F884BCCAB0CA /* Pods_PowerUpSwift_Tests.framework */,
-				77E9DA60BACF1F6D03BB4429381E798B /* PowerUpSwift.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		B461648C24DBDCA700A0D3B5 /* UIKit */ = {
-			isa = PBXGroup;
-			children = (
-				8E5864AAC3C9C8B6782A982F4BE3615D /* NSLayoutConstraint.swift */,
-				F763B60B2A6AD629BF89F576988BFE89 /* UIButton.swift */,
-				6BD4444A66E39054D0EDBD23F5776122 /* UICollectionViewCell.swift */,
-				B346AD3A6B8D7D541891C65E3DD15C21 /* UIColor.swift */,
-				70E022DE59C8A1ADF0523DAE7B9BCC68 /* UINavigationController.swift */,
-				3EF4A00F85438B330F8E8E1892E1DFDF /* UIRefreshControl.swift */,
-				D163B7A75CCE8FF94323A5F036327915 /* UITableView.swift */,
-				517E9F6148CC9407B5C0327FF2BE6A40 /* UITableViewCell.swift */,
-				BAE929AF7BEB1916D6E0B2A23C3427D5 /* UITextView.swift */,
-				4E5966368C93D12BA33FD8F7A421DCA7 /* UIViewController.swift */,
-			);
-			path = UIKit;
-			sourceTree = "<group>";
-		};
-		B461648D24DBDCA800A0D3B5 /* Foundation */ = {
-			isa = PBXGroup;
-			children = (
-				616AC344A5A2D72C730FBA3E7BF45BA4 /* Bundle.swift */,
-				68E8970A1EAF0B18349FD191EC62E4AA /* Data.swift */,
-				D67FB368B02425D556ECD365AFA9F1F3 /* Dictionary.swift */,
-				DE453C8646D1269CD1562DD8297A1801 /* Optional.swift */,
-				DC53A16F2EF61A246DB676702A4CEB04 /* String.swift */,
-				B34B21235B2A90BFC5D739D6B2E9672C /* URL.swift */,
-				21ADA2DD796B823C3E3E5202804B8CAE /* URLRequest.swift */,
-				10F7E6CE9B76C1B0584B75138E7F99F7 /* URLResponse.swift */,
-			);
+			name = Foundation;
 			path = Foundation;
 			sourceTree = "<group>";
 		};
-		B461648E24DBDCA800A0D3B5 /* CoreLocation */ = {
+		C3678B164DA43801E61F74ED12A16234 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				CCB7F897461A358118B466F65D6AE482 /* CLPlacemark.swift */,
+				2C4BDE705088418D6DF6EBA4AA9DB6F2 /* LICENSE */,
+				75B0966518F8480E2D678B4B21ED6E98 /* PowerUpSwift.podspec */,
+				51B514FA0E1ED549798207595895D3B6 /* README.md */,
 			);
-			path = CoreLocation;
-			sourceTree = "<group>";
-		};
-		B461648F24DBDCD700A0D3B5 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				B461649424DBE3B000A0D3B5 /* PUBarItem.swift */,
-				7AE31031B50978372BBE44F3EAC766DE /* PUBaseTextField.swift */,
-				71C6CBDE9764CD51AFE8C65FFE8D5681 /* PUButton.swift */,
-				EC93B8CA61692882203BFF96951E2EC0 /* PUCollectionView.swift */,
-				6AC599EB0B847843B5FFE38351CDA34C /* PUImageView.swift */,
-				4DEECFA60F4452F1624C6F4C9DE60C44 /* PULabel.swift */,
-				700985C2750F11549C0A0DA643FEF4B5 /* PULoadingButton.swift */,
-				B461649224DBE2B700A0D3B5 /* PUNavigationItem.swift */,
-				B461649624DBE42D00A0D3B5 /* PUSegmentedControl.swift */,
-				B8E4EB4224F55CCD002C4569 /* PUTableView.swift */,
-				8E6FA7DFF5E9A369DB7D5ACA277F7834 /* PUTextField.swift */,
-				C61E6070C4236B54FA901EF1BF5DF16A /* PUTextView.swift */,
-				ECCE1FC5D21229E572D5F60D9062C327 /* PUUnderlineTextField.swift */,
-				60277CEAF17947FD323A9FAAA789FB76 /* PUView.swift */,
-				447EDF85C55B5601592F24661B6DC861 /* PUVisualEffectView.swift */,
-				B8912FCF24F407CE00121BCA /* Protocols */,
-			);
-			name = Classes;
-			path = PowerUpSwift/Classes/Classes;
-			sourceTree = "<group>";
-		};
-		B8912FCF24F407CE00121BCA /* Protocols */ = {
-			isa = PBXGroup;
-			children = (
-				5DBECB3C8424D1316D2A998F0F6D05EA /* PULocalizable.swift */,
-				B8912FD124F408E100121BCA /* PUInspectable.swift */,
-			);
-			path = Protocols;
-			sourceTree = "<group>";
-		};
-		B8912FD024F4088900121BCA /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				B461648C24DBDCA700A0D3B5 /* UIKit */,
-				B461648D24DBDCA800A0D3B5 /* Foundation */,
-				B461648E24DBDCA800A0D3B5 /* CoreLocation */,
-			);
-			name = Extensions;
-			path = PowerUpSwift/Classes/Extensions;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				9661C6213950441786CAB233DE5E7DD8 /* Development Pods */,
+				78266931B3340802E742323C8AB38FD5 /* Development Pods */,
 				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
-				AD083A9BC5E50D208864B6364CB2582C /* Products */,
+				0DD0BA3D6C42758884032E2E757872B9 /* Products */,
 				5367E01A1AB3933AE700775141BDFA8F /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D4E2828BC4809EC7A0724DF248D5F4C0 /* Support Files */ = {
+		D666468DB063FBA182CD844260728B98 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				3E6C19975D02EE98435D26DC70248DA3 /* PowerUpSwift.modulemap */,
-				5E4104CC989CF3AEB82BA0D677BA11A4 /* PowerUpSwift-dummy.m */,
-				7C6AAE59C5CE02944E974C3EAFBCB4F0 /* PowerUpSwift-Info.plist */,
-				157640C1D8FEEDBF66885A8DB33F2482 /* PowerUpSwift-prefix.pch */,
-				435B6DBD060EA33D53506AC2810105C8 /* PowerUpSwift-umbrella.h */,
-				498F4EB1D32970DD7A1F7D0D6FB1AAF3 /* PowerUpSwift.debug.xcconfig */,
-				6BE3FAA05D7D9768D259686E46C9259E /* PowerUpSwift.release.xcconfig */,
+				68D1D3445CD00775E600AF508CF1194C /* CoreLocation */,
+				A82859A4DBF91038E20E23193CB09ADE /* Foundation */,
+				6D101FAD01B9BEFE0930A4A275FA16BD /* UIKit */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/PowerUpSwift";
+			name = Extensions;
+			path = PowerUpSwift/Classes/Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0E7468CA97BEEA7EA395E27046F0F300 /* Headers */ = {
+		0578C90CCB558369FAEA7D8EFD36F421 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CECE3DB1EDD57ADA8E5C561FF9DC18E /* Pods-PowerUpSwift_Example-umbrella.h in Headers */,
+				07B3463E509184617C16ECFDDCF69678 /* PowerUpSwift-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9781544DCEFFB347BDE348A8F6F68642 /* Headers */ = {
+		29550AB2DAEB14A983EE9A533243DC29 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2B3EA096EBDB7B25C9F6C06243EA566 /* PowerUpSwift-umbrella.h in Headers */,
+				6C6D5DBF1CA85048306886C3C4CDB73F /* Pods-PowerUpSwift_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F1BADBC79F46FD7215F1C9B2887F5D34 /* Headers */ = {
+		6D814AB45F6CB5F8405CEA12316DBB1B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D311DDAD93F1E10D896A4EB8FE7D39C /* Pods-PowerUpSwift_Tests-umbrella.h in Headers */,
+				157B9B801A0793BDFB47B630B5DC222E /* Pods-PowerUpSwift_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,31 +422,31 @@
 /* Begin PBXNativeTarget section */
 		3A920F3E6123DA0D3A2C12CEEACE701E /* Pods-PowerUpSwift_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5C2AE7B7F246841DDC71825153899BCD /* Build configuration list for PBXNativeTarget "Pods-PowerUpSwift_Tests" */;
+			buildConfigurationList = 7E8904BAAF36D4EB6D1A4B321189905B /* Build configuration list for PBXNativeTarget "Pods-PowerUpSwift_Tests" */;
 			buildPhases = (
-				F1BADBC79F46FD7215F1C9B2887F5D34 /* Headers */,
-				CDC6F0A3BBAC86DE72AA9836368F3FA5 /* Sources */,
-				1FD56CF80A7B03D8FC06062E795C5D85 /* Frameworks */,
-				E6497290097E3D41AE11541AE9E451C1 /* Resources */,
+				29550AB2DAEB14A983EE9A533243DC29 /* Headers */,
+				7930988D43A955A3F3F1AE11A2054626 /* Sources */,
+				5FB914AC45C83E06712A6855C1B4A31F /* Frameworks */,
+				42897065C9533E4CE30249C833081A64 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F2A66AD6D15C5FB3B4B5196E26B4A46C /* PBXTargetDependency */,
+				97AFD6FA6C2C5C0028EEA398ADBEE418 /* PBXTargetDependency */,
 			);
 			name = "Pods-PowerUpSwift_Tests";
-			productName = "Pods-PowerUpSwift_Tests";
-			productReference = FD1EBA8B7B4724D82E94F884BCCAB0CA /* Pods_PowerUpSwift_Tests.framework */;
+			productName = Pods_PowerUpSwift_Tests;
+			productReference = FD1EBA8B7B4724D82E94F884BCCAB0CA /* Pods-PowerUpSwift_Tests */;
 			productType = "com.apple.product-type.framework";
 		};
 		4EC3E4D9FFF7B0343798450C71212B1B /* PowerUpSwift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 930AB488A128DC96FC4FC51F5E86F236 /* Build configuration list for PBXNativeTarget "PowerUpSwift" */;
+			buildConfigurationList = 52F819510E8D50E022717BACA5578544 /* Build configuration list for PBXNativeTarget "PowerUpSwift" */;
 			buildPhases = (
-				9781544DCEFFB347BDE348A8F6F68642 /* Headers */,
-				9847BB1FE2B4CD4B10701965F214E18F /* Sources */,
-				0A44F309460D81E9FB5A83ABC9B13E3E /* Frameworks */,
-				E22C2DF0C9C8CE0B98540D74370F280C /* Resources */,
+				0578C90CCB558369FAEA7D8EFD36F421 /* Headers */,
+				B671DBBB12AD179EB0BF1918E85F409B /* Sources */,
+				5FC5676AC0F75FCB0C295A805825F0B4 /* Frameworks */,
+				A7C19427F2A8F492C4575CACCDEFA5AB /* Resources */,
 			);
 			buildRules = (
 			);
@@ -453,26 +454,26 @@
 			);
 			name = PowerUpSwift;
 			productName = PowerUpSwift;
-			productReference = 77E9DA60BACF1F6D03BB4429381E798B /* PowerUpSwift.framework */;
+			productReference = 77E9DA60BACF1F6D03BB4429381E798B /* PowerUpSwift */;
 			productType = "com.apple.product-type.framework";
 		};
 		61C391C2980A514D118A7B823AB3EE88 /* Pods-PowerUpSwift_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D100ECFC35B55E624A9685E268358230 /* Build configuration list for PBXNativeTarget "Pods-PowerUpSwift_Example" */;
+			buildConfigurationList = ACF388EFAF7C2D56D1DDD20FE6365C90 /* Build configuration list for PBXNativeTarget "Pods-PowerUpSwift_Example" */;
 			buildPhases = (
-				0E7468CA97BEEA7EA395E27046F0F300 /* Headers */,
-				D487E290A00A48EB917C9B1FAB0177A7 /* Sources */,
-				346FFC5B901AAAAD4A25CBBFF690CD9B /* Frameworks */,
-				282965D4CF7B5F656FEA79668A3C3B65 /* Resources */,
+				6D814AB45F6CB5F8405CEA12316DBB1B /* Headers */,
+				A7E9AD5D4D3D0F292B84F3978C62CDFD /* Sources */,
+				CB344B18B2C299B5E8EBF29B27B53725 /* Frameworks */,
+				7FFE21D9A54AF508009850077E336583 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A38A8EB56688630A68FCD451506EF0B4 /* PBXTargetDependency */,
+				0433CDC09C25D349E376376EB2C4FF45 /* PBXTargetDependency */,
 			);
 			name = "Pods-PowerUpSwift_Example";
-			productName = "Pods-PowerUpSwift_Example";
-			productReference = ACA6C0AC04222224D39E4C2C210232F4 /* Pods_PowerUpSwift_Example.framework */;
+			productName = Pods_PowerUpSwift_Example;
+			productReference = ACA6C0AC04222224D39E4C2C210232F4 /* Pods-PowerUpSwift_Example */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -481,25 +482,19 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
-				ORGANIZATIONNAME = PowerUpX;
-				TargetAttributes = {
-					61C391C2980A514D118A7B823AB3EE88 = {
-						LastSwiftMigration = 1160;
-					};
-				};
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = AD083A9BC5E50D208864B6364CB2582C /* Products */;
+			productRefGroup = 0DD0BA3D6C42758884032E2E757872B9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -511,22 +506,21 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		282965D4CF7B5F656FEA79668A3C3B65 /* Resources */ = {
+		42897065C9533E4CE30249C833081A64 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E22C2DF0C9C8CE0B98540D74370F280C /* Resources */ = {
+		7FFE21D9A54AF508009850077E336583 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B843301E24F7BF640013E295 /* MIGRATION.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E6497290097E3D41AE11541AE9E451C1 /* Resources */ = {
+		A7C19427F2A8F492C4575CACCDEFA5AB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -536,88 +530,89 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9847BB1FE2B4CD4B10701965F214E18F /* Sources */ = {
+		7930988D43A955A3F3F1AE11A2054626 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91CC3CD4090A559CC7D8FFADB1EA9CF1 /* Bundle.swift in Sources */,
-				D342FD90A59B47B5A385C293129BECFF /* CLPlacemark.swift in Sources */,
-				B461649324DBE2B700A0D3B5 /* PUNavigationItem.swift in Sources */,
-				4E5EFAF65769B8973F242B7944516C88 /* Data.swift in Sources */,
-				899570F9019AE84EFAECC5B428C8BB98 /* Dictionary.swift in Sources */,
-				78DD453E83520DE0EE53FF3F9A7B3AA1 /* NSLayoutConstraint.swift in Sources */,
-				B8912FD324F40BE700121BCA /* PUInspectable.swift in Sources */,
-				BC9A63C79F8162885B649F2280EF9D0E /* Optional.swift in Sources */,
-				0F2EC4FC3D049898235C038F016CC7DC /* PUBaseTextField.swift in Sources */,
-				0C06769B6FDCE3ABCEB572BF5A915CBB /* PUButton.swift in Sources */,
-				873C38E8D900A67BDE1FD7804D9C8CAB /* PUCollectionView.swift in Sources */,
-				CF01BDE967A629C17EA1B24B7598E117 /* PUImageView.swift in Sources */,
-				083D8982E33F8B195FD34377248B6C5A /* PULabel.swift in Sources */,
-				F348B7FB93EE32DE232899572438BF18 /* PULoadingButton.swift in Sources */,
-				9D6E1DBA22A2FC8260BE0E0C92DB114E /* PULocalizable.swift in Sources */,
-				B8E4EB4324F55CCD002C4569 /* PUTableView.swift in Sources */,
-				843152B2697BA6447999968C0B1A7219 /* PowerUpSwift-dummy.m in Sources */,
-				E928831315A4DC9BFE8638756FDAD5FE /* PUTextField.swift in Sources */,
-				78D4417302C41356712EBDFA1220B2D6 /* PUTextView.swift in Sources */,
-				FCE9CB89D174250266E69E135034AD47 /* PUUnderlineTextField.swift in Sources */,
-				13E8B5B90A065A62342695CA069CBEAC /* PUView.swift in Sources */,
-				FAEEB354DE117CCB04B2E676CAF7C060 /* PUVisualEffectView.swift in Sources */,
-				C4D126B694AC0BE24E6273EEF5E687E1 /* String.swift in Sources */,
-				A9892940632DD3227FD0818B18377930 /* UIButton.swift in Sources */,
-				8856ED20E0B8CAFA21F7E29617587A56 /* UICollectionViewCell.swift in Sources */,
-				45CCCB574D70596C0D19E1C5CE88FAEC /* UIColor.swift in Sources */,
-				D6AA8C3CED449224AE196B94781F127D /* UINavigationController.swift in Sources */,
-				2408C4466BA7984BC5A9B8B0E34BC802 /* UIRefreshControl.swift in Sources */,
-				2621460D9A838886A844DE95FC85BFEB /* UITableView.swift in Sources */,
-				B461649524DBE3B000A0D3B5 /* PUBarItem.swift in Sources */,
-				2E48D38F3E104A930EBEEB2BCA137912 /* UITableViewCell.swift in Sources */,
-				7C1CCD4B288E86271881A8D994E11447 /* UITextView.swift in Sources */,
-				36EAC397417DD3C6546AB0F3D334F45A /* UIViewController.swift in Sources */,
-				06467006A6233F0CB502691B260F2392 /* URL.swift in Sources */,
-				B461649724DBE42D00A0D3B5 /* PUSegmentedControl.swift in Sources */,
-				E3188D883AAAC9B4842B7EFB3750CC9F /* URLRequest.swift in Sources */,
-				060C7F6ED6A680AC9986DC973EF6D3F5 /* URLResponse.swift in Sources */,
+				D652CEBB992AD2CC94D1E178D6901179 /* Pods-PowerUpSwift_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CDC6F0A3BBAC86DE72AA9836368F3FA5 /* Sources */ = {
+		A7E9AD5D4D3D0F292B84F3978C62CDFD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24695116A8CADE4CAD015043673BE967 /* Pods-PowerUpSwift_Tests-dummy.m in Sources */,
+				6D5BD11E53F54BEED0B5BEBA58A3D156 /* Pods-PowerUpSwift_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D487E290A00A48EB917C9B1FAB0177A7 /* Sources */ = {
+		B671DBBB12AD179EB0BF1918E85F409B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09E0F33264B37C891E18FEC63D5715F6 /* Pods-PowerUpSwift_Example-dummy.m in Sources */,
+				A27A36641B7A0D8A5B116A13872551E5 /* Bundle.swift in Sources */,
+				6BBF99A85EE05867E3CB1C70CD603A35 /* CLPlacemark.swift in Sources */,
+				41A49E46E25D82ED56AD19762A52E870 /* Data.swift in Sources */,
+				2635972C78D30E34CF213B9711291BC2 /* Dictionary.swift in Sources */,
+				EE5D8DE54468604BA512C4815E5095A6 /* NSLayoutConstraint.swift in Sources */,
+				402A96D9AE23B724DA8BCB714D078C3A /* Optional.swift in Sources */,
+				FF57C52BE1653DD4A04AE7E2152E9FF8 /* PowerUpSwift-dummy.m in Sources */,
+				94A9B370E6879419181165D9C101C1F0 /* PUBarItem.swift in Sources */,
+				D6A97EA60EDBEC1C93BE3644AFF86B7B /* PUBaseTextField.swift in Sources */,
+				CEDCD8B1D0608D0B9D228CFC311286D3 /* PUButton.swift in Sources */,
+				B8BC239C861ED2CF3A44246B1FDF07AE /* PUCollectionView.swift in Sources */,
+				30F9A7E97EC8441637F70D92F08CEBEE /* PUImageView.swift in Sources */,
+				5BC0AC5E7C91F8D4CCA40E7CC4E30177 /* PUInspectable.swift in Sources */,
+				C5B53DD25C7A46791B558941CD3CC067 /* PULabel.swift in Sources */,
+				7C51FB1F47F5D8F969C9ED4284997EC4 /* PULoadingButton.swift in Sources */,
+				567CD2B8D40E2CE4443FCDB0D9352089 /* PULocalizable.swift in Sources */,
+				2BEB63750EE40B8BC36AE547AE499C46 /* PUNavigationItem.swift in Sources */,
+				48B9EDD7EF1F8B0A9197D4AC2B5898C6 /* PUSegmentedControl.swift in Sources */,
+				F13678589BE71A86142C45489D08B288 /* PUTableView.swift in Sources */,
+				21F11B480A95B70F16A022E2387F36AC /* PUTextField.swift in Sources */,
+				53C53A32CD2C36CC5B8415946448F343 /* PUTextView.swift in Sources */,
+				1611C419C9CFD23AC6C67E508232F9C8 /* PUUnderlineTextField.swift in Sources */,
+				328F124D2C8CBC7D9B2CDB40F79981B2 /* PUView.swift in Sources */,
+				27C0ED61E113533E9F597823FAC86FD4 /* PUVisualEffectView.swift in Sources */,
+				BE8AA6A0CF40ED1440615767E4A4C6AA /* String.swift in Sources */,
+				157652D97FC681049C72CAF1E140852B /* UIButton.swift in Sources */,
+				DA5D8DC0FA38F3558054E5AB0BCB02E3 /* UICollectionViewCell.swift in Sources */,
+				68A13E6536124061CC731DE2DE6B7E0C /* UIColor.swift in Sources */,
+				204F788550D9476E79DF4951DFB29FB7 /* UINavigationController.swift in Sources */,
+				29BAA209930D4D883B1358356DB4E210 /* UIRefreshControl.swift in Sources */,
+				AB39ED2D86D1F763FD87294C04789A82 /* UITableView.swift in Sources */,
+				810683615727131890C2FBB7A5790586 /* UITableViewCell.swift in Sources */,
+				7F007EF11A72EA27FC275F65FB87AF51 /* UITextView.swift in Sources */,
+				089695074C4DBED16E582B6BBBC07AB4 /* UIViewController.swift in Sources */,
+				CC800FC1DCDB607861D1723FDB496B4A /* URL.swift in Sources */,
+				31E34FC7C487B9ECE9AA77A991E96D2E /* URLRequest.swift in Sources */,
+				70A238C41D3E6DE19F52C6DC2547687A /* URLResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A38A8EB56688630A68FCD451506EF0B4 /* PBXTargetDependency */ = {
+		0433CDC09C25D349E376376EB2C4FF45 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = PowerUpSwift;
 			target = 4EC3E4D9FFF7B0343798450C71212B1B /* PowerUpSwift */;
-			targetProxy = D65519CC43B272352DE725C0C5A964FE /* PBXContainerItemProxy */;
+			targetProxy = 6DD9434A3B508B12799AFDF4C5924DA5 /* PBXContainerItemProxy */;
 		};
-		F2A66AD6D15C5FB3B4B5196E26B4A46C /* PBXTargetDependency */ = {
+		97AFD6FA6C2C5C0028EEA398ADBEE418 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-PowerUpSwift_Example";
 			target = 61C391C2980A514D118A7B823AB3EE88 /* Pods-PowerUpSwift_Example */;
-			targetProxy = A750877292E25BAF33D69CCE262DA169 /* PBXContainerItemProxy */;
+			targetProxy = 666354D4FF76D5E909951AE907AD015F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		131356BE54884448CA49C07BEDF4BB2A /* Debug */ = {
+		2B9E26EAE2CD392AD762421F663075A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -640,6 +635,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -678,157 +674,12 @@
 			};
 			name = Debug;
 		};
-		5777083B6328FA8126CC92E3C4FD2616 /* Debug */ = {
+		34B33B07953B06BBA20DC0D00432F035 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 498F4EB1D32970DD7A1F7D0D6FB1AAF3 /* PowerUpSwift.debug.xcconfig */;
+			baseConfigurationReference = AA62F1CB5F8EADEA552D8FD63E289D15 /* PowerUpSwift.release.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/PowerUpSwift/PowerUpSwift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PowerUpSwift/PowerUpSwift-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PowerUpSwift/PowerUpSwift.modulemap";
-				PRODUCT_MODULE_NAME = PowerUpSwift;
-				PRODUCT_NAME = PowerUpSwift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		9FD9D0D9C702EC4031E6A70D35028FF7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EEEEEC872DFAE9B6C5F06412C788010B /* Pods-PowerUpSwift_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-PowerUpSwift_Example/Pods-PowerUpSwift_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PowerUpSwift_Example/Pods-PowerUpSwift_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		ADBE719B9B7A9A37636309575595E889 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F159B8AACCE8C270434AD47C34BF6A68 /* Pods-PowerUpSwift_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-PowerUpSwift_Example/Pods-PowerUpSwift_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PowerUpSwift_Example/Pods-PowerUpSwift_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		AE7CC44E07199BD6BE800AC309DED749 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A14027B536C2A592F4676D5443BA8A42 /* Pods-PowerUpSwift_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-PowerUpSwift_Tests/Pods-PowerUpSwift_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PowerUpSwift_Tests/Pods-PowerUpSwift_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		D368772D0BF0B836803D2C077426CCA0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6BE3FAA05D7D9768D259686E46C9259E /* PowerUpSwift.release.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -856,10 +707,11 @@
 			};
 			name = Release;
 		};
-		F090CD07A80273D5A73C8EA19224ADDB /* Release */ = {
+		63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -882,6 +734,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -909,20 +762,20 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		FFDA6361EEB2558CB54E782470C4AAC1 /* Release */ = {
+		84197A3B2D61A5CC543B296862379842 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F118DA6BB1574E347660212D1971D5B3 /* Pods-PowerUpSwift_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -951,41 +804,176 @@
 			};
 			name = Release;
 		};
+		A834D152E8B336B2D3C65F4B525031B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A14027B536C2A592F4676D5443BA8A42 /* Pods-PowerUpSwift_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PowerUpSwift_Tests/Pods-PowerUpSwift_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PowerUpSwift_Tests/Pods-PowerUpSwift_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C01799978AFF77D1FAF24A9589FE5D65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D057DAA79AFDE67D86A7B1A7F001B1C /* PowerUpSwift.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PowerUpSwift/PowerUpSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PowerUpSwift/PowerUpSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PowerUpSwift/PowerUpSwift.modulemap";
+				PRODUCT_MODULE_NAME = PowerUpSwift;
+				PRODUCT_NAME = PowerUpSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D6B74AAD891EC73942D0C9ECDEA1CA83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F159B8AACCE8C270434AD47C34BF6A68 /* Pods-PowerUpSwift_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PowerUpSwift_Example/Pods-PowerUpSwift_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PowerUpSwift_Example/Pods-PowerUpSwift_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DE367F58BB52C7FC2BCC47B9223A3502 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEEEEC872DFAE9B6C5F06412C788010B /* Pods-PowerUpSwift_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PowerUpSwift_Example/Pods-PowerUpSwift_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PowerUpSwift_Example/Pods-PowerUpSwift_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				131356BE54884448CA49C07BEDF4BB2A /* Debug */,
-				F090CD07A80273D5A73C8EA19224ADDB /* Release */,
+				2B9E26EAE2CD392AD762421F663075A1 /* Debug */,
+				63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5C2AE7B7F246841DDC71825153899BCD /* Build configuration list for PBXNativeTarget "Pods-PowerUpSwift_Tests" */ = {
+		52F819510E8D50E022717BACA5578544 /* Build configuration list for PBXNativeTarget "PowerUpSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AE7CC44E07199BD6BE800AC309DED749 /* Debug */,
-				FFDA6361EEB2558CB54E782470C4AAC1 /* Release */,
+				C01799978AFF77D1FAF24A9589FE5D65 /* Debug */,
+				34B33B07953B06BBA20DC0D00432F035 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		930AB488A128DC96FC4FC51F5E86F236 /* Build configuration list for PBXNativeTarget "PowerUpSwift" */ = {
+		7E8904BAAF36D4EB6D1A4B321189905B /* Build configuration list for PBXNativeTarget "Pods-PowerUpSwift_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5777083B6328FA8126CC92E3C4FD2616 /* Debug */,
-				D368772D0BF0B836803D2C077426CCA0 /* Release */,
+				A834D152E8B336B2D3C65F4B525031B6 /* Debug */,
+				84197A3B2D61A5CC543B296862379842 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D100ECFC35B55E624A9685E268358230 /* Build configuration list for PBXNativeTarget "Pods-PowerUpSwift_Example" */ = {
+		ACF388EFAF7C2D56D1DDD20FE6365C90 /* Build configuration list for PBXNativeTarget "Pods-PowerUpSwift_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ADBE719B9B7A9A37636309575595E889 /* Debug */,
-				9FD9D0D9C702EC4031E6A70D35028FF7 /* Release */,
+				D6B74AAD891EC73942D0C9ECDEA1CA83 /* Debug */,
+				DE367F58BB52C7FC2BCC47B9223A3502 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

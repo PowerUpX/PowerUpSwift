@@ -12,6 +12,6 @@ import UIKit
 @IBDesignable open class PUBarItem: UIBarItem, PUXIBLocalizable {
     // MARK: - Inspectables
     @IBInspectable open var xibLocKey: String? {
-        didSet { self.title = self.xibLocKey?.localized }
+        didSet { title = xibLocKey?.localized }
     }
 }

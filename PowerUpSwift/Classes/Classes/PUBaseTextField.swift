@@ -14,30 +14,30 @@ import UIKit
 @IBDesignable open class PUBaseTextField: UITextField, PUXIBPlaceholderLocalizable {
     // MARK: - Inspectables
     @IBInspectable open var xibPlaceholderLocKey: String? {
-        didSet { self.placeholder = self.xibPlaceholderLocKey?.localized }
+        didSet { placeholder = xibPlaceholderLocKey?.localized }
     }
     
     /// PowerUpSwift: The left padding.
     @IBInspectable open var leftInset: CGFloat {
         get {
-            return self.leftView!.frame.size.width
+            return leftView!.frame.size.width
         }
         set {
             let paddingView = UIView(frame: CGRect(x: 0, y: 0, width: newValue, height: frame.size.height))
-            self.leftView = paddingView
-            self.leftViewMode = .always
+            leftView = paddingView
+            leftViewMode = .always
         }
     }
     
     /// PowerUpSwift: The right padding.
     @IBInspectable open var rightInset: CGFloat {
         get {
-            return self.rightView!.frame.size.width
+            return rightView!.frame.size.width
         }
         set {
             let paddingView = UIView(frame: CGRect(x: 0, y: 0, width: newValue, height: frame.size.height))
-            self.rightView = paddingView
-            self.rightViewMode = .always
+            rightView = paddingView
+            rightViewMode = .always
         }
     }
     
@@ -45,27 +45,27 @@ import UIKit
     /// This is handy since Swift does not provide a built-in max length property on text fields.
     @IBInspectable open var maxLength: Int {
         get {
-            guard let l = self.__maxLengths[self] else {
+            guard let l = __maxLengths[self] else {
                 return Int.max // (150 for global default-limit or use Int.max)
             }
             return l
         }
         set {
-            self.__maxLengths[self] = newValue
-            addTarget(self, action: #selector(self.limit), for: .editingChanged)
+            __maxLengths[self] = newValue
+            addTarget(self, action: #selector(limit), for: .editingChanged)
         }
     }
     
     private var __maxLengths = [UITextField: Int]()
     
     @objc func limit(textField: UITextField) {
-        textField.text = textField.text?.limitLength(self.maxLength)
+        textField.text = textField.text?.limitLength(maxLength)
     }
 }
 
 fileprivate extension String {
     func limitLength(_ n: Int) -> String {
-        if self.count <= n { return self }
+        if count <= n { return self }
         
         return String(Array(self).prefix(upTo: n))
     }

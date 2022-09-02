@@ -15,17 +15,17 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.dismissKeyboardWhenTappedOutside()
+        dismissKeyboardWhenTappedOutside()
         
-        self.powerUpTextField.addTarget(self, action: #selector(self.textFieldDidChange(_:)), for: .editingChanged)
+        powerUpTextField.addTarget(self, action: #selector(textFieldDidChange(_:)), for: .editingChanged)
     }
  
     @objc func textFieldDidChange(_ textField: UITextField) {
-        if textField == self.powerUpTextField {
-            if let email = self.powerUpTextField.text, email.isNotValidEmail && email.isNotEmpty {
-                self.powerUpTextField.showErrorColor()
+        if textField == powerUpTextField {
+            if let email = powerUpTextField.text, email.isNotValidEmail && email.isNotEmpty {
+                powerUpTextField.showErrorColor()
             } else {
-                self.powerUpTextField.hideErrorColor()
+                powerUpTextField.hideErrorColor()
             }
         }
     }

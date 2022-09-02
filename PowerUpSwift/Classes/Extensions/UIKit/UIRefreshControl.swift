@@ -12,6 +12,6 @@ extension UIRefreshControl {
     /// PowerUpSwift: Returns the reversed value of `isRefreshing`
     /// so it feels more natural to write than using an exclamation point.
     public var isNotRefreshing: Bool {
-        return !self.isRefreshing
+        return !isRefreshing
     }
 }

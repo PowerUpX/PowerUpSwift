@@ -11,7 +11,7 @@ import Foundation
 extension URL {
     /// PowerUpSwift: Adds query parameters and set the value to itself. Thus, `mutating`.
     public mutating func addQueryParams(_ queryParams: [String: Any]) {
-        self = self.addingQueryParams(queryParams)
+        self = addingQueryParams(queryParams)
     }
     
     /// PowerUpSwift: Returns the URL object with the appended query parameters.

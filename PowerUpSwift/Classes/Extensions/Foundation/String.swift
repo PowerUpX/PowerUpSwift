@@ -11,7 +11,7 @@ import Foundation
 extension String {
     /// PowerUpSwift: A `mutating` counterpart of `santized()`.
     public mutating func sanitize() {
-        self = self.sanitized()
+        self = sanitized()
     }
     
     /// PowerUpSwift: Returns the trimmed valueof the String by:
@@ -21,7 +21,7 @@ extension String {
     ///
     /// **It should just work! Trust PowerUpSwift. 😂😂😂**
     public func sanitized() -> String {
-        return self.trimmingCharacters(in: .whitespacesAndNewlines)
+        return trimmingCharacters(in: .whitespacesAndNewlines)
             .replacingOccurrences(of: "\\ \\ +", with: " ", options: .regularExpression)
             .replacingOccurrences(of: "\n\n\n+", with: "\n\n", options: .regularExpression)
     }
@@ -36,13 +36,13 @@ extension String {
     /// PowerUpSwift: Returns the reversed value of `isValidEmail`
     /// so it feels more natural to write than using an exclamation point.
     public var isNotValidEmail: Bool {
-        return !self.isValidEmail
+        return !isValidEmail
     }
     
     /// PowerUpSwift: Returns the reversed value of `isEmpty`
     /// so it feels more natural to write than using an exclamation point.
     public var isNotEmpty: Bool {
-        return !self.isEmpty
+        return !isEmpty
     }
     
     /// PowerUpSwift: Uses the very `String` as the **key** in
@@ -71,7 +71,7 @@ extension String {
     /// PowerUpSwift: Returns the reversed value of `isValidIP`
     /// so it feels more natural to write than using an exclamation point.
     public var isNotValidIP: Bool {
-        return !self.isValidIP
+        return !isValidIP
     }
     
     /// PowerUpSwift: Checks if the String is a valid mac address and returns a `Bool` value.
@@ -84,13 +84,13 @@ extension String {
     /// PowerUpSwift: Returns the reversed value of `isValidMAC`
     /// so it feels more natural to write than using an exclamation point.
     public var isNotValidMAC: Bool {
-        return !self.isValidMAC
+        return !isValidMAC
     }
     
     /// PowerUpSwift: Returns the `Dictionary` form of the `String`
     /// if the format is valid or `nil` if invalid.
     public var json: [String: Any]? {
-        if let data = self.data(using: .utf8) {
+        if let data = data(using: .utf8) {
             do {
                 return try JSONSerialization.jsonObject(with: data, options: []) as? [String: Any]
             } catch {
@@ -104,7 +104,7 @@ extension String {
     /// PowerUpSwift: Parses the `String` and returns the payload `Dictionary` if it's a valid JWT.
     public var jwtPayload: [String: Any]? {
         // Seperate the strings by '.'
-        let segments = self.components(separatedBy: ".")
+        let segments = components(separatedBy: ".")
         
         // Get the middle part of the jwt which is a base 64 version of the payload
         let base64Payload = segments[1]
@@ -139,6 +139,6 @@ extension String {
     // @available(*, deprecated, renamed: "sanitize", message: "This is effective starting in version x.x.x.")
     // @available(*, unavailable, renamed: "sanitize", message: "This will no longer work starting in version x.x.x.")
     // public func oldFunction() {
-    //     self.newFunction()
+    //     newFunction()
     // }
 }

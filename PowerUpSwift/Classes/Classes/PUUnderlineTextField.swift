@@ -41,37 +41,37 @@ import UIKit
     required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
 
-        self.commonInit()
+        commonInit()
     }
     
     /// :nodoc:
     override public init(frame: CGRect) {
         super.init(frame: frame)
 
-        self.commonInit()
+        commonInit()
     }
     
     /// :nodoc:
     override open func awakeFromNib() {
         super.awakeFromNib()
         
-        self.commonInit()
+        commonInit()
     }
     
     private func commonInit() {
-        self.borderStyle = .none
+        borderStyle = .none
 
-        self.underline.frame = CGRect(
+        underline.frame = CGRect(
             x: 0,
-            y: self.frame.height - self.underlineHeight,
-            width: self.frame.width,
-            height: self.underlineHeight
+            y: frame.height - underlineHeight,
+            width: frame.width,
+            height: underlineHeight
         )
-        self.underline.borderColor = self.underlineColor.cgColor
-		self.underline.borderWidth = self.underlineHeight
+        underline.borderColor = underlineColor.cgColor
+		underline.borderWidth = underlineHeight
 
-		self.layer.masksToBounds = true
-        self.layer.addSublayer(self.underline)
+		layer.masksToBounds = true
+        layer.addSublayer(underline)
     }
     
     // MARK: - Responders
@@ -79,8 +79,8 @@ import UIKit
     override open func becomeFirstResponder() -> Bool {
         super.becomeFirstResponder()
         
-        if self.isHighlightOn && !self.isShowingError {
-            self.underline.borderColor = self.highlightColor.cgColor
+        if isHighlightOn && !isShowingError {
+            underline.borderColor = highlightColor.cgColor
         }
         
         return true
@@ -90,7 +90,7 @@ import UIKit
     override open func resignFirstResponder() -> Bool {
         super.resignFirstResponder()
         
-        self.underline.borderColor = (self.isShowingError) ? self.errorColor.cgColor : self.underlineColor.cgColor
+        underline.borderColor = (isShowingError) ? errorColor.cgColor : underlineColor.cgColor
         
         return true
     }
@@ -100,21 +100,21 @@ import UIKit
 extension PUUnderlineTextField {
     /// PowerUpSwift: Sets the color of the underline to the specified error color and sets the property `isShowingError` to `true`.
     open func showErrorColor() {
-        self.underline.borderColor = self.errorColor.cgColor
-        self.isShowingError = true
+        underline.borderColor = errorColor.cgColor
+        isShowingError = true
     }
     
     /// PowerUpSwift: Removes the error color of the underline and sets the property `isShowingError` to `false`.
     /// - The underline color is set to the specified highlight color if it's the first responder and if `isHighlightOn` is enabled.
     /// - Otherwise, the underline gets set back to its original color.
     open func hideErrorColor() {
-        if self.isFirstResponder && self.isHighlightOn {
-            self.underline.borderColor = self.highlightColor.cgColor
+        if isFirstResponder && isHighlightOn {
+            underline.borderColor = highlightColor.cgColor
         } else {
-            self.underline.borderColor = self.underlineColor.cgColor
+            underline.borderColor = underlineColor.cgColor
         }
         
-        self.isShowingError = false
+        isShowingError = false
     }
 }
 
@@ -125,9 +125,9 @@ extension PUUnderlineTextField {
         
         // Handle the color update of the layers when switching to or from dark mode
         if #available(iOS 13.0, *) {
-            if self.traitCollection.hasDifferentColorAppearance(comparedTo: previousTraitCollection) {
-                self.layer.setNeedsDisplay()
-                self.underline.setNeedsDisplay()
+            if traitCollection.hasDifferentColorAppearance(comparedTo: previousTraitCollection) {
+                layer.setNeedsDisplay()
+                underline.setNeedsDisplay()
             }
         }
     }

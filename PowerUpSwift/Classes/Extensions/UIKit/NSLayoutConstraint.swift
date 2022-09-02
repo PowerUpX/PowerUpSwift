@@ -15,7 +15,7 @@ extension NSLayoutConstraint {
      because the mutliplier property is read-only.
      ### Example
      ````
-     self.myConstraint = self.myConstraint.withMultiplier(1.75)
+     myConstraint = myConstraint.withMultiplier(1.75)
      ````
      - Parameter multiplier: The new value of the multiplier.
      - Returns: The new constraint.
@@ -24,18 +24,18 @@ extension NSLayoutConstraint {
         NSLayoutConstraint.deactivate([self])
         
         let newConstraint = NSLayoutConstraint(
-            item: self.firstItem as Any,
-            attribute: self.firstAttribute,
-            relatedBy: self.relation,
-            toItem: self.secondItem,
-            attribute: self.secondAttribute,
+            item: firstItem as Any,
+            attribute: firstAttribute,
+            relatedBy: relation,
+            toItem: secondItem,
+            attribute: secondAttribute,
             multiplier: multiplier,
-            constant: self.constant
+            constant: constant
         )
         
-        newConstraint.priority = self.priority
-        newConstraint.shouldBeArchived = self.shouldBeArchived
-        newConstraint.identifier = self.identifier
+        newConstraint.priority = priority
+        newConstraint.shouldBeArchived = shouldBeArchived
+        newConstraint.identifier = identifier
         
         NSLayoutConstraint.activate([newConstraint])
         return newConstraint

@@ -12,27 +12,27 @@ import UIKit
 @IBDesignable open class PULabel: UILabel, PUXIBLocalizable, PUInspectable {
     // MARK: - Inspectables
     @IBInspectable open var xibLocKey: String? {
-        didSet { self.text = self.xibLocKey?.localized }
+        didSet { text = xibLocKey?.localized }
     }
     
     @IBInspectable open var cornerRadius: CGFloat = 0 {
-        didSet { self.layer.cornerRadius = self.cornerRadius }
+        didSet { layer.cornerRadius = cornerRadius }
     }
     
     @IBInspectable open var borderWidth: CGFloat = 0 {
-        didSet { self.layer.borderWidth = self.borderWidth }
+        didSet { layer.borderWidth = borderWidth }
     }
     
     @IBInspectable open var borderColor: UIColor? {
-        didSet { self.layer.borderColor = self.borderColor?.cgColor }
+        didSet { layer.borderColor = borderColor?.cgColor }
     }
     
     @IBInspectable open var shadowRadius: CGFloat = 0 {
-        didSet { self.layer.shadowRadius = self.shadowRadius }
+        didSet { layer.shadowRadius = shadowRadius }
     }
     
     @IBInspectable open var shadowOpacity: Float = 0 {
-        didSet { self.layer.shadowOpacity = self.shadowOpacity }
+        didSet { layer.shadowOpacity = shadowOpacity }
     }
     
     /// PowerUpSwift: The top padding. Defaults to 0.
@@ -52,32 +52,32 @@ import UIKit
      PowerUpSwift: The padding on all sides that is set programmatically.
      ### Example
      ```
-     self.powerUpLabel.insets = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0)
+     powerUpLabel.insets = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0)
      ```
      */
     open var insets: UIEdgeInsets {
         get {
-            return UIEdgeInsets(top: self.topInset, left: self.leftInset, bottom: self.bottomInset, right: self.rightInset)
+            return UIEdgeInsets(top: topInset, left: leftInset, bottom: bottomInset, right: rightInset)
         }
         set {
-            self.topInset = newValue.top
-            self.leftInset = newValue.left
-            self.bottomInset = newValue.bottom
-            self.rightInset = newValue.right
+            topInset = newValue.top
+            leftInset = newValue.left
+            bottomInset = newValue.bottom
+            rightInset = newValue.right
         }
     }
     
     /// :nodoc:
     override open func drawText(in rect: CGRect) {
-        super.drawText(in: rect.inset(by: self.insets))
+        super.drawText(in: rect.inset(by: insets))
     }
     
     /// :nodoc:
     override open var intrinsicContentSize: CGSize {
         let size = super.intrinsicContentSize
         return CGSize(
-            width: size.width + self.leftInset + self.rightInset,
-            height: size.height + self.topInset + self.bottomInset
+            width: size.width + leftInset + rightInset,
+            height: size.height + topInset + bottomInset
         )
     }
 }
@@ -89,8 +89,8 @@ extension PULabel {
         
         // Handle the color update when switching to or from dark mode
         if #available(iOS 13.0, *) {
-            if self.traitCollection.hasDifferentColorAppearance(comparedTo: previousTraitCollection) {
-                self.layer.setNeedsDisplay()
+            if traitCollection.hasDifferentColorAppearance(comparedTo: previousTraitCollection) {
+                layer.setNeedsDisplay()
             }
         }
     }

@@ -13,38 +13,38 @@ import UIKit
     // MARK: - Inspectables
     @IBInspectable open var xibLocKeys: String? {
         didSet {
-            guard let keys = self.xibLocKeys?.components(separatedBy: ","), !keys.isEmpty else { return }
+            guard let keys = xibLocKeys?.components(separatedBy: ","), !keys.isEmpty else { return }
             for (index, title) in keys.enumerated() {
-                self.setTitle(title.localized, forSegmentAt: index)
+                setTitle(title.localized, forSegmentAt: index)
             }
         }
     }
     
     @IBInspectable open var cornerRadius: CGFloat = 0 {
-        didSet { self.layer.cornerRadius = self.cornerRadius }
+        didSet { layer.cornerRadius = cornerRadius }
     }
     
     @IBInspectable open var borderWidth: CGFloat = 0 {
-        didSet { self.layer.borderWidth = self.borderWidth }
+        didSet { layer.borderWidth = borderWidth }
     }
     
     @IBInspectable open var borderColor: UIColor? {
-        didSet { self.layer.borderColor = self.borderColor?.cgColor }
+        didSet { layer.borderColor = borderColor?.cgColor }
     }
     
     @IBInspectable open var shadowRadius: CGFloat = 0 {
-        didSet { self.layer.shadowRadius = self.shadowRadius }
+        didSet { layer.shadowRadius = shadowRadius }
     }
     
     @IBInspectable open var shadowOpacity: Float = 0 {
-        didSet { self.layer.shadowOpacity = self.shadowOpacity }
+        didSet { layer.shadowOpacity = shadowOpacity }
     }
     
     @IBInspectable open var shadowOffset: CGSize = .zero {
-        didSet { self.layer.shadowOffset = self.shadowOffset }
+        didSet { layer.shadowOffset = shadowOffset }
     }
     
     @IBInspectable open var shadowColor: UIColor? {
-        didSet { self.layer.shadowColor = self.shadowColor?.cgColor }
+        didSet { layer.shadowColor = shadowColor?.cgColor }
     }
 }

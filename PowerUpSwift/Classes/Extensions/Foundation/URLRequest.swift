@@ -46,24 +46,24 @@ extension URLRequest {
     /// PowerUpSwift: Sets the HTTP method using PowerUpSwift's `HTTPMethod` enum
     /// to help developer avoid mispelled Strings.
     public mutating func setMethod(_ method: HTTPMethod) {
-        self.httpMethod = method.rawValue
+        httpMethod = method.rawValue
     }
     
     /// PowerUpSwift: Sets the HTTP body by accepting a `Dictionary`.
     public mutating func setBody(_ json: [String: Any]) {
-        self.httpBody = json.data
-        self.setValue("application/json", forHTTPHeaderField: "Content-Type")
+        httpBody = json.data
+        setValue("application/json", forHTTPHeaderField: "Content-Type")
     }
     
     /// PowerUpSwift: Sets the HTTP body by accepting an object which has a `Type` that conforms to `Encodable`.
     public mutating func setBody<E: Encodable>(encodable: E) throws {
-        self.httpBody = try JSONEncoder().encode(encodable)
-        self.setValue("application/json", forHTTPHeaderField: "Content-Type")
+        httpBody = try JSONEncoder().encode(encodable)
+        setValue("application/json", forHTTPHeaderField: "Content-Type")
     }
     
     /// PowerUpSwift: A wrapper to set all the HTTP Headers at once.
     public mutating func setHeaders(_ headers: [String: String]) {
-        self.allHTTPHeaderFields = headers
+        allHTTPHeaderFields = headers
     }
     
     /// PowerUpSwift: A wrapper to set the header fields intuitively.
@@ -71,6 +71,6 @@ extension URLRequest {
     ///     - key: String
     ///     - value: String
     public mutating func addHeader(_ key: String, _ value: String) {
-        self.addValue(value, forHTTPHeaderField: key)
+        addValue(value, forHTTPHeaderField: key)
     }
 }

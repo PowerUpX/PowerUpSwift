@@ -12,7 +12,7 @@ import UIKit
 extension NSLayoutConstraint {
     /**
      PowerUpSwift Returns a new constraint based on the passed in **multiplier**
-     because the mutliplier property read-only.
+     because the mutliplier property is read-only.
      ### Example
      ````
      self.myConstraint = self.myConstraint.withMultiplier(1.75)

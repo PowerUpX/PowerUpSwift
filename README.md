@@ -19,7 +19,7 @@ The documentation reference can be found [here](http://powerupx.github.io/PowerU
 
 ### Inteface Builder
 
-Just set `PUButton` as the custom class and see the magic! You'll be able to edit directly on the Interface Builder the corner radius, border width, border color, shadow radius, shadow opacity, shadow offset, shadow color, and etc. This applies to other controls such as `PUView`, `PUImageView` and many more.
+Just set `PUButton` as the custom class and see the magic! You'll be able to edit directly on the Interface Builder the corner radius, border width, border color, shadow radius, shadow opacity, shadow offset, shadow color, and etc. This applies to other views and controls such as `PUView`, `PUImageView` and many more.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/PowerUpX/PowerUpSwift/master/Screenshots/Demo.gif" alt="PowerUpSwift" width="75%" height="auto" />
